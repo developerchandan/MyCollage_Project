@@ -159,7 +159,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 			curl_setopt($this->handle, CURLOPT_SSL_VERIFYHOST, 0);
 		}
 
-		curl_exec($this->handle);
+		
 		$response = $this->response_data;
 
 		$options['hooks']->dispatch('curl.after_send', array());
