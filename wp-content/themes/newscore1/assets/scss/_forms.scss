@@ -1,0 +1,217 @@
+
+
+/*--------------------------------------------------------------------*/
+/* THEME FORMS
+/*--------------------------------------------------------------------*/
+form label {
+	cursor: pointer;
+	display: block;
+	line-height: 38px;
+	font-family: $body-secondary-fonts;
+	font-weight: 400;
+}
+
+span.required {
+	color: #F63C38;
+	font-size: 20px!important;
+	line-height: 10px;
+	position: absolute;
+	right: 8px;
+	top: 48px;
+}
+ 
+form input {
+     clear: none;
+     display: inline;
+}
+
+input.input-text,
+textarea {
+     display: block;
+     margin-bottom: 18px;
+     width: 100%;
+}
+
+input {
+   	padding: 8px;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+}
+
+textarea {
+ 	width: 100%;
+	min-height: 150px;
+	padding: 9px 14px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+	background-color: #fff;
+    border: 1px solid #D2D2D2;
+	height: 38px;
+    color: #393839;
+	font: 12px/26px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-appearance: none;
+    -webkit-border-radius:0px;
+	&:hover,
+	&:focus {
+		border-color: #BDBDBA;
+		color: #23313A;
+	    outline:none;
+	}
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea {
+	width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+::-webkit-input-placeholder { color: #818b92; }
+
+:-moz-placeholder { color: #818b92; }
+
+::-moz-placeholder { color: #818b92; }
+
+:-ms-input-placeholder { color: #818b92; }
+
+input[type="radio"]  {
+    margin-bottom: 0;
+}
+
+/* ERRORS */
+label.error { display: none !important; }
+
+.error input,
+textarea.error,
+.wpcf7-not-valid,
+input[type=text].error {
+	background-color: #FFFBFA;
+	border-color: #CF5C46;
+	color: #B62F15;
+	-webkit-box-shadow: 0 1px 2px rgba(182, 47, 21, 0.15);
+	   -moz-box-shadow: 0 1px 2px rgba(182, 47, 21, 0.15);
+		    box-shadow: 0 1px 2px rgba(182, 47, 21, 0.15);
+}
+
+.error input:hover,
+textarea.error:hover,
+.wpcf7-not-valid:hover,
+input[type=text].error:hover {
+	background-color: #FFF;
+	border-color: #CF5C46;
+}
+
+.error input:focus,
+textarea.error:focus,
+.wpcf7-not-valid:focus,
+input[type=text].error:focus {
+	background-color: #FFF;
+	border-color: #CF5C46;
+}
+
+/* ERROR ANIMATIONS */
+.requiredField.error {
+	-webkit-animation-name: ButtonShake;
+	   -moz-animation-name: ButtonShake;
+	     -o-animation-name: ButtonShake;
+	        animation-name: ButtonShake;
+	-webkit-animation-duration: 5s;
+	   -moz-animation-duration: 5s;
+	    -ms-animation-duration: 5s;
+	     -o-animation-duration: 5s;
+	        animation-duration: 5s;
+}
+
+/* CONTACT FORM 7 COMPATIBILITY */
+.wpcf7-form-control-wrap {
+	
+	.wpcf7-not-valid-tip {
+		background: none;
+		border: none;
+		color: #ee3224;
+		left: 0;
+		position: relative;
+	}
+	
+	.wpcf7-not-valid {
+		border-color: #ee3224;	
+	}
+	
+	.error input, 
+	.wpcf7-not-valid, 
+	input[type=text].error, 
+	textarea.error {
+		box-shadow: none;
+	}
+
+}
+
+div.wpcf7-mail-sent-ok {
+	background-color: #BFF395;
+	border: none;
+	color: #4C6802;
+}
+
+div.wpcf7-spam-blocked,
+div.wpcf7-mail-sent-ng,
+div.wpcf7-validation-errors {
+	background-color: #FFE0D8;
+	border: none;
+	color: #F63C38;
+}
+
+div.wpcf7-response-output {
+	margin: 30px 0 0 0;
+	padding: 0.6em 1em;
+	text-align: center;
+}
+
+.wpcf7-form p { 
+	font-family: $body-secondary-fonts;
+	font-weight: 400;
+	margin-bottom: 15px;
+	color: black;
+	line-height: 2.3;
+}
+
+span.wpcf7-form-control-wrap {
+	@include clearfix;
+	
+	input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+		margin-bottom: 0;
+	}
+	
+}
+
+wpcf7-submit { padding: 8px 15px; }
+
+div.wpcf7 img.ajax-loader { display: inline; }
+
+.input-text-block{ margin-bottom: 10px; }
+
+

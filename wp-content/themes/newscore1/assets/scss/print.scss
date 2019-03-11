@@ -1,0 +1,49 @@
+@media print { 
+
+	/* your print styles go here */
+	#header.has-trending .site-navigation .nav-primary,
+	.radium-scoreboard,
+	.breaking-banner,
+	.search-form,
+	.header-nav-extras,
+	.site-header-banner,
+	.recent-posts-carousel-container,
+	.post-side-share,
+	#related-posts,
+	.sidebar-wrapper,
+	#comments,
+	#bottom-footer .inner { display: none; } 
+
+	body { font: 12pt georgia, serif; } 
+	h1 { font-size: 18pt; } 
+	h2 { font-size: 16pt; color: #000; }
+	
+	#header .site-id {
+        float: none !important;
+        width: 100%;
+        max-height: 150pt;
+
+        a { 
+        	display: block; 
+        	text-align: center; 
+        }
+	         
+    }
+	    
+	main.sidebar-left, 
+	main.sidebar-right {
+		width: 100%;
+	}
+	
+	.single main .type-post>.large .entry-media-wrapper {
+		max-height:33.75pt;
+	}
+	
+	.single main .type-post>.large .entry-media-wrapper .entry-content-media {
+		background-image: none !important;
+	}
+	
+	.single main .type-post>.large .entry-header-wrapper .entry-title {
+		color: black;
+	}
+}

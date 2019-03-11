@@ -1,0 +1,12 @@
+
+@mixin blog_cat_color( $blog-cat-color ) {
+
+    &.blog-cat-color {
+
+        .entry-element-title {
+            background-color: $blog-cat-color;
+        }
+
+    }
+
+}

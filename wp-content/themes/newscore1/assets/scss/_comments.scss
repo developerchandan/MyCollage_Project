@@ -1,0 +1,404 @@
+
+/* =POST COMMENTS GALORE
+-------------------------------------------------------------------*/
+#disqus_thread {
+	margin-top: 30px;
+}
+
+/* =COMMENTS GENERAL
+/*--------------------------------------------------------------------*/
+#comments {
+    margin-top: 30px;
+
+    #comments-list {
+        margin-top: 15px;
+    }
+	
+	#reply-title,
+   	> h3 {
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 1;
+        margin-bottom: 0;
+        background: #fff url(../images/dots_pat.png) repeat-x center;
+        line-height: 30px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #000;
+        position: relative;
+        z-index: 1;
+        
+        span,
+        > strong { 
+        	background-color: #fff; 
+        	padding-right: 15px; 
+        }
+        
+        small {
+        	position: absolute;
+        	right: 0;
+        	padding: 0 15px;
+        	top: 5px;
+        }
+        
+    }
+    
+    #reply-title:after {
+    	content: "";
+    	position: absolute;
+    	background-color: white;
+    	height: 28px;
+    	width: 138px;
+    	left: 0;
+    	top: 0;
+    	z-index: -1;
+    }
+    
+    .no-comments #reply-title:after {
+    	width: 100px;
+    }
+ 
+	span.comments-subtext {
+	 	text-transform: uppercase;
+		float: left;
+		font-size: 11px;
+	}
+
+	span.comments-form-text {
+	 	margin-top: 10px;
+		text-transform: uppercase;
+		display: block;
+		font-size: 11px;
+	}
+
+    span.says { display: none; }
+
+    ol li.comment {
+        list-style: none;
+        position: relative;
+
+        @include clearfix;
+        &:last-child { margin-bottom: 0}
+
+     }
+
+     .commentlist {
+        margin: 0 0 40px;
+        list-style-type: none;
+    }
+
+    .comment-author-admin .comment-body,
+    .bypostauthor .comment-body {
+        background-color: rgba(204, 245, 255, 0.12);
+    }
+
+    /*  =COMMENT BODY
+    /*--------------------------------------------------------------------*/
+    .comment-body {
+        border: 1px solid $border-color;
+        padding: 15px 15px 20px 15px;
+        margin-top: 15px;
+        margin-left: 75px;
+        border-radius: 2px;
+
+        &:before {
+            content: '';
+            display: inline-block;
+
+            border-top: 8px solid rgba(0, 0, 0, 0);
+            border-bottom: 8px solid rgba(0, 0, 0, 0);
+            border-right: 8px solid $border-color;
+
+            position: absolute;
+            top: 30px;
+            left: 67px;
+        }
+
+         &:after {
+            content: '';
+            display: inline-block;
+
+            border-top: 7px solid rgba(0, 0, 0, 0);
+            border-bottom: 7px solid rgba(0, 0, 0, 0);
+            border-right: 7px solid #FFF;
+
+            position: absolute;
+            top: 31px;
+            left: 68px;
+        }
+
+        @include clearfix;
+
+        .reply { margin: 6px 0 10px 0; }
+
+        p:first-child { margin-top: 0; }
+
+        ody ul { list-style-type: disc; }
+
+        ol { list-style-type: decimal; }
+		
+		.comment-wrapper > ol,
+		.comment-wrapper > ul {
+			margin-bottom: 15px;
+		}
+		
+        .comment-avatar {
+            padding: 0;
+            width: auto;
+            position: absolute;
+            left: 0;
+            top: 15px;
+            width: 60px;
+            height: 60px;
+
+            .avatar {
+                border: 3px solid #F3F5F8;
+            }
+
+        }
+
+    }
+
+    .comment .children {
+        list-style-type: none;
+        margin: 0 0 0 45px;
+        padding: 0;
+    }
+
+    /*  =COMMENT META / AVATAR
+    /*--------------------------------------------------------------------*/
+    .comment-author {
+
+        > h6 {
+            margin-bottom: 3px;
+        }
+
+        cite {
+            text-transform: uppercase;
+            font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 12px;
+            
+            a { color: inherit; }
+        }
+
+        .meta-sep {
+        	color: #C7C7C7;
+            margin: 0 5px;
+        }
+
+    }
+
+    .comment-meta {
+        text-transform: uppercase;
+        font: normal bold 11px/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        margin-bottom: 5px;
+
+        a {
+            font-weight: normal;
+            text-decoration: none;
+            color: #C7C7C7;
+            &:hover { color: #C7C7C7; }
+        }
+    }
+
+    .comment-edit-link { color: #C7C7C7; }
+    
+    .comment-edit-link:hover { color: #222; }
+
+}
+
+.comments > ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pinglist {
+ 	margin: 20px 0 40px 30px;
+ 	list-style-type: disc;
+ }
+
+.comment-body .reply a:before,
+.comment-reply-link:before,
+#cancel-comment-reply-link:before {
+ 	content: '\f112';
+ 	font-family: 'FontAwesome';
+ 	font-style: normal;
+ 	line-height: 20px;
+ 	font-size: 12px;
+ 	margin-right: 5px;
+ 	float: none;
+ }
+
+.comment-reply-link { 
+	color: inherit;
+	margin-top: 10px;
+	display: block;
+	
+	&:before {
+		content: '\f112';
+	}
+}
+
+#cancel-comment-reply-link:before{
+	content: '\f057';
+}
+
+/* Post Author Styles */
+.bypostauthor .comment .avatar { border-color: $border_color; }
+
+.nocomments {
+	text-align: center;
+	padding: 20px;
+}
+
+
+/*	 =CANCEL / REPLY COMMENT
+/*--------------------------------------------------------------------*/
+#reply-title small {
+	@include clearfix;
+}
+
+#cancel-comment-reply-link {
+	float: right;
+	text-transform: none;
+	font-weight: bold;
+	background-color: white;
+	padding: 0 15px;
+	color: inherit;
+}
+
+#cancel-comment-reply {
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+#cancel-comment-reply-link,
+.comment-body .reply a { font: bold 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+
+.comment-awaiting-moderation {
+	font: normal normal 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #C7C7C7;
+	text-transform: uppercase;
+}
+
+
+/*	=COMMENT FORM ADJUSTMENTS
+/*--------------------------------------------------------------------*/
+#respond {
+	margin: 30px 0 15px 0;
+
+	.button,
+	button.button,
+	.button[type="submit"] { margin-bottom: 20px; }
+
+}
+
+.no-comments #respond {
+     margin-top: 0;
+}
+
+#commentform {
+
+	> div { position: relative; }
+
+	span.required{
+		right: 32%;
+		top: 20px;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"] {
+		margin-top:3px;
+		margin-bottom: 24px;
+		float: left;
+		margin-right: 20px;
+		width: 70%;
+	}
+
+	#submit {
+		margin:0;
+		width: auto;
+	}
+
+	p { line-height: 20px; }
+
+}
+
+p.form-submit {
+	margin-bottom: 0;
+}
+
+.comment-form-comment { margin-top: 20px; }
+
+.logged-in-as {
+	width: 100%;
+	float: none;
+	text-transform: uppercase;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #C7C7C7;
+	margin-bottom: 14px;
+}
+
+li.comment #submit {
+	margin-bottom: 20px;
+	margin-top: 10px;
+ 	-webkit-appearance: none;
+}
+
+p.comments-closed { padding-bottom: 15px; }
+
+/* Pingback */
+#trackbacks-list { margin-top: 20px; }
+
+.pingback{
+	margin-bottom: 15px;
+	border-top: 1px solid $border_color;
+	padding-top: 15px;
+	clear: both;
+	
+	.comment-author {
+		margin-bottom: 15px;
+		color: black;
+		font-family:  $body-secondary-fonts;
+		a { color: inherit; }
+	}
+}
+
+ /* =Login/out --*/
+ .logout {
+ 	float: none !important;
+ 	font-size: 11px;
+ }
+
+ #login {
+ 	margin-bottom: -10px;
+ 	span a,
+ 	span {
+ 		font-size: 14px;
+ 	 	font-weight: normal;
+ 		font-style: normal;
+ 	}
+
+ 	span a:hover { color: #222; }
+
+ }
+
+
+/* Facebook Comments FIX */
+.fb_iframe_widget span {
+ 	margin-top: 30px;
+}
+
+#livefyre-comments {
+	margin-top: 30px;
+}

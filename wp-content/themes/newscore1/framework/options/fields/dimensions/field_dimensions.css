@@ -1,0 +1,36 @@
+.radium-opts-dimensions-container select,
+.radium-opts-dimensions-container .select_wrapper {
+  width: 80px !important;
+  float: left;
+  margin-top: 7px;
+}
+
+#radium-opts-main .mini, 
+#radium-opts-main input[type=text].mini {
+	width: 70px;
+	text-align: center;
+	height: 28px;
+	min-height: 18px;
+	margin-top: 8px;
+	padding: 0;
+	margin-left: -1px;
+}
+
+.radium-opts-dimensions-container .field-dimensions-input {
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+@media screen and (max-width: 782px) {
+  .radium-opts-dimensions-container .field-dimensions-input input {
+    display: inline-block !important;
+    width: 100px !important;
+  }
+  .radium-opts-dimensions-container .field-dimensions-input .add-on {
+    padding: 7px 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .radium-opts-dimensions-container .select_wrapper {
+    margin-top: 6px;
+  }
+}

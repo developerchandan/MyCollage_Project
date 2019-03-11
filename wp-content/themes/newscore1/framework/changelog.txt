@@ -1,0 +1,8 @@
+RADIUM FRAMEWORK CHANGELOG
+
+Versioning
+<major>.<minor>.<patch>
+
+2015-1-10 | Version 2.2.5
+
+UPDATE: Wordpress 4.0+ customizer compatibility

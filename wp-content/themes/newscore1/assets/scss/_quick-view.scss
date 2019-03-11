@@ -1,0 +1,107 @@
+
+#quickpop {
+    width: 900px;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+    opacity: 0.5 !important;
+}
+
+#quickpop {
+    background: WHITE;
+    padding: 30px;
+
+    #quick-pop-inner {
+        position: relative;
+    }
+
+    h1.entry-title {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .short-description {
+        margin-bottom: 20px;
+    }
+
+    .product-slider{
+        margin-right: 20px;
+    }
+
+    .quantity,
+    #main .quantity{
+        float: left;
+    }
+
+    .price {margin-bottom: 15px; }
+
+    .media-slider.loading{
+        .flex-direction-nav { display: none; }
+        .flex-viewport, img { opacity: 0 }
+
+        background: #fff url('../images/loader.gif') no-repeat center center;
+
+        height: 300px;
+    }
+
+    .media-slider.loaded{
+        .flex-direction-nav { display: block; }
+        .flex-viewport, img { opacity: 1 }
+
+        height: auto;
+    }
+
+    #close-quickpop{
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        background-color: #222;
+        top: 0;
+        right: 0;
+        text-align: center;
+
+        span {
+            display:block;
+            line-height: 40px;
+            color: #fff;
+            font-family: FontAwesome;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: inherit;
+            -webkit-font-smoothing: antialiased;
+            content: "\f00c";
+            height: 40px;
+            width: 40px;
+            position: relative;
+            background: url('../images/sprite.png') no-repeat;
+            background-position: 10px -367px;
+        }
+
+    }
+
+    #close-quickpop:hover {
+        border-color: $accent-color;
+        color: $accent-color;
+    }
+
+}
+
+.no-js  {
+	
+	#quickpop {
+		.media-slider.loading{
+	        .flex-viewport, 
+	        img { opacity: 0 }
+	        background-image: none;
+	        height: auto;
+    	}
+	} 
+}

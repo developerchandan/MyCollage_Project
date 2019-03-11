@@ -1,0 +1,180 @@
+/* =Styles for 'normal' meta boxes
+-------------------------------------------------------------- */
+
+.rwmb-field {
+	margin: 10px 0;
+	padding: 0 10px 10px 10px;
+	border-bottom: 1px solid #EEE;
+}
+
+.rwmb-label,
+.rwmb-input {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.rwmb-label {
+	width: 24%;
+}
+
+.rwmb-label label {
+	font-weight: bold;
+}
+
+/* 75% if field has label, 100% if no label */
+.rwmb-input {
+	width: 100%;
+}
+
+.rwmb-label ~ .rwmb-input {
+	width: 75%;
+}
+
+.gallery-edit .rwmb-label ~ .rwmb-input {
+	width: 100%;
+}
+
+.rwmb-input h4 {
+	margin-top: 0;
+}
+
+.rwmb-input p.help,
+.rwmb-input p.description,
+.rwmb-input span.description,
+.rwmb-input .form-wrap p{
+	font-style: normal;
+	display: block;
+	color: #999;
+	margin: 5px 0 0 0;
+	line-height: 18px;
+	text-shadow: white 0 1px 0;
+}
+
+.rwmb-text, .rwmb-select {
+	width: auto;
+}
+
+.rwmb-textarea {
+	resize: vertical;
+	width: 99%;
+}
+
+.rwmb-clone {
+	min-height: 24px;
+}
+
+.rwmb-clone > input[type="radio"],
+.rwmb-clone > input[type="checkbox"] {
+	margin: 6px 0 0 4px;
+}
+
+/* fix width to not overlap button for cloned sliders */
+.rwmb-clone .rwmb-slider {
+	width: 80%;
+	margin: 6px 0 0;
+	}
+
+/* fix buttons after sliders */
+.clearfix + .rwmb-button {
+	margin-top: -16px;
+	}
+
+.rwmb-button {
+	display: inline;
+	float: right;
+	}
+
+/* Hidden labels, :input fields, buttons */
+.rwmb-label.hidden,
+.rwmb-input.hidden,
+.hidden .rwmb-button {
+	display: none;
+	}
+
+/* Fix empty block below admin footer (issue #24) */
+#ui-datepicker-div {
+	display: none;
+	}
+
+/* =Styles for 'side' meta boxes
+-------------------------------------------------------------- */
+
+#side-sortables .rwmb-label,
+#side-sortables .rwmb-input {
+	width: 100%;
+}
+
+/* =Styles for 'radio-image' meta boxes
+-------------------------------------------------------------- */
+
+.rwmb-label-radio-image img {
+    border: 1px solid whiteSmoke;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+
+input.rwmb-radio-image { display: none; }
+
+.rwmb-label-radio-image { display: inline-block; }
+
+.rwmb-label-radio-image.selected img { border-color: #6C6F7C; }
+
+/* =Style for 'checkbox' meta boxes
+-------------------------------------------------------------- */
+/* Checkbox */
+
+.rwmb-checkbox-wrapper .rwmb-input input[type=checkbox] {
+	float: left;
+	margin-top: 4px;	
+}
+
+.rwmb-checkbox-wrapper .rwmb-input p.description {
+    margin-top: 0;
+    line-height: 22px;
+}
+
+/* =Inner Sidebar Styling
+--------------------------------------------------------------
+.inner-sidebar #side-sortables .rwmb-label,
+
+.inner-sidebar #side-sortables .rwmb-input {
+	width: 49%;
+	}
+*/
+.rwmb-image-bar a.rwmb-delete-file{
+	color: rgb(204, 203, 203);
+	}
+
+/* =Uploaded file
+--------------------------------------------------------------*/
+.rwmb-input ul[data-mime_type='audio']:after{
+	    content:"";
+	    display:block;
+	    clear:both;
+	}
+
+.rwmb-input ul[data-mime_type='audio'] li{
+	float: left;
+	width: 155px;
+	height: 155px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	background: white;
+	cursor: move;
+	position: relative;
+	border: 3px solid #ccc;
+	padding: 25px;
+	}
+
+.rwmb-checkbox_list-wrapper label {
+ 	display: block;
+	line-height: normal;
+	}
+
+.rwmb-checkbox_list-wrapper .rwmb-label { margin-bottom: 10px; }
+
+/* =Heading
+--------------------------------------------------------------*/
+.rwmb-heading-wrapper h4 {
+    border-bottom: none;
+}

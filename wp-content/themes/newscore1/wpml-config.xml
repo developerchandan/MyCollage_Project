@@ -1,0 +1,50 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="0">radium_layout</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="copy">elements</custom-field>
+        <custom-field action="copy">settings</custom-field>
+        <custom-field action="copy">video_thumbnail</custom-field>
+        <custom-field action="copy">_radium_carousel_slider</custom-field>
+        <custom-field action="copy">_radium_category_slider</custom-field>
+        <custom-field action="copy">_radium_current_position</custom-field>
+        <custom-field action="copy">_radium_current_rating</custom-field>
+        <custom-field action="copy">_radium_custom_layout</custom-field>
+        <custom-field action="copy">_radium_editors_pick</custom-field>
+        <custom-field action="copy">_radium_embed_code</custom-field>
+        <custom-field action="copy">_radium_featured</custom-field>
+        <custom-field action="copy">_radium_gallery_images</custom-field>
+        <custom-field action="copy">_radium_gallery_type</custom-field>
+        <custom-field action="copy">_radium_hide_title</custom-field>
+        <custom-field action="copy">_radium_items_count</custom-field>
+        <custom-field action="copy">_radium_link_url</custom-field>
+        <custom-field action="copy">_radium_page_columns</custom-field>
+        <custom-field action="copy">_radium_page_layout</custom-field>
+        <custom-field action="copy">_radium_post_score</custom-field>
+        <custom-field action="copy">_radium_post_views_count</custom-field>
+        <custom-field action="copy">_radium_rating</custom-field>
+        <custom-field action="copy">_radium_ratings_count</custom-field>
+        <custom-field action="copy">_radium_rating_brief_summary</custom-field>
+        <custom-field action="copy">_radium_rating_display_position</custom-field>
+        <custom-field action="copy">_radium_rating_header</custom-field>
+        <custom-field action="copy">_radium_rating_longer_summary</custom-field>
+        <custom-field action="copy">_radium_rating_type</custom-field>
+        <custom-field action="copy">_radium_user_rating_enable</custom-field>
+        <custom-field action="copy">_radium_video_id</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="newscore_options">
+            <key name="footer_copyright_text"/>
+            <key name="header_items_ticker_title"/>
+            <key name="header_news_title"/>
+            <key name="header_search_title"/>
+            <key name="header_random_title"/>
+            <key name="author_box_title"/>
+            <key name="related_posts_title"/>
+            <key name="header_breadcrumb_title"/>
+            <key name="header_breadcrumb_home_title"/>
+            <key name="all_posts_page_title"/>
+        </key>
+    </admin-texts>
+</wpml-config>

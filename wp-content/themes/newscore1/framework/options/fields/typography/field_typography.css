@@ -1,0 +1,241 @@
+
+/* @group Typography Engine Options */
+
+#radium-opts-main .type-typography.compact { 
+	border: none !important; 
+	margin: 0 0 10px 0 !important; 
+	padding: 0 !important; 
+	display: none; 
+}
+
+#radium-opts-main .feature-set {
+	margin-bottom: 15px;
+}
+
+#radium-opts-main .typography-open { 
+	display: block !important; 
+	border: 1px solid #ccc;
+	cursor: pointer;
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	padding: 15px; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1em !important;
+	white-space: nowrap;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+}
+
+
+#radium-opts-main .type-typography.compact:hover .selector,
+#radium-opts-main .type-typography.compact .type_title{ display: block; }
+#radium-opts-main .type-typography.compact:hover .type_title{ display: none; }
+
+#radium-opts-main .type-typography .toggle{ display: none; position: absolute; top: 36%; right: 18px; }
+#radium-opts-main .type-typography.compact:hover .toggle,
+#radium-opts-main .type-typography .toggle{ display: inline; }
+#radium-opts-main .type-typography .toggle{ top: 18px; }
+
+
+#radium-opts-main kbd {
+	color: #777;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-style: italic;
+	display: block;
+	background-color: transparent;
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 15px;
+}
+
+#radium-opts-main .selectors-group-title,
+#radium-opts-main .selector-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#radium-opts-main .typography {
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+	    -ms-transition: all .3s;
+	     -o-transition: all .3s;
+	        transition: all .3s;
+}
+ 
+#radium-opts-main .type-typography {
+	position: relative;
+	margin: 15px 0;
+	border-top: 1px solid rgba(238, 238, 238, 0.65);
+	border-bottom: 1px solid rgba(238, 238, 238, 0.65);
+	padding: 15px;
+	
+}
+
+#radium-opts-main .type-typography .field-group {
+	float: left;
+	width: 50%;
+}
+
+#radium-opts-main .type-typography label {
+	color: black;
+	font-weight: bold;
+}
+
+#radium-opts-main .type-typography .type_fields label {
+	font-size: 0.9em;
+}
+
+#radium-opts-main .type-typography .type_fields select {
+	width: 250px;
+	float: none;
+	margin-bottom: 5px;
+}
+
+#radium-opts-main .type-typography .type_preview {
+	padding: 20px 0;
+	width: 540px;
+	overflow: hidden;
+}
+
+#radium-opts-main .type-typography select {
+	width: 140px;
+}
+
+
+#radium-opts-main .type-typography .select_wrapper {
+	display: block;
+	position: relative;
+	clear: none;
+	margin: 0 25px 20px 0;
+	min-width: 210px;
+	width: 100%;
+	height: 57px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#radium-opts-main .type-typography .select_wrapper label {
+	float: none;
+	width: 100%;
+}
+ 
+#radium-opts-main .type-typography .select_wrapper .radium-opts-typography {
+	font-size: 14px;
+	display: block;
+	float: left;
+	height: 28px;
+	line-height: 50px;
+	padding: 0px;
+	width: 250px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#radium-opts-main .type-typography .select2-container {
+	width: 250px;
+}
+
+#radium-opts-main .type-typography .typography-preview {
+	display: block; 
+	width: auto; 
+	right: 0; 
+	height:auto; 
+	padding:20px;
+	margin: 30px 0 15px 0; 
+	border: 2px dashed #ccc; 
+	border-radius: 3px; 
+	overflow:hidden; 
+}
+
+#radium-opts-main .type-typography .font-slider {
+	width: 600px;
+	margin: 5px 0 10px 0;
+}
+ 
+#radium-opts-main .type-typography .font-slider.ui-slider .ui-slider-handle {
+	transition:background-position .1s ease;
+	-webkit-transition:background-position .1s ease;
+	-moz-transition:background-position .1s ease;
+	background-position: 0px -23px;
+}
+
+#radium-opts-main .type-typography label span {
+	font-weight:normal;
+}
+
+#radium-opts-main .typography-preview-label{
+	display:block;
+	margin:10px 0 0;
+}
+ 
+#radium-opts-main .type-typography fieldset.title,
+#radium-opts-main.type-typography fieldset.data{
+	width: 100%;
+	max-width: 100%;
+}
+ 
+#radium-opts-main .save_typekit_key {
+	display: inline-block;
+	width: auto;
+	clear: both;
+	margin-top: 8px;
+	margin-left: 22px;
+}
+
+
+#radium-opts-main .type-typography fieldset fieldset.customizer {
+	width: 100%;
+	max-width: 100%;
+}
+
+
+#radium-opts-main .type-typography fieldset fieldset.customizer h4 {
+	margin-bottom: 5px;
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#radium-opts-main .type-typography fieldset fieldset.customizer .customize-checkbox-wrapper{
+	float: left;
+	margin: 5px 25px 10px 0px;
+	width: 107px;
+}
+
+
+#radium-opts-main .type-typography fieldset fieldset.customizer .customize-checkbox-wrapper label {
+	text-align: center;
+}
+
+#radium-opts-main .type-typography .field-sliders{
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	margin: 15px 0;
+}
+
+#radium-opts-main .type-typography .typography-custom-selectors {
+	margin-bottom: 15px;
+}
+
+#radium-opts-main .type-typography .typography-custom-selectors textarea{
+	width: 637px; 
+	height: 108px;
+}
+
+ 
+
+/* @end */

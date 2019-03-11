@@ -1,0 +1,294 @@
+
+/* = Grid Page Setup (Used by Portfolio and gallery page Templates )
+--------------------------------------------------------------*/
+.page-grid-item {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+
+    /* Two Columns ----------------------------*/
+    &.two-columns {
+        float: left;
+        width: 480px;
+        margin: 0 15px 15px 0;
+
+        .grid-thumb > a,
+        .grid-thumb img {
+            width: 100%;
+            height: 300px;
+        }
+
+        .post-thumb-overlay {
+            padding-left: 164px;
+        }
+    }
+
+    /* Three Columns ----------------------------*/
+    &.three-columns {
+        float: left;
+        width: 28.9%;
+        margin: 0 15px 15px 0;
+
+        .grid-thumb > a,
+        .grid-thumb img {
+            width: 100%;
+            height: 200px;
+        }
+    }
+
+     /* Four Columns ----------------------------*/
+    &.four-columns {
+        float: left;
+        width: 230px;
+        margin: 0 15px 15px 0;
+
+        .grid-thumb > a,
+        .grid-thumb img {
+            height: 160px;
+            width: 100%;
+        }
+
+        .post-thumb-overlay  {
+            font-size: 12px;
+            padding-top: 34%;
+            padding-left: 48px;
+            width: 55%;
+        }
+
+    }
+
+    /* General -------------------------------*/
+    h3 {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    a {
+        color: #8F949D;
+        img { width: 100%; }
+    }
+
+    h3,
+    h3 a,
+    h4,
+    h4 a {
+        font-size: 13px;
+        line-height: normal;
+        text-align: center;
+        color: #1e2224;
+        line-height: 1.5;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    h3,
+    h4 {
+        a:hover { color: #8f949d; }
+        a:active { color: #0081C7; }
+    }
+
+    p {
+        text-align: center;
+        width: 100%;
+        color: $body-font-color;
+    }
+
+    &.last { margin-right: 0; }
+
+    .grid-thumb {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .entry-summary {
+        margin-bottom: 10px;
+        min-height: 46px;
+    }
+
+    .grid-cats a { color: #818b92; }
+
+    &.active {
+
+        border-bottom-color: transparent !important;
+
+        .entry-summary {
+            z-index: 3;
+            position: relative;
+            color: #fff;
+        }
+
+        h3,
+        h3 a,
+        h4,
+        h4 a {
+            color: #fff;
+        }
+
+        a, p { color: #fff; }
+    }
+}
+
+.post-thumb-overlay {
+    z-index: 2;
+    position: relative;
+    display: block;
+    opacity: 1;
+    text-indent: -99999px;
+}
+
+.post-thumb-overlay-icon {
+    display: none;
+}
+
+.stripes {
+    position: absolute;
+    opacity: .8;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+    background-color: $accent-color;
+    background-repeat: no-repeat;
+    background-image: url('../images/sprite.png');
+    background-position: 0 -504px;
+    width: 100%;
+    height: 100%;
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+ }
+
+.page-grid-item.four-columns .stripes {
+    background-image: url('../images/sprite.png');
+    background-position: 0 -684px;
+}
+
+ .grid-thumb > a,
+ .radium-gallery-item > a {
+    display: block;
+    position: relative;
+ }
+
+/* General Page Grid */
+.stage,
+.radium-gallery-wrapper,
+.radium-gallery.thumbnails {
+    @include clearfix();
+    min-width: 977px;
+    position: relative;
+    [class*="column"] + [class*="column"]:last-child { float: left; }
+}
+
+
+.stage .page-grid-item { border-bottom: 1px solid $border-color; }
+
+.radium-gallery.thumbnails > a,
+.radium-gallery-item > a {
+    position: relative;
+
+    &:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-image: url('../images/sprite.png');
+        background-position: 86% -476px;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        -moz-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+        z-index: 1;
+    }
+
+    &:hover:before { opacity: 1; }
+
+}
+
+.radium-gallery-caption { padding-bottom: 10px; }
+
+.stage,
+.radium-gallery,
+.products,
+.bg-video,
+.radium_slider_wrapper_outer {
+
+    .product-small,
+    .page-grid-item {
+        -webkit-transition: opacity 0.3s ease-in;
+        -moz-transition: opacity 0.3s ease-in;
+        -o-transition: opacity 0.3 s ease-in;
+        -ms-transition: opacity 0.3s ease-in;
+        transition: opacity 0.3s ease-in;
+    }
+
+    &.loading {
+        min-height: 200px;
+        background: url(../images/loader.gif) no-repeat center center;
+        .product-small,
+        .page-grid-item {
+            opacity: 0;
+        }
+    }
+}
+
+.no-js {
+	
+	.stage,
+	.radium-gallery,
+	.products,
+	.bg-video,
+	.radium_slider_wrapper_outer {
+		
+		&.loading {
+		    min-height: none;
+		    background-image: none;
+		    .product-small,
+		    .page-grid-item {
+		        opacity: 1;
+		    }
+		}
+	}
+}
+
+video.loading {
+    display: none;
+}
+
+.radium_slider_wrapper_outer.loading {
+    min-height: 400px;
+}
+
+
+ /* LightBox Gallery */
+ .lightbox-wrapper {
+
+ 	@include clearfix;
+
+	 div.thumbnails a {
+	 	float: left;
+	 	width: 29.0%;
+	 	margin-right: 15px;
+	 	margin-bottom: 10px;
+
+		img { margin: 0; padding: 0; }
+
+	 	&.last {
+	 	  margin-right: 0;
+	 	}
+
+	 	&.first {
+	 	  clear: both;
+	 	}
+	 }
+
+ }

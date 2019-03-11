@@ -1,0 +1,11 @@
+/* Textareas */
+.customize-control-textarea textarea {
+    line-height: 18px;
+    margin: 0;
+    width: 98%;
+    height: 150px;
+}
+.customize-control-textarea textarea:focus {
+    border-color: #bbbbbb;
+    outline: none;
+}

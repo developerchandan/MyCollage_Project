@@ -1,0 +1,36 @@
+.radium-opts-main .radium-opts-container-background .radium-opts-background-position,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-position select,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-attachment,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-attachment select,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-clip,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-clip select,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-origin,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-origin select,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-size,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-size select,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-repeat,
+.radium-opts-main .radium-opts-container-background .radium-opts-background-repeat select {
+  width: 200px !important;
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+.radium-opts-main .radium-opts-container-background .background-preview {
+  display: block;
+  width: 100%;
+  margin: 5px 0 10px;
+  border: 1px dotted lightgray;
+}
+.radium-opts-main .radium-opts-container-background .select2-container {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.radium-opts-main .radium-opts-container-background .wp-picker-container {
+  margin-bottom: 10px;
+}
+.radium-opts-main .radium-opts-container-select li.ui-state-highlight {
+  height: 20px;
+  margin-top: 2px;
+  margin-left: 5px;
+  width: 64px;
+  margin-bottom: 0;
+}

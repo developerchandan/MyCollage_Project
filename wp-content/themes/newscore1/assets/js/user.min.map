@@ -1,0 +1,1 @@
+{"version":3,"file":"user.min.js","sources":["source/bbpress/user.js"],"names":["window","location","hash","document","getElementById","focus"],"mappings":"AAA8B,cAAzBA,OAAOC,SAASC,MACpBC,SAASC,eAAe,SAASC"}

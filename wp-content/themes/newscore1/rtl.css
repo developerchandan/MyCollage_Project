@@ -1,0 +1,18 @@
+/*----------------------------------------------------------------------
+ 
+	Theme Name: 	NewsCore | Shared by VestaThemes.com
+	Author:         RadiumThemes
+	Author URI:     http://www.radiumthemes.com
+
+	REFER TO THE LINK BELOW RTL FOR SUPPORT:
+	http://codex.wordpress.org/Right_to_Left_Language_Support
+	
+	TESTER RTL PLUGIN: 
+	http://wordpress.org/extend/plugins/rtl-tester
+
+----------------------------------------------------------------------*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}

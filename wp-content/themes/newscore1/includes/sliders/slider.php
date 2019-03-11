@@ -1,0 +1,1 @@
+<p class="error aligncenter">Slider not selected. Please select one using the slider manager</p>

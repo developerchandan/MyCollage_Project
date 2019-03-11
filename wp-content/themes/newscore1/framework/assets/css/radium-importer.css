@@ -1,0 +1,95 @@
+#radium-importer-form {
+	margin-top:20px;
+}
+
+#radium-importer .demo-count {
+    background: #777777;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding: 4px 10px;
+    position: relative;
+    top: -3px;
+}
+
+#radium-importer .demo {
+    -moz-box-sizing: border-box;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin: 0 0.4% 0.4% 0;
+    position: relative;
+    width: 30.6%;
+	background: #FFF;
+}
+
+#radium-importer .demo-name {
+    background: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    overflow: hidden;
+    padding: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#radium-importer .demo-actions {
+    background: rgba(244, 244, 244, 0.7);
+	border-left: 1px solid rgba(0, 0, 0, 0.05);
+    bottom: 0;
+    height: 38px;
+    padding: 9px 10px 0;
+    position: absolute;
+    right: 0;
+}
+
+#radium-importer .error {
+	padding:20px;
+}
+
+.radium-choose-demo-radio {
+	display:none !important;
+}
+
+.radium-choose-demo-radio:checked + label:before {
+	content:url('../images/accept.png');
+    position: absolute;
+	text-align:center;
+	left:50%;
+	top:50%;
+	margin-top:-73px;
+	margin-left:-73px;
+}
+
+.radium-choose-demo-img {
+	position:relative;
+	display:block;
+	padding:5px;
+	padding-top:20px;
+		
+}
+
+.radium-choose-demo-img img {
+	max-width:100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.radium-import-options {
+	background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	margin: 5px 0 15px;
+	padding:20px;
+}
+
+.radium-import-bar {
+	background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	margin: 5px 0 15px;
+	padding:20px;
+}

@@ -1,0 +1,13 @@
+.text_list .entry {
+	margin-bottom: 5px;
+}
+
+.text_list .entry input.text_list {
+	float: left;
+}
+
+.text_list .entry .delete_text_list {
+	float: left;
+	line-height: 36px;
+	margin-left: 15px;
+}

@@ -1,0 +1,97 @@
+/*---------------menu manager----------------------*/
+ 
+.radium_mega_menu, 
+.radium_mega_label, 
+.item-type-radium, 
+.item-type-megafied, 
+.radium_mega_active.menu-item-depth-2 .description-title, 
+.radium_mega_active.menu-item-depth-3 .description-title{
+	display:none;
+}
+	
+.menu-item-depth-0 .radium_mega_menu_d0, 
+.radium_mega_active.menu-item-depth-1 .radium_mega_menu_d1, 
+.radium_mega_active.menu-item-depth-2 .radium_mega_menu_d2, 
+.radium_mega_active.menu-item-depth-3 .radium_mega_menu_d2, 
+.radium_mega_active.menu-item-depth-4 .radium_mega_menu_d2, 
+.radium_mega_active.menu-item-depth-5 .radium_mega_menu_d2, 
+.radium_mega_active.menu-item-depth-6 .radium_mega_menu_d2, 
+.radium_mega_active.menu-item-depth-7 .radium_mega_menu_d2, 
+.radium_mega_active.menu-item-depth-8 .radium_mega_menu_d2{
+	display:block;
+}
+	
+/*depth 0 Specials*/
+.radium_mega_active.menu-item-depth-0 .item-type-megafied{
+	display:inline;
+	font-size: 9px;
+	font-style: italic;
+}
+	
+	
+/*depth1 specials*/
+.radium_mega_active.menu-item-depth-1 .field-description, 
+.radium_mega_active.menu-item-depth-1 .link-to-original, 
+.radium_mega_active.menu-item-depth-1 .description-title, 
+.radium_mega_active.menu-item-depth-1 .radium_default_label, 
+.radium_mega_active.menu-item-depth-1 .field-url, 
+.radium_mega_active.menu-item-depth-1 .item-type-default{
+	display:none;
+	}
+	
+.radium_mega_active.menu-item-depth-1 .radium_mega_label{
+	display:inline;
+	}
+	
+.radium_mega_active.menu-item-depth-1 .item-type-radium{
+	display:block;
+	color: #333333;
+	}
+	
+.radium_mega_active.menu-item-depth-2 .field-description, 
+.radium_mega_active.menu-item-depth-3 .field-description, 
+.radium_mega_active.menu-item-depth-4 .field-description, 
+.radium_mega_active.menu-item-depth-5 .field-description, 
+.radium_mega_active.menu-item-depth-6 .field-description, 
+.radium_mega_active.menu-item-depth-7 .field-description, 
+.radium_mega_active.menu-item-depth-8 .field-description{
+	display:block;
+	}
+	
+.radium_long_desc{
+	overflow: hidden;
+	display: block;
+	}
+	
+.radium_mega_active.menu-item-depth-1 .radium_label_desc_on_active{
+	height:auto;
+	width:auto;
+	float:none;
+	}
+	
+.radium_mega_active .radium_label_desc_on_active .radium_supersmall{
+	font-size: 11px;
+	color:#888;
+	display:inline-block;
+	padding:0 0 3px 0;
+	}
+	
+#wpwrap .radium_hidden{
+	display:none;
+	}
+	
+.radium_clear{
+	clear:both;
+	}
+
+
+/* Category Megamenu */
+.menu-item-category.menu-item-depth-0 .radium_mega_menu_d4,
+.menu-item-video_category.menu-item-depth-0 .radium_mega_menu_d4 {
+	display: block;
+}
+
+.radium_cat_mega_inactive.menu-item-category.menu-item-depth-0 .radium_mega_menu_d0,
+.radium_cat_mega_inactive.menu-item-video_category.menu-item-depth-0 .radium_mega_menu_d0 {
+	display: none;
+}

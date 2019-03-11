@@ -1,0 +1,32 @@
+{
+    "devel" :true,
+    "bitwise": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "immed": true,
+    "newcap": false,
+    "esnext": true,
+    "camelcase": false,
+    "latedef": true,
+    "noarg": true,
+    "node": true,
+    "undef": true,
+    "browser": true,
+    "trailing": true,
+    "jquery": true,
+    "curly": false,
+    "supernew": true,
+    "globals": {
+        "Backbone": true,
+        "_": true,
+        "$": false,
+        "jQuery": false,
+        "Modernizr": true,
+        "Radium_Theme_Scripts": true,
+        "Radium_isMobile": true,
+        "Radium_Theme_Ajax_Globals": true,
+        "Pace": true
+    }
+}
+
+

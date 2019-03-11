@@ -1,0 +1,283 @@
+NEWSCORE CHANGELOG
+
+Versioning
+<major>.<minor>.<patch>
+2016-06-20 | NewsCore 1.9.3
+BUG FIX | Fixed broken post randomizer
+UPDATE  | WooCommerce page templates
+UPDATE  | removed depracated functions
+
+2016-01-14 | NewsCore 1.9.2
+BUG FIX | Fixed Twitter followers counter
+BUG FIX | Fixed Dribble followers counter
+BUG FIX | Removed social counters for single posts
+BUG FIX | Fixed customizer compatibility in Wordpress 4.4.1
+
+UPDATE | Added Dribbble client token theme option
+UPDATE | Transitioning assets to bower
+UPDATE | Grunt package updates
+
+2015-10-29 | NewsCore 1.9.1
+BUG FIX | Prevent fatal error if Woocommerce is disabled but Yith whishlist plugin is enabled
+BUG FIX | Rich snippets fix for the homepage and single post
+BUG FIX | Restored back to top button
+
+2015-09-23 | NewsCore 1.9.0
+BUG FIX | Fixed php errors on index page
+BUG FIX | Fixed missing Radium Gallery Lite plugin
+BUG FIX | Fixed WordPress gzinflate() data error when debugging
+
+2015-08-07 | NewsCore 1.8.4
+UPDATE | Enqueue facebook script only if facebook widget is enabled
+UPDATE | Fix Facebook and youtube in social counter (you need to insert youtube API key and facebook app id in theme options -> Social Profiles)
+UPDATE | Fixed facebook post share counter
+
+2015-06-18 | NewsCore 1.8.3
+BUG FIX | Image resizing script breaks site. Bug from verison 1.8.2
+
+2015-06-17 | NewsCore 1.8.2
+BUG FIX | Improved Mobile Detection
+BUG FIX | Images not showing up if https is enabled
+BUG FIX | Fixed background repeat on mobile
+
+UPDATE | Fixed sass sourcemaps
+UPDATE | Updated npm module version requirements
+UPDATE | Load unminified css if debug mode is true
+UPDATE | Radium Galleries Lite to fix XSS issue in prettyphoto
+
+2015-05-1 | NewsCore 1.8.1
+BUG FIX | Woocommerce search fix
+BUG FIX | Comment Form fix
+
+2015-04-25 | NewsCore 1.8.0
+NEW FEATURE: Option to preserve featured image aspect ratio
+
+BUG FIX | wishlist php warning on new install
+BUG FIX | menu php notice on new install
+BUG FIX | removed node_modules files added in previous version
+
+UPDATE | WooCommerce 2.3 compatibility
+UPDATE | package.json
+UPDATE | performance improvements across all queries
+UPDATE | Plugin installer updated to version 2.4.1 (includes fix for bulk installer)
+UPDATE | Wordpress 4.2 Compatibility
+
+2015-02-08 | NewsCore 1.7.0
+NEW FEATURE CORE | Option to set new posts counter limit
+
+BUG FIX: CORE 	| Tumblr link
+BUG FIX: UI 	| Megamenu customizer hover
+BUG FIX: UI		| Missing image on mobile
+BUG FIX: UI		| Update to widgets colors when added to the footer
+BUG FIX: UI		| Fixed missing Radium Galleries Lite plugin
+
+UPDATE: | BuddyPress style
+UPDATE: | Compatibility with WooCommerce 2.3 - deleted a bunch of files
+
+2015-01-12 | NewsCore 1.6.0
+
+NEW FEATURE CORE: Ajax Cart Update
+NEW FEATURE CORE: Ajax Wishlist Update
+NEW FEATURE CORE: Blog element supports offsets
+NEW FEATURE : Video Central Megamenu support
+NEW FEATURE : Select what meta data to display in single post view
+NEW FEATURE : Select whether to display dates in the buzz widget
+NEW FEATURE : Display red background in buzz widget using a checkbox instead of a custom class
+NEW FEATURE : Disable loading bar (pace)
+NEW FEATURE : "View All" in category layout builder element
+NEW FEATURE : Titles in video central element
+NEW FEATURE : Add Header and Footer Scripts using theme options
+
+BUG FIX: CORE 	| Fatal bug in bbPress registration form
+BUG FIX: CORE 	| Megamenu columns upgrade
+BUG FIX: CORE 	| Date translation fix
+BUG FIX: CORE 	| HTML Validation error in login link
+BUG FIX: CORE 	| Logout Link fix
+BUG FIX: CORE 	| Translation of theme options save button
+BUG FIX: CORE 	| Social fans rss counter url
+BUG FIX: CORE 	| Buddypress 'BP_Theme is not defined' error fix
+
+UPDATE: CORE & UI 	| Clickable animated thumbnails
+UPDATE: CORE & UI 	| Better footer widget area wrapper classes
+UPDATE: CORE & UI   | WooCommerce login form update
+UPDATE: CORE & UI   | WooCommerce checkout payment tabs
+
+UPDATE: CORE | Widget classes auto converted to lowercase
+UPDATE: CORE | Better new articles counter
+UPDATE: CORE | Better handling of the video archive page
+
+UPDATE: JQUERY PLUGIN | pace.js updated
+
+2014-10-13 | NewsCore 1.5.1
+BUG FIX: CORE 	| 404 icon in theme options
+BUG FIX: CORE 	| Image sizes for search template - narrow layout
+BUG FIX: CORE 	| NewsTicker not working - typo introduced in 1.5.0
+
+2014-10-03 | NewsCore 1.5.0
+
+NEW FEATURE: CORE 	| Ability to switch off excerpts in blog element
+NEW FEATURE: CORE 	| Offsets in builder elements
+NEW FEATURE: CORE 	| Exclude posts from builder elements
+NEW FEATURE: CORE 	| Set builder elements post Order
+NEW FEATURE: CORE 	| Option to use transient api to cache post queries
+NEW FEATURE: CORE 	| Tabs, Accordion and Toggles shortcode
+
+BUG FIX: UI 	| Allow sticky posts in blog builder element
+BUG FIX: UI 	| Flexslider overflow problem in firefox
+BUG FIX: UI 	| social counters overflow problem in firefox
+BUG FIX: UI 	| Border color fix for alert message
+BUG FIX: UI 	| Better image captions
+BUG FIX: UI 	| Narrow layout sidebar width
+BUG FIX: CORE 	| Fixed option for switching off search button
+BUG FIX: CORE 	| UTF-8 Character encoding header tag
+BUG FIX: CORE 	| Better image resizing for content grid slider
+BUG FIX: CORE 	| Switch off recent posts
+BUG FIX: CORE 	| PHP Notice in builder
+BUG FIX: CORE 	| Show only published posts in blog element
+BUG FIX: CORE 	| Typography manager subset selection and line height
+BUG FIX: CORE 	| bbPress favorite and subscribe error
+BUG FIX: CORE 	| Fix for page header
+UPDATE: CORE 	| Filter for blog element query
+UPDATE: CORE 	| Option to turn in transient api for queries
+UPDATE: CORE 	| Widget queries use transient api for performance boost
+UPDATE: CORE 	| get_posts suppress filters argument set to false - WPML compatibility
+UPDATE: CORE 	| Fallback menu
+UPDATE: CORE 	| Rich Snippets in breadcrumb
+UPDATE: CORE 	| BuddyPress page titles and breadcrumb
+UPDATE: CORE & UI	| Comments template
+UPDATE: CORE & UI	| WooCommerce templates update
+
+2014-09-5 | NewsCore 1.4.1
+
+BUG FIX: CORE 	| Social fans counter for Vimeo wrong count
+BUG FIX: CORE 	| Builder without carousel not working
+BUG FIX: CORE 	| Category pagination not working
+
+UPDATE: PLUGIN 	| Radium Tweets to version 1.0.8
+
+2014-09-4 | NewsCore 1.4.0
+
+NEW FEATURE: CORE 	| Ability to switch off the featured image on in single post view
+NEW FEATURE: CORE 	| Switch share buttons position
+NEW FEATURE: CORE 	| Print Stylesheets
+
+BUG FIX: CORE 	| Builder blog element hide "Load More Button"
+BUG FIX: CORE 	| Html Validation errors
+BUG FIX: CORE 	| Set slider images to precise size
+BUG FIX: CORE 	| Made more strings translatable
+BUG FIX: CORE 	| Fixed conditional loading of Facebook widget scripts - Facebook widgets are slow :(
+BUG FIX: CORE 	| Sharing count error for Linkedin
+
+BUG FIX: UI 	| Minor Css fix for the sidebar widgets
+
+UPDATE: CORE 	| Performance tuning
+UPDATE: CORE 	| Header, Footer, and some extensions now use locate_template, more to come
+UPDATE: CORE 	| get options function upgrade for better backward compatibility, 70% of of files were touched by this update
+UPDATE: CORE 	| More Options for the social fans widgets
+UPDATE: CORE 	| removed output buffers for inline css
+UPDATE: CORE 	| rewrite of schema.org tags
+
+UPDATE: CORE & UI 	| More precise thumbnail generation for a smaller page size
+
+UPDATE: SEO 	| Description meta tag in header on the homepage
+UPDATE: SEO 	| Replaced strong tags in menu with a div wrapper
+
+UPDATE: UI 		| Hide Rating options if disabled
+UPDATE: UI 		| Newsletter widget css tweaks
+
+UPDATE: PLUGIN 	| Updated shortcodes plugin to fix video embed
+
+2014-08-25 | NewsCore 1.3.1
+
+BUG FIX: CORE | Category megamenu not showing date on some items
+BUG FIX: CORE | Fix for sharing posts
+BUG FIX: CORE | Allow narrow layout to have background images
+BUG FIX: CORE | Fixed social icon links
+BUG FIX: CORE | Fined tuned typography manager
+BUG FIX: CORE | Reset customizer too on theme options reset
+BUG FIX: CORE | Background image manager fix
+BUG FIX: CORE | Automatic protocol selector for google fonts
+BUG FIX: CORE | Signin link in header tool
+
+BUG FIX: UI | Minor Css fix for the gallery grid
+BUG FIX: UI | Make gallery grid reponsive
+BUG FIX: UI | General Mobile improvements
+BUG FIX: UI | Stopped hiding header banner on mobile - unacceptable by Adsense - sorry guys :)
+
+2014-08-22 | NewsCore 1.3.0
+
+NEW FEATURE: CORE 		| Category megamenu can now be disabled
+NEW FEATURE: CORE & UI 	| New white skin
+NEW FEATURE: CORE & UI 	| New layout - narrow (1024px wide)
+NEW FEATURE: CORE		| "Blog" element category get content from a category and disable tabs if need be
+NEW FEATURE: CORE		| All sliders now have an easy to pull content from featured posts, posts assigned to the carousel or categories
+NEW FEATURE: CORE		| Audio Support
+NEW FEATURE: CORE		| Presets in the typography manager
+NEW FEATURE: CORE		| "Latest Posts" above post is now customizable
+NEW FEATURE: CORE & UI	| "category", "featured", "date" and "rating score" tags in the post grid can be switched off
+NEW FEATURE: UI			| Slightly wider sidebar for banners to fit in
+NEW FEATURE: CORE & UI  | WPML language menus in the header
+
+BUG FIX: CORE 	| Php 5.2 compatibility
+BUG FIX: CORE 	| php errors thrown by post slider
+BUG FIX: CORE 	| Blog Archive page template pagination when used as the homepage
+BUG FIX: CORE 	| Added a default title when Settings->Reading is set to "Your latest posts"
+BUG FIX: CORE	| Settings for the "Blog Articles" page template
+BUG FIX: CORE	| Custom styles not working
+BUG FIX: CORE	| "Blog Category" element category selection
+BUG FIX: CORE	| Allow multiple tabbed elements on the same page
+BUG FIX: CORE	| Rating calculation when it is 0 or not set
+BUG FIX: CORE	| Rebuilt newsletter widget to support a wider array of providers
+BUG FIX: CORE	| Better sidebar detection
+BUG FIX: CORE	| Authors widget
+BUG FIX: CORE	| Enabled Radium HTML5 Media plugin compatibility
+BUG FIX: CORE	| Fixed some non translatable strings
+BUG FIX: UI		| Minor css errors
+BUG FIX: UI 	| Rebuilt the news ticker
+BUG FIX: UI 	| Megamenu even spacing is more reliable
+BUG FIX: UI 	| "Blog" element ajax message
+BUG FIX: UI 	| Thumbnail hover consistency in the top news, categories and widgets
+BUG FIX: UI 	| Added Tags in top news carousel
+BUG FIX: UI 	| Fixed "top news" dropdown click (was causing the page to jump - very annoying)
+BUG FIX: UI 	| Fix for users with javascript disabled
+BUG FIX: UI 	| Rebuilt carousel script. It's now more stable
+BUG FIX: UI 	| Load google fonts by SSL when available
+BUG FIX: UI 	| Css fix for Livefyre comments
+BUG FIX: UI 	| Wider sidebar and widgets - now 330px wide
+BUG FIX: UI 	| Border when sidebar is on the left of the "home" page template
+BUG FIX: UI 	| "Space menu evenly" can now be switched off
+
+CHANGE: CORE 	| Rebuilt the Customizer. It is now fully operational and is easily customizable
+
+UPDATE: PLUGIN 	| Radium Tweets  Updated to version 1.0.6
+UPDATE: UI 		| Patched waypoints-sticky.js to prevent multiple <div class="sticky-wrapper" /> wraps
+
+2014-08-16 | NewsCore 1.2.0
+
+NEW FEATURE: CORE 	| Add limit descriptions to builder elements
+NEW FEATURE: CORE 	| Customizable titles for several elements
+NEW FEATURE: CORE 	| Header banner can now use Adsense code
+NEW FEATURE: UI 	| Responsive Vine and Instagram embeds
+
+BUG FIX: CORE 	| Theme customizer
+BUG FIX: CORE 	| Contact page sample template
+BUG FIX: CORE 	| Deprecated WooCommerce functions
+BUG FIX: CORE 	| Loading of translation files
+BUG FIX: CORE 	| Popup Gallery php notices
+BUG FIX: CORE 	| Background image uploader
+BUG FIX: UI 	| Contact 7 layout
+BUG FIX: UI 	| Images taking full width in the post
+
+UPDATE: PLUGIN 	| fitvids.js to 1.1
+
+2014-08-14 | NewsCore 1.1.0
+
+NEW FEATURE: CORE | Added ability to switch off the "read more" link in the blog element.
+
+BUG FIX: UI 	| Fixed post tab widget
+BUG FIX: CORE 	| load more for blog element
+BUG FIX: CORE 	| "How many items to show" across all builder elements
+
+2014-08-14 | NewsCore 1.0.0
+
+First Release

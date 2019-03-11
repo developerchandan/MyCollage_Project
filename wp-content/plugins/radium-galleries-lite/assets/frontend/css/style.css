@@ -1,0 +1,303 @@
+.radium-gallery {
+	position: relative;
+	width: 100%;
+	margin-right: -20px;
+ 	margin-bottom: 20px;
+	min-width: 960px;
+	}
+
+.radium-gallery-caption{
+	padding-bottom: 10px;
+	}
+
+/* = Grid Page Setup (Used by Portfolio and gallery page Templates )
+--------------------------------------------------------------*/
+[class*="two-columns"] + [class*="two-columns"]:last-child,
+[class*="three-columns"] + [class*="three-columns"]:last-child,
+[class*="four-columns"] + [class*="four-columns"]:last-child { float: left; }
+
+.page-grid-item { overflow: hidden; }
+
+
+/* One Columns ----------------------------*/
+#stage.one-column{
+    min-width: auto;
+    margin-left: 0;
+    }
+
+.page-grid-item.one-column {
+    overflow: inherit;
+    }
+
+.page-grid-item.one-column .grid-thumb {
+    position: relative;
+    margin:0 20px 20px 0;
+    width: 460px;
+    }
+
+ .page-grid-item.one-column .grid-thumb > a,
+ .page-grid-item.one-column .grid-thumb img,
+ .page-grid-item.one-column .video-frame {
+    height: 200px;
+    width: 460px;
+    }
+
+.page-grid-item.one-columns .slides > li {
+    width: 460px;
+    height: 200px;
+    }
+
+.page-grid-item.one-column .six.columns{
+    width: 48%;
+    }
+
+.page-grid-item.one-column .one-column-content h2{
+    font-size: 24px;
+    font-weight: 300;
+    }
+
+.page-grid-item.one-column p{
+    text-align: left;
+    color: #45484D;
+    }
+
+.page-grid-item.one-column a.more-link{
+    float: left;
+    margin: 30px 0 0 0;
+    border-bottom: none;
+    }
+
+.page-grid-item.one-column a { color: #1E2224; }
+
+ .page-grid-item.one-column .fluid-width-video-wrapper { padding-top: 45.5% !important; width: 460px; }
+
+
+/* One Columns with Sidebar*/
+.with-sidebar .page-grid-item.one-column {}
+
+.with-sidebar .page-grid-item.one-column .grid-thumb>a,
+.with-sidebar .page-grid-item.one-column .video-frame,
+.with-sidebar .page-grid-item.one-column .grid-thumb,
+.with-sidebar .page-grid-item.one-column .grid-thumb img {
+    height: 175px;
+    width: 335px;
+    }
+
+
+.with-sidebar .page-grid-item.one-column .fluid-width-video-wrapper { padding-top: 40.9% !important; width: 312px;}
+
+/* Two Columns ----------------------------*/
+.page-grid-item.two-columns {
+    float: left;
+    width: 460px;
+    margin: 0 20px 20px 0;
+    }
+
+.page-grid-item.two-columns .slides > li {
+    width: 460px;
+    height: 240px;
+    }
+
+.page-grid-item.two-columns .grid-thumb {
+    position: relative;
+    margin-bottom: 10px;
+    }
+
+.page-grid-item.two-columns .grid-thumb > a,
+.page-grid-item.two-columns .grid-thumb img,
+.page-grid-item.two-columns .video-frame {
+    height: 240px;
+    width: 100%;
+    }
+
+.page-grid-item.two-columns .fluid-width-video-wrapper { padding-top: 53.5% !important; }
+
+/* Three Columns with Sidebar*/
+.with-sidebar .page-grid-item.two-columns { width: 340px; }
+
+.with-sidebar .page-grid-item.two-columns .grid-thumb > a,
+.with-sidebar .page-grid-item.two-columns .grid-thumb img,
+.with-sidebar .page-grid-item.two-columns .video-frame {
+    height: 160px;
+    width: 100%;
+    }
+
+.with-sidebar .page-grid-item.two-columns .fluid-width-video-wrapper { padding-top: 49.5% !important;}
+
+
+/* Three Columns ----------------------------*/
+.page-grid-item.three-columns {
+    float: left;
+    width: 300px;
+    margin: 0 20px 20px 0;
+    }
+
+.page-grid-item.three-columns .slides > li {
+    width: 300px; height: 150px;
+    }
+
+.page-grid-item.three-columns .grid-thumb {
+    position: relative;
+    margin-bottom: 10px;
+    }
+
+.page-grid-item.three-columns .grid-thumb > a,
+.page-grid-item.three-columns .grid-thumb img,
+.page-grid-item.three-columns .video-frame {
+    height: 150px;
+    width: 100%;
+    }
+
+.page-grid-item.three-columns .fluid-width-video-wrapper { padding-top: 50.5% !important; }
+
+/* Three Columns with Sidebar*/
+.with-sidebar .page-grid-item.three-columns { width: 220px; }
+
+ .with-sidebar .page-grid-item.three-columns .slides > li,
+ .with-sidebar .page-grid-item.three-columns .grid-thumb > a,
+ .with-sidebar .page-grid-item.three-columns .grid-thumb img,
+ .with-sidebar .page-grid-item.three-columns .video-frame { height: 136px; }
+
+.with-sidebar .page-grid-item.three-columns .fluid-width-video-wrapper { padding-top: 63% !important; }
+
+
+ /* Four Columns ----------------------------*/
+.page-grid-item.four-columns {
+    float: left;
+    width: 220px;
+    margin: 0 20px 20px 0;
+    }
+
+.page-grid-item.four-columns .slides > li {
+    width: 220px; height: 136px;
+    }
+
+.page-grid-item.four-columns .grid-thumb {
+    position: relative;
+    margin-bottom: 10px;
+    }
+
+.page-grid-item.four-columns .grid-thumb > a,
+.page-grid-item.four-columns .grid-thumb img,
+.page-grid-item.four-columns .video-frame {
+    height: 136px;
+    width: 100%;
+    }
+
+.page-grid-item.four-columns .fluid-width-video-wrapper { padding-top: 61% !important; }
+
+/* Three Columns with Sidebar*/
+.with-sidebar .page-grid-item.four-columns { width: 160px; }
+
+.with-sidebar .page-grid-item.four-columns .grid-thumb > a,
+.with-sidebar .page-grid-item.four-columns .grid-thumb img,
+.with-sidebar .page-grid-item.four-columns .video-frame {
+    height: 95px;
+    width: 100%;
+    }
+
+.with-sidebar .page-grid-item.four-columns .fluid-width-video-wrapper { padding-top: 58.5% !important; }
+
+.radium-gallery-item > a .stripes{ height: 200px; }
+
+
+
+/* Full Width ----------------------------*/
+
+/* With Sidebar --------------------------*/
+.page-template-page-gallery-php #sidebar { }
+
+/* General -------------------------------*/
+.page-grid-item.last{ margin-right: 0; }
+
+.page-grid-item a { color: #8F949D; }
+
+.portfolio-thumb > a,
+.radium-gallery-item > a { position: relative; }
+
+.page-grid-item .grid-thumb img { border: none; }
+
+.page-grid-item h3,
+.page-grid-item h3 a,
+.page-grid-item h4,
+.page-grid-item h4 a {
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+    color: #1e2224;
+    margin-bottom: 0;
+    }
+
+.page-grid-item h3,
+.page-grid-item h4 { font-weight: bold; }
+
+.page-grid-item h3 a:hover,
+.page-grid-item h4 a:hover { color: #8f949d; }
+
+.page-grid-item h3 a:active,
+.page-grid-item h4 a:active { color: #0081C7; }
+
+.page-grid-item p {
+    text-align: center;
+    width: 100%;
+    }
+
+.post-thumb-overlay {
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 2;
+    width: 48px;
+    height: 48px;
+    background: rgba(0,0,0,0.7) no-repeat center center;
+    @include at2x('../images/overlay-link', 15px, 15px);
+    position: absolute;
+    top: -25px;
+    display: block;
+    text-indent: -9999px;
+    -webkit-border-radius:50%;
+           -moz-border-radius:50%;
+                border-radius:50%;
+    opacity: 0;
+    }
+
+.radium-gallery-item .post-thumb-overlay {
+    @include at2x('../images/overlay-lightbox', 15px, 15px);
+    }
+
+.stripes {
+    background: black ;
+    position: absolute;
+    opacity: .4;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    }
+
+
+.page-grid-item .column,
+.page-grid-item .columns { padding: 0 0; }
+
+.page-grid-item .post-slider .flex-direction-nav li a{ display: none; }
+
+/* Portfolio GRid */
+#stage .page-grid-item,
+.radium-gallery .page-grid-item {
+    border-bottom: 1px solid $border-color;
+    }
+
+#stage .page-grid-item h3,
+#stage .page-grid-item h4,
+.radium-gallery .page-grid-item h3,
+.radium-gallery .page-grid-item h4 {
+    padding-bottom: 10px;
+    }
+
+#stage .page-grid-item.one-column,
+.radium-gallery .page-grid-item.one-column{
+    border-bottom: none;
+    }

@@ -1,0 +1,73 @@
+// Theme Global Function, Variables and Mixins
+
+// Variables
+//
+
+// The default font-size is set to 100% of the browser style sheet (usually 16px)
+// for compatibility with brower-based text zoom or user-set defaults.
+$base-font-size: 100% !default;
+
+// Set your base font-size in pixels so emCalc can do its magic below
+$em-base: 16px !default;
+$base-size: $em-base;
+
+// We use these to control various global styles
+$body-bg:           #fff !default;
+$body-wrapper-bg:   #fff !default;
+
+$body-font-color:   #595858 !default;
+
+$body-font-family:  		'Lato', Arial, sans-serif !default; //Alternative: Varela, Lato, "Open Sans", "PT Sans"
+$body-font-weight:  		normal !default;
+$body-font-style:   		normal !default;
+$body_fonts_size: 			$base-size;
+$body_fonts_line_height: 	1.6em;
+
+$body_fonts: $body_fonts_size/$body-font-weight $body-font-family;
+
+$body-secondary-fonts: "Oswald", $body-font-family; //Alternatives: Roboto Condensed, Oswald, Fjalla One, Rokkitt
+
+// We use these as default colors throughout
+$primary-color:     $body-font-color !default;
+$secondary-color:   #e9e9e9 !default;
+$alert-color:       #c60f13 !default;
+$success-color:     #5da423 !default;
+$border-color:      #dfdfdd !default;
+$accent-color:      #ff5a00;
+$title-color:       #000;
+$footer-widgets-title-color: #FC0;
+
+//Other Colors
+$blue:      #017ac9;
+$green:     #7bc141;
+$red:       #ee3728;
+
+$yellow:    #FFFF00;
+$orange:    #ff5a00;
+$pink:      #eb008b;
+$grey:      #8b8b8b;
+
+$purple:    #83459a;
+$dark:      #000;
+$lime:      #a2c5bf;
+
+// We use these to make sure border radius matches unless we want it different.
+$global-radius:     3px !default;
+$global-rounded:    50% !default;
+
+// We use these to control inset shadow shiny edges and depressions.
+$shiny-edge-size:           0 1px 0 !default;
+$shiny-edge-color:          rgba(#fff, .5) !default;
+$shiny-edge-active-color:   rgba(#000, .2) !default;
+
+$main-color:    #ce4dd6;
+$border_style:  solid;
+$radius: 10px;
+
+//Page Padding
+$page_padding: 60px;
+
+$fontAwesomePath:   "../fonts/font-awesome" !default;
+$borderColor:       #eee;
+$iconMuted:         #eee;
+@mixin border-radius($radius) { border-radius: $radius; }

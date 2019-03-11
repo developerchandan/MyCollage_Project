@@ -1,0 +1,7312 @@
+# Copyright (C) 2014 RadiumThemes
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Newscore 1.5.0\n"
+"Report-Msgid-Bugs-To: frank@radiumthemes.com\n"
+"POT-Creation-Date: 2014-10-01 07:47:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-10-22 21:26+0300\n"
+"Last-Translator: Franklin Gitonga <frank@radiumthemes.com>\n"
+"Language-Team: RadiumThemes <http://radiumthemes.com>\n"
+"Last-Translator: Franklin Gitonga <frank@radiumthemes.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: el_GR\n"
+
+#: 404.php:8
+msgid "OOH no!"
+msgstr ""
+
+#: 404.php:9
+msgid " It's a 404 Error"
+msgstr ""
+
+#: 404.php:10
+msgid "Go Back"
+msgstr ""
+
+#: 404.php:10
+msgid " or "
+msgstr ""
+
+#: 404.php:10
+msgid "Go Home"
+msgstr ""
+
+#: activity/activity-loop.php:41
+msgid "Load More"
+msgstr ""
+
+#: activity/activity-loop.php:55
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#. translators: 1: user profile link, 2: user name, 3: activity permalink, 4:
+#. activity timestamp
+#: activity/comment.php:30
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: activity/comment.php:40 groups/single/forum/edit.php:10
+#: includes/functions/theme-parts-general.php:490
+msgid "Reply"
+msgstr ""
+
+#: activity/comment.php:46 bbpress/form-topic-tag.php:88
+#: bbpress/form-topic-tag.php:101 framework/builder/builder-interface.php:393
+#: framework/builder/builder-interface.php:448
+#: framework/metaboxes/taxonomy-meta.php:136
+#: framework/metaboxes/taxonomy-meta.php:177
+#: framework/metaboxes/taxonomy-meta.php:391
+#: framework/metaboxes/taxonomy-meta.php:418
+#: members/single/messages/messages-loop.php:51
+#: members/single/messages/single.php:24
+msgid "Delete"
+msgstr ""
+
+#: activity/entry.php:37
+msgid "In reply to: "
+msgstr ""
+
+#: activity/entry.php:37
+msgid "View Thread / Permalink"
+msgstr ""
+
+#: activity/entry.php:37 includes/extensions/buddypress-functions.php:43
+msgid "View"
+msgstr ""
+
+#: activity/entry.php:60
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: activity/entry.php:68
+msgid "Mark as Favorite"
+msgstr ""
+
+#: activity/entry.php:68 includes/extensions/buddypress-functions.php:44
+msgid "Favorite"
+msgstr ""
+
+#: activity/entry.php:72 includes/extensions/buddypress-functions.php:45
+msgid "Remove Favorite"
+msgstr ""
+
+#: activity/entry.php:104 framework/metaboxes/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: activity/entry.php:104
+msgid "or press esc to cancel."
+msgstr ""
+
+#: activity/index.php:26
+msgid "Site Activity"
+msgstr ""
+
+#: activity/index.php:44
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: activity/index.php:44 members/index.php:42
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:54
+msgid "The activity of my friends only."
+msgstr ""
+
+#: activity/index.php:54 members/index.php:46
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:66
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: activity/index.php:66 groups/index.php:46
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:76
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: activity/index.php:76
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: activity/index.php:84
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: activity/index.php:84
+msgid "Mentions"
+msgstr ""
+
+#: activity/index.php:96 groups/single/activity.php:3
+msgid "RSS Feed"
+msgstr ""
+
+#: activity/index.php:96 groups/single/activity.php:3
+msgid "RSS"
+msgstr ""
+
+#: activity/index.php:101 groups/single/activity.php:8
+#: members/single/activity.php:18
+msgid "Show:"
+msgstr ""
+
+#: activity/index.php:103 groups/single/activity.php:10
+#: members/single/activity.php:20
+msgid "Everything"
+msgstr ""
+
+#: activity/index.php:104 groups/single/activity.php:11
+#: members/single/activity.php:21
+msgid "Updates"
+msgstr ""
+
+#: activity/index.php:108 bbpress/loop-forums.php:21
+#: bbpress/loop-replies.php:24 bbpress/loop-replies.php:58
+#: bbpress/loop-topics.php:21 forums/forums-loop.php:40
+#: includes/builder/elements/content-slider.php:29
+#: members/single/activity.php:27
+msgid "Posts"
+msgstr ""
+
+#: activity/index.php:109 includes/extensions/social-sharing.php:81
+#: includes/extensions/social-sharing.php:86
+#: includes/functions/theme-functions.php:200
+#: includes/widgets/widget-post-tabs.php:85 members/single/activity.php:28
+msgid "Comments"
+msgstr ""
+
+#: activity/index.php:115 groups/single/activity.php:14
+#: members/single/activity.php:43
+msgid "Forum Topics"
+msgstr ""
+
+#: activity/index.php:116 groups/single/activity.php:15
+#: members/single/activity.php:44
+msgid "Forum Replies"
+msgstr ""
+
+#: activity/index.php:122 members/single/activity.php:50
+msgid "New Groups"
+msgstr ""
+
+#: activity/index.php:123 groups/single/activity.php:18
+#: members/single/activity.php:51
+msgid "Group Memberships"
+msgstr ""
+
+#: activity/index.php:129 members/single/activity.php:35
+msgid "Friendships"
+msgstr ""
+
+#: activity/index.php:133
+msgid "New Members"
+msgstr ""
+
+#: activity/post-form.php:23
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: activity/post-form.php:25
+msgid "What's new, %s?"
+msgstr ""
+
+#: activity/post-form.php:35
+msgid "Post Update"
+msgstr ""
+
+#: activity/post-form.php:42
+msgid "Post in"
+msgstr ""
+
+#: activity/post-form.php:45 members/single/profile/profile-wp.php:8
+msgid "My Profile"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:18
+#: bbpress/content-single-topic-lead.php:90
+msgid "Creator"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:22
+#: bbpress/content-single-topic-lead.php:94 bbpress/loop-topics.php:19
+#: forums/forums-loop.php:39
+msgid "Topic"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:38 bbpress/loop-single-reply.php:16
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: bbpress/content-single-user-edit.php:28 bbpress/content-single-user.php:29
+msgid "Subscriptions"
+msgstr ""
+
+#: bbpress/content-single-user-edit.php:32 bbpress/content-single-user.php:31
+msgid "Favorite threads"
+msgstr ""
+
+#: bbpress/content-single-user-edit.php:35 bbpress/content-single-user.php:32
+msgid "Created threads"
+msgstr ""
+
+#: bbpress/content-single-user-edit.php:39 bbpress/content-single-user.php:20
+#: framework/builder/builder-interface.php:442
+#: framework/builder/builder-interface.php:445
+#: includes/extensions/breadcrumb-trail.php:1140
+#: includes/extensions/breadcrumb-trail.php:1176
+#: includes/extensions/breadcrumb-trail.php:1193
+#: includes/extensions/breadcrumb-trail.php:1224
+#: includes/functions/comments.php:65
+msgid "Edit"
+msgstr ""
+
+#: bbpress/content-single-user.php:34
+msgid "Unread Topics"
+msgstr ""
+
+#: bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr ""
+
+#: bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr ""
+
+#: bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-replies.php:13
+msgid "Oh bother! No replies were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+#: bbpress/form-anonymous.php:17
+msgid "Author Information"
+msgstr ""
+
+#: bbpress/form-anonymous.php:17
+msgid "Your information:"
+msgstr ""
+
+#: bbpress/form-anonymous.php:22
+msgid "Name (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:27
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:32
+msgid "Website:"
+msgstr ""
+
+#: bbpress/form-forum.php:35 bbpress/form-topic.php:43
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:37
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:37
+msgid "Create New Forum"
+msgstr ""
+
+#: bbpress/form-forum.php:47
+msgid ""
+"This forum is closed to new content, however your account still allows you "
+"to do so."
+msgstr ""
+
+#: bbpress/form-forum.php:55 bbpress/form-reply.php:44
+#: bbpress/form-topic.php:63
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-forum.php:67
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-forum.php:76
+msgid "Forum Description:"
+msgstr ""
+
+#: bbpress/form-forum.php:85 bbpress/form-reply.php:67
+#: bbpress/form-topic.php:111
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: bbpress/form-forum.php:94
+msgid "Forum Type:"
+msgstr ""
+
+#: bbpress/form-forum.php:103
+msgid "Status:"
+msgstr ""
+
+#: bbpress/form-forum.php:112
+msgid "Visibility:"
+msgstr ""
+
+#: bbpress/form-forum.php:121
+msgid "Parent Forum:"
+msgstr ""
+
+#: bbpress/form-forum.php:126
+msgid "(No Parent)"
+msgstr ""
+
+#: bbpress/form-forum.php:141 bbpress/form-reply.php:137
+#: bbpress/form-topic-merge.php:90 bbpress/form-topic-split.php:96
+#: bbpress/form-topic.php:188 framework/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-forum.php:164
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+#: bbpress/form-forum.php:172
+msgid "You cannot create new forums at this time."
+msgstr ""
+
+#: bbpress/form-forum.php:172
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+#: bbpress/form-protected.php:14
+msgid "Protected"
+msgstr ""
+
+#: bbpress/form-reply.php:29
+msgid "Reply To: %s"
+msgstr ""
+
+#: bbpress/form-reply.php:36
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-reply.php:58
+msgid "Reply:"
+msgstr ""
+
+#: bbpress/form-reply.php:76
+msgid "Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:92 bbpress/form-topic.php:148
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:96 bbpress/form-topic.php:152
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:111 bbpress/form-topic.php:166
+msgid "Revision"
+msgstr ""
+
+#: bbpress/form-reply.php:114 bbpress/form-topic.php:169
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:118 bbpress/form-topic.php:173
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:160
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:168 bbpress/form-topic.php:211
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:176
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:176
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:24
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:29
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:30
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:34
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:51
+msgid "No topics were found to which the topic could be merged to!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:57
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:65 bbpress/form-topic-split.php:71
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:72
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:77
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:80
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:86 bbpress/form-topic-split.php:92
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:103 bbpress/form-topic-split.php:109
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:103 bbpress/form-topic-split.php:109
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:24
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:29
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:33
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:41
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:43
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:50
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:60
+msgid "No other topics found!"
+msgstr ""
+
+#: bbpress/form-topic-split.php:78
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:83
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:86
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:18
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:29
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:45
+#: framework/extensions/plugin-activation.php:1454
+msgid "Update"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:59 bbpress/form-topic-tag.php:73
+#: includes/extensions/breadcrumb-trail.php:1172
+msgid "Merge"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:73
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:91
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:101
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+
+#: bbpress/form-topic.php:45
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:45
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:55
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-topic.php:77
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:89
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:102
+msgid "Topic:"
+msgstr ""
+
+#: bbpress/form-topic.php:120
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:131
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:219
+msgid "You cannot create new topics at this time."
+msgstr ""
+
+#: bbpress/form-topic.php:219
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:14 bbpress/form-user-edit.php:19
+#: framework/slider/slider-init.php:57 includes/functions/comments.php:137
+#: members/single/profile/profile-wp.php:15
+#: woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:24
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:29
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:34
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:39
+msgid "Display name publicly as"
+msgstr ""
+
+#: bbpress/form-user-edit.php:49 bbpress/form-user-edit.php:52
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:57 includes/functions/comments.php:149
+#: members/single/profile/profile-wp.php:33
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:82
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:84
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: bbpress/form-user-edit.php:91 bbpress/form-user-edit.php:94
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:99 bbpress/form-user-login.php:17
+#: bbpress/form-user-register.php:23 registration/register.php:46
+#: woocommerce/myaccount/form-login.php:55
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:101
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: bbpress/form-user-edit.php:105 bbpress/form-user-register.php:28
+#: includes/functions/comments.php:143 woocommerce/myaccount/form-login.php:62
+#: woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:117
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+
+#: bbpress/form-user-edit.php:126 members/single/settings/general.php:73
+msgid "New Password"
+msgstr ""
+
+#: bbpress/form-user-edit.php:129
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: bbpress/form-user-edit.php:132
+msgid "Type your new password again."
+msgstr ""
+
+#: bbpress/form-user-edit.php:135
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+#: bbpress/form-user-edit.php:142
+msgid "Role:"
+msgstr ""
+
+#: bbpress/form-user-edit.php:153
+msgid "Super Admin"
+msgstr ""
+
+#: bbpress/form-user-edit.php:156
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:169 groups/single/admin.php:32
+#: groups/single/admin.php:117 groups/single/forum/edit.php:58
+#: groups/single/forum/edit.php:74 members/single/profile/edit.php:148
+#: members/single/settings/general.php:79
+#: members/single/settings/notifications.php:68
+msgid "Save Changes"
+msgstr ""
+
+#: bbpress/form-user-edit.php:174
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:174
+msgid "Update User"
+msgstr ""
+
+#: bbpress/form-user-login.php:14 bbpress/form-user-login.php:35
+msgid "Log In"
+msgstr ""
+
+#: bbpress/form-user-login.php:22 woocommerce/myaccount/form-login.php:33
+#: woocommerce/myaccount/form-login.php:67
+msgid "Password"
+msgstr ""
+
+#: bbpress/form-user-login.php:28
+msgid "Keep me signed in"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:18
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:27
+msgid "Reset My Password"
+msgstr ""
+
+#: bbpress/form-user-register.php:14
+#: includes/functions/theme-functions.php:891 registration/register.php:32
+msgid "Create an Account"
+msgstr ""
+
+#: bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: bbpress/form-user-register.php:18
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+
+#: bbpress/form-user-register.php:46 woocommerce/myaccount/form-login.php:50
+#: woocommerce/myaccount/form-login.php:83
+#: woocommerce/myaccount/form-login.php:97
+#: woocommerce/myaccount/form-login.php:101
+msgid "Register"
+msgstr ""
+
+#: bbpress/loop-forums.php:19
+msgid "Forum"
+msgstr ""
+
+#: bbpress/loop-forums.php:20 page-templates/page-forum-statistics.php:49
+msgid "Topics"
+msgstr ""
+
+#: bbpress/loop-forums.php:21 bbpress/loop-replies.php:32
+#: bbpress/loop-replies.php:62 bbpress/loop-topics.php:21
+#: page-templates/page-forum-statistics.php:54 single-reply.php:32
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-forums.php:22 bbpress/loop-topics.php:22
+#: forums/forums-loop.php:41
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-replies.php:18 bbpress/loop-replies.php:52
+#: includes/functions/comments.php:65 single-reply.php:31
+msgid "Author"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:48
+msgid "Last post by %1$s %2$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:46
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:76
+msgid "Last post by%1$s%2$s"
+msgstr ""
+
+#: bbpress/loop-topics.php:20
+msgid "Voices"
+msgstr ""
+
+#: bbpress/user-details.php:26
+msgid "Your bio"
+msgstr ""
+
+#: bbpress/user-details.php:26
+msgid "Bio"
+msgstr ""
+
+#: bbpress/user-details.php:31
+msgid "Joined: "
+msgstr ""
+
+#: bbpress/user-details.php:35
+msgid "Status: "
+msgstr ""
+
+#: bbpress/user-details.php:44
+msgid "Forum participant"
+msgstr ""
+
+#: bbpress/user-details.php:48
+msgid "Forum moderator"
+msgstr ""
+
+#: bbpress/user-details.php:61
+msgid "Homepage: "
+msgstr ""
+
+#: bbpress/user-favorites.php:17
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: bbpress/user-favorites.php:30
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: bbpress/user-favorites.php:30
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:21
+msgid "Subscribed Forum Topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:34
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:34
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:17
+msgid "Forum Topics Created"
+msgstr ""
+
+#: bbpress/user-topics-created.php:30
+msgid "You have not created any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:30
+msgid "This user has not created any topics."
+msgstr ""
+
+#: bbpress-functions.php:63
+msgid "NewsCore (bbPress)"
+msgstr ""
+
+#: bbpress-functions.php:220 bbpress-functions.php:229
+msgid "Something went wrong. Refresh your browser and try again."
+msgstr ""
+
+#: bbpress-functions.php:257 bbpress-functions.php:393
+msgid "Subscriptions are no longer active."
+msgstr ""
+
+#: bbpress-functions.php:262
+msgid "Please login to subscribe to this forum."
+msgstr ""
+
+#: bbpress-functions.php:271 bbpress-functions.php:339
+#: bbpress-functions.php:407
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: bbpress-functions.php:279
+msgid "The forum could not be found."
+msgstr ""
+
+#: bbpress-functions.php:284 bbpress-functions.php:352
+#: bbpress-functions.php:420
+msgid "Are you sure you meant to do that?"
+msgstr ""
+
+#: bbpress-functions.php:292 bbpress-functions.php:360
+#: bbpress-functions.php:428
+msgid "The request was unsuccessful. Please try again."
+msgstr ""
+
+#: bbpress-functions.php:325
+msgid "Favorites are no longer active."
+msgstr ""
+
+#: bbpress-functions.php:330
+msgid "Please login to make this topic a favorite."
+msgstr ""
+
+#: bbpress-functions.php:347 bbpress-functions.php:415
+msgid "The topic could not be found."
+msgstr ""
+
+#: bbpress-functions.php:398
+msgid "Please login to subscribe to this topic."
+msgstr ""
+
+#: blogs/blogs-loop.php:90
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: blogs/create.php:26 blogs/index.php:26
+#: includes/functions/theme-functions.php:903
+msgid "Create a Site"
+msgstr ""
+
+#: blogs/create.php:26 blogs/index.php:26
+msgid "Site Directory"
+msgstr ""
+
+#: blogs/create.php:37
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: blogs/index.php:38
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: blogs/index.php:42
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: blogs/index.php:58 forums/index.php:63 groups/index.php:62
+#: groups/single/forum.php:36 members/index.php:62 members/single/blogs.php:19
+#: members/single/forums.php:18 members/single/friends.php:20
+#: members/single/groups.php:20
+msgid "Order By:"
+msgstr ""
+
+#: blogs/index.php:60 forums/index.php:65 groups/index.php:64
+#: groups/single/forum.php:38 members/index.php:64 members/single/blogs.php:21
+#: members/single/forums.php:20 members/single/friends.php:22
+#: members/single/groups.php:22
+msgid "Last Active"
+msgstr ""
+
+#: blogs/index.php:61 members/single/blogs.php:22
+msgid "Newest"
+msgstr ""
+
+#: blogs/index.php:62 groups/index.php:67 members/index.php:69
+#: members/single/blogs.php:23 members/single/friends.php:24
+#: members/single/groups.php:25
+msgid "Alphabetical"
+msgstr ""
+
+#: comments.php:8
+msgid "Comments are not available on this post."
+msgstr ""
+
+#: comments.php:25
+msgid "0 Comments "
+msgstr ""
+
+#: comments.php:25
+msgid "1 Comment "
+msgstr ""
+
+#: comments.php:25
+msgid "% Comments "
+msgstr ""
+
+#: comments.php:25
+msgid "on this Post"
+msgstr ""
+
+#: comments.php:75
+msgid "<span>%d</span> Trackbacks"
+msgstr ""
+
+#: comments.php:75
+msgid "<span>One</span> Trackback for this Post."
+msgstr ""
+
+#: comments.php:98 includes/functions/comments.php:166
+msgid "Leave a Comment"
+msgstr "ΑΦΗΣΤΕ ΕΝΑ ΣΧΟΛΙΟ"
+
+#: comments.php:99
+msgid "Leave a Reply"
+msgstr "Αφήστε μια απάντηση"
+
+#: comments.php:112
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι κλειστά."
+
+#: forums/forums-loop.php:54 groups/single/forum/topic.php:95
+msgid "Permanent link to this post"
+msgstr ""
+
+#. translators: "started by [poster] in [forum]"
+#: forums/forums-loop.php:61
+msgid "Started by %1$s"
+msgstr ""
+
+#. translators: "started by [poster] in [forum]"
+#: forums/forums-loop.php:72
+msgid "in %1$s"
+msgstr ""
+
+#: forums/forums-loop.php:122
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: forums/index.php:26
+msgid "Forums Directory"
+msgstr ""
+
+#: forums/index.php:26 groups/single/forum.php:19
+msgid "New Topic"
+msgstr ""
+
+#: forums/index.php:43
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: forums/index.php:47
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: forums/index.php:66 groups/single/forum.php:39 members/single/forums.php:21
+msgid "Most Posts"
+msgstr ""
+
+#: forums/index.php:67 groups/single/forum.php:40 members/single/forums.php:22
+msgid "Unreplied"
+msgstr ""
+
+#: forums/index.php:103
+msgid "Create New Topic:"
+msgstr ""
+
+#: forums/index.php:107 groups/single/forum/edit.php:47
+#: groups/single/forum.php:75 includes/widgets/widget-authors.php:100
+#: includes/widgets/widget-categories.php:105
+#: includes/widgets/widget-custom-banner.php:102
+#: includes/widgets/widget-latest-reviews.php:106
+#: includes/widgets/widget-menu.php:111
+#: includes/widgets/widget-most-commented.php:108
+#: includes/widgets/widget-recent-posts.php:99
+msgid "Title:"
+msgstr ""
+
+#: forums/index.php:110 groups/single/forum/edit.php:50
+#: groups/single/forum.php:78
+msgid "Content:"
+msgstr ""
+
+#: forums/index.php:113 groups/single/forum/edit.php:53
+#: groups/single/forum.php:81
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: forums/index.php:116
+msgid "Post In Group Forum:"
+msgstr ""
+
+#. translators: no option picked in select box
+#: forums/index.php:119
+msgid "----"
+msgstr ""
+
+#: forums/index.php:136 groups/single/forum.php:87
+msgid "Post Topic"
+msgstr ""
+
+#: forums/index.php:137 includes/functions/comments.php:168
+msgid "Cancel"
+msgstr ""
+
+#: forums/index.php:148
+msgid ""
+"You are not a member of any groups so you don't have any group forums you "
+"can post in. To start posting, first find a group that matches the topic "
+"subject you'd like to start. If this group does not exist, why not <a "
+"href='%s'>create a new group</a>? Once you have joined or created the group "
+"you can post your topic in that group's forum."
+msgstr ""
+
+#: framework/builder/builder-ajax.php:237
+msgid "Layout saved."
+msgstr ""
+
+#: framework/builder/builder-ajax.php:291
+msgid "1 Layout"
+msgid_plural "%s Layouts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/builder/builder-ajax.php:295
+msgid "Layout(s) deleted."
+msgstr ""
+
+#: framework/builder/builder-init.php:158
+#: framework/builder/builder-interface.php:42
+msgid "Layout Builder"
+msgstr ""
+
+#: framework/builder/builder-init.php:158
+msgid "Builder"
+msgstr ""
+
+#: framework/builder/builder-init.php:220
+msgid "Page Attributes"
+msgstr ""
+
+#: framework/builder/builder-init.php:280
+#: framework/builder/builder-interface.php:75
+#: framework/builder/builder-interface.php:77
+msgid "Edit Layout"
+msgstr ""
+
+#: framework/builder/builder-init.php:281
+msgid "Oops! You forgot to enter a layout name."
+msgstr ""
+
+#: framework/builder/builder-init.php:282
+msgid ""
+"Oops! The name you entered is either taken or too close to another name "
+"you've already used."
+msgstr ""
+
+#: framework/builder/builder-init.php:283
+msgid "Layout created!"
+msgstr ""
+
+#: framework/builder/builder-init.php:284
+msgid ""
+"Oops! You can only have one primary query element per layout. A paginated "
+"post list or paginated post grid would be examples of primary query elements."
+msgstr ""
+
+#: framework/builder/builder-init.php:285
+#: framework/builder/builder-interface.php:393
+msgid "Are you sure you want to delete this layout?"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Custom Layout"
+msgstr ""
+
+#: framework/builder/builder-init.php:319
+msgid "You haven't created any custom layouts in the Layout builder yet."
+msgstr ""
+
+#: framework/builder/builder-init.php:345
+msgid "(no parent)"
+msgstr ""
+
+#: framework/builder/builder-init.php:355
+#: framework/builder/builder-init.php:356
+msgid "Parent"
+msgstr ""
+
+#: framework/builder/builder-init.php:365
+msgid "Template"
+msgstr ""
+
+#: framework/builder/builder-init.php:366
+msgid "Page Template"
+msgstr ""
+
+#: framework/builder/builder-init.php:367
+msgid "Default Template"
+msgstr ""
+
+#: framework/builder/builder-init.php:377
+#: framework/builder/builder-init.php:378
+#: includes/builder/elements/blog-category-small.php:68
+#: includes/builder/elements/blog-review.php:58
+#: includes/builder/elements/blog.php:64
+#: includes/builder/elements/content-carousel-big.php:78
+#: includes/builder/elements/content-carousel.php:79
+#: includes/builder/elements/content-grid-slider.php:78
+#: includes/builder/elements/content-slider.php:86
+msgid "Order"
+msgstr ""
+
+#: framework/builder/builder-init.php:379
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: framework/builder/builder-interface.php:51
+msgid "Version: "
+msgstr ""
+
+#: framework/builder/builder-interface.php:54
+msgid "Editing: <span></span>"
+msgstr ""
+
+#: framework/builder/builder-interface.php:63
+#: framework/builder/builder-interface.php:65
+msgid "Manage Layouts"
+msgstr ""
+
+#: framework/builder/builder-interface.php:69
+#: framework/builder/builder-interface.php:71
+#: framework/builder/builder-options.php:146
+msgid "Add New Layout"
+msgstr ""
+
+#: framework/builder/builder-interface.php:161
+msgid "Layout Name"
+msgstr ""
+
+#: framework/builder/builder-interface.php:162
+msgid ""
+"Enter a user-friendly name for your layout. You will not be able to change "
+"this after you've created the layout."
+msgstr ""
+
+#: framework/builder/builder-interface.php:167
+msgid "Starting Point"
+msgstr ""
+
+#: framework/builder/builder-interface.php:168
+msgid ""
+"Select if you'd like to start building your layout from scratch or from a "
+"pre-built sample layout."
+msgstr ""
+
+#: framework/builder/builder-interface.php:249
+msgid "Are you sure you want to delete this element?"
+msgstr ""
+
+#: framework/builder/builder-interface.php:249
+msgid "Delete Module"
+msgstr ""
+
+#: framework/builder/builder-interface.php:276
+msgid "Layout Title"
+msgstr ""
+
+#: framework/builder/builder-interface.php:281
+msgid "Layout Slug"
+msgstr ""
+
+#: framework/builder/builder-interface.php:285
+msgid "Layout ID"
+msgstr ""
+
+#: framework/builder/builder-interface.php:319
+msgid "Update Layout"
+msgstr ""
+
+#: framework/builder/builder-interface.php:327
+msgid "Manage Modules"
+msgstr ""
+
+#: framework/builder/builder-interface.php:334
+msgid "Add New Module"
+msgstr ""
+
+#: framework/builder/builder-interface.php:341
+msgid "Featured Area Settings"
+msgstr ""
+
+#: framework/builder/builder-interface.php:344
+msgid "Wide"
+msgstr ""
+
+#: framework/builder/builder-interface.php:345
+msgid "Boxed"
+msgstr ""
+
+#: framework/builder/builder-interface.php:347
+msgid "Featured Area Layout"
+msgstr ""
+
+#: framework/builder/builder-interface.php:351
+msgid "Background color"
+msgstr ""
+
+#: framework/builder/builder-interface.php:354
+msgid "Background Image"
+msgstr ""
+
+#: framework/builder/builder-interface.php:356
+#: framework/slider/slider-admin.php:193 framework/slider/slider-admin.php:424
+#: groups/create.php:160 groups/single/admin.php:131
+#: members/single/profile/change-avatar.php:18
+msgid "Upload Image"
+msgstr ""
+
+#: framework/builder/builder-interface.php:376
+msgid "Content Area"
+msgstr ""
+
+#: framework/builder/builder-interface.php:486
+msgid ""
+"No layouts have been created yet. Click the Add New Layout tab to get "
+"started."
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:246
+msgid "No Repeat"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:247
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:248
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:249
+msgid "Repeat All"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:262
+msgid "Top Left"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:263
+msgid "Top Center"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:264
+msgid "Top Right"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:265
+msgid "Middle Left"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:266
+msgid "Middle Center"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:267
+msgid "Middle Right"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:268
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:269
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:270
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:283
+msgid "Scroll Normally"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:284
+msgid "Fixed in Place"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:358
+msgid "Normal"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:359
+msgid "Italic"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:360
+msgid "Bold"
+msgstr ""
+
+#: framework/builder/builder-options-sanitize.php:361
+msgid "Bold Italic"
+msgstr ""
+
+#: framework/builder/builder-options.php:168
+#: framework/builder/builder-options.php:203
+#: framework/builder/builder-options.php:237
+#: framework/metaboxes/inc/field.php:201
+msgid "&#8211;"
+msgstr ""
+
+#: framework/builder/builder-options.php:175
+#: framework/builder/builder-options.php:210
+#: framework/builder/builder-options.php:244
+#: framework/metaboxes/inc/field.php:184
+msgid "+"
+msgstr ""
+
+#: framework/builder/builder-options.php:308
+msgid "sample layout"
+msgstr ""
+
+#: framework/builder/builder-options.php:349
+#: framework/options/fields/background/field_background.php:302
+msgid "Upload"
+msgstr ""
+
+#: framework/builder/builder-options.php:407
+msgid "- Select Content Type -"
+msgstr ""
+
+#: framework/builder/builder-options.php:411
+#: includes/builder/elements/content.php:36
+msgid "External Page"
+msgstr ""
+
+#: framework/builder/builder-options.php:414
+#: includes/builder/elements/content.php:44
+msgid "Custom Content"
+msgstr ""
+
+#: framework/builder/builder-options.php:449
+#: includes/builder/elements/content.php:15
+msgid "No pages exist."
+msgstr ""
+
+#: framework/builder/builder-options.php:460
+msgid "You haven't created any pages."
+msgstr ""
+
+#: framework/builder/builder-options.php:491
+msgid "Select an external page to pull content from."
+msgstr ""
+
+#: framework/builder/builder-options.php:498
+msgid "You can use basic HTML here, and most shortcodes."
+msgstr ""
+
+#: framework/core/functions.php:251
+msgid "Theme Settings"
+msgstr ""
+
+#: framework/core/functions.php:254 framework/core/functions.php:275
+#: framework/options/options-init.php:47 framework/options/options-init.php:50
+msgid "Theme Options"
+msgstr ""
+
+#: framework/core/functions.php:265
+msgid "Template Builder"
+msgstr ""
+
+#: framework/core/functions.php:285 framework/slider/slider-init.php:13
+#: framework/slider/slider-init.php:24
+msgid "Sliders"
+msgstr ""
+
+#: framework/core/functions.php:643
+msgid "right now"
+msgstr ""
+
+#: framework/core/functions.php:645
+msgid " seconds ago"
+msgstr ""
+
+#: framework/core/functions.php:647
+msgid "about 1 minute ago"
+msgstr ""
+
+#: framework/core/functions.php:649
+msgid " minutes ago"
+msgstr ""
+
+#: framework/core/functions.php:651
+msgid "about 1 hour ago"
+msgstr ""
+
+#: framework/core/functions.php:653
+msgid " hours ago"
+msgstr ""
+
+#: framework/core/functions.php:655
+msgid "yesterday"
+msgstr ""
+
+#: framework/core/functions.php:657
+msgid " days ago"
+msgstr ""
+
+#: framework/core/functions.php:659
+msgid "over a year ago"
+msgstr ""
+
+#: framework/core/functions.php:694
+msgid "All"
+msgstr ""
+
+#: framework/core/functions.php:854
+msgid ""
+"%s: Widget class not found. Make sure this widget exists and the class name "
+"is correct"
+msgstr ""
+
+#: framework/core/functions.php:906
+msgid "1 second"
+msgstr ""
+
+#: framework/core/functions.php:910
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: min=minute
+#: framework/core/functions.php:919
+msgid "about %s min"
+msgid_plural "%s mins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/core/functions.php:927
+msgid "about %s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/core/functions.php:935
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/core/functions.php:943
+msgid "ago"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:198
+#: includes/functions/theme-setup.php:641
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:200
+#: includes/functions/theme-setup.php:643
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:201
+#: includes/functions/theme-setup.php:644
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:202
+#: includes/functions/theme-setup.php:645
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:203
+#: includes/functions/theme-setup.php:646
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:204
+#: includes/functions/theme-setup.php:647
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:205
+#: includes/functions/theme-setup.php:648
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:206
+#: includes/functions/theme-setup.php:649
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:207
+#: includes/functions/theme-setup.php:650
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:208
+#: includes/functions/theme-setup.php:651
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:209
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugin"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:210
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/extensions/plugin-activation.php:211
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:212
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:213
+#: framework/extensions/plugin-activation.php:2009
+#: includes/functions/theme-setup.php:654
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:214
+#: framework/extensions/plugin-activation.php:1695
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:215
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:216
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:564
+#: framework/extensions/plugin-activation.php:2226
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1201
+msgid "Private Repository"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1204
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1209
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1212
+msgid "Required"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1212
+msgid "Recommended"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1215
+msgid "Not Installed"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1217
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1219
+msgid "Not Updated"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1221
+msgid "Active"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1322
+#: framework/extensions/plugin-activation.php:1452
+msgid "Install"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1344
+#: framework/extensions/plugin-activation.php:1453
+#: registration/activate.php:47
+msgid "Activate"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1416
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1431
+msgid "Plugin"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1432
+msgid "Source"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1433
+#: includes/widgets/widget-buzz.php:154
+msgid "Type"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1434
+msgid "Status"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1564
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1673
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1992
+msgid "Install package not available."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1993
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1994
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1995
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1996
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:1997
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2008
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2122
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2123
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2123
+#: framework/extensions/plugin-activation.php:2132
+msgid "Show Details"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2123
+#: framework/extensions/plugin-activation.php:2132
+msgid "Hide Details"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2124
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2125
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2129
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2130
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2131
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2132
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2133
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/extensions/plugin-activation.php:2134
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/importer/parsers.php:42 framework/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: framework/importer/parsers.php:67 framework/importer/parsers.php:72
+#: framework/importer/parsers.php:262 framework/importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/importer/radium-importer.php:157
+msgid "Import Demo Data"
+msgstr ""
+
+#: framework/importer/radium-importer.php:208
+#: framework/metaboxes/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr ""
+
+#: framework/importer/radium-importer.php:361
+msgid ""
+"Theme Options Import file is not available or could not be read. You might "
+"want to try to set the file permission to chmod 755.<br/>If this doesn't "
+"work please use the theme options importer and import the txt file (should "
+"be located in your download .zip: Sample Content folder) manually"
+msgstr ""
+
+#: framework/importer/radium-importer.php:377
+msgid ""
+"Theme options import data could not be read. Please try a different file."
+msgstr ""
+
+#: framework/importer/radium-importer.php:445
+msgid ""
+"Widget Import file is not available or could not be read. You might want to "
+"try to set the file permission to chmod 755."
+msgstr ""
+
+#: framework/importer/radium-importer.php:479
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: framework/importer/radium-importer.php:520
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: framework/importer/radium-importer.php:542
+msgid "Site does not support widget"
+msgstr ""
+
+#: framework/importer/radium-importer.php:565
+msgid "Widget already exists"
+msgstr ""
+
+#: framework/importer/radium-importer.php:614
+msgid "Imported"
+msgstr ""
+
+#: framework/importer/radium-importer.php:617
+msgid "Imported to Inactive"
+msgstr ""
+
+#: framework/importer/radium-importer.php:624
+msgid "No Title"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:134
+#: framework/importer/wordpress-importer.php:143
+#: framework/importer/wordpress-importer.php:194
+#: framework/importer/wordpress-importer.php:198
+#: framework/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:199
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:215
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:240
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:269
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:374
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:425
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:465
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:511
+#: framework/importer/wordpress-importer.php:652
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:537
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:559
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:618
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:790
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:916
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:934
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:1040
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: framework/importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/metaboxes/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file-input.php:17
+#: framework/metaboxes/taxonomy-meta.php:145
+#: framework/metaboxes/taxonomy-meta.php:398
+msgid "Select File"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file-input.php:40
+#: includes/metaboxes/meta-post-category.php:40
+msgid "Select"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file-input.php:42
+#: framework/options/fields/background/field_background.php:309
+#: framework/options/fields/multi_text/field_multi_text.php:39
+#: framework/options/fields/multi_text/field_multi_text.php:46
+#: framework/options/fields/multi_text/field_multi_text.php:50
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:259
+msgid "Remove"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file.php:19
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file.php:20
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: framework/metaboxes/inc/fields/post.php:67
+#: framework/metaboxes/inc/fields/taxonomy.php:40
+msgid "Select a %s"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/repeater.php:29
+msgid "Minimum Limit of {min} rows reached"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/repeater.php:30
+msgid "Maximum Limit of {max} rows reached"
+msgstr ""
+
+#: framework/metaboxes/inc/meta-box.php:245
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: framework/metaboxes/taxonomy-meta.php:186
+#: framework/metaboxes/taxonomy-meta.php:425
+msgid "Select Image"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:112
+msgid "Transparent"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:129
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:145
+msgid "Background Clip"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:161
+msgid "Background Origin"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:176
+msgid "Background Size"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:191
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:211
+msgid "Background Position"
+msgstr ""
+
+#: framework/options/fields/background/field_background.php:265
+msgid "No media selected"
+msgstr ""
+
+#: framework/options/fields/color_gradient/field_color_gradient.php:35
+#: members/single/messages/messages-loop.php:32
+msgid "From:"
+msgstr ""
+
+#: framework/options/fields/color_gradient/field_color_gradient.php:38
+msgid " To:"
+msgstr ""
+
+#: framework/options/fields/dimensions/field_dimensions.php:164
+msgid "Width"
+msgstr ""
+
+#: framework/options/fields/dimensions/field_dimensions.php:181
+msgid "Height"
+msgstr ""
+
+#: framework/options/fields/dimensions/field_dimensions.php:193
+#: framework/options/fields/dimensions/field_dimensions.php:194
+msgid "Units"
+msgstr ""
+
+#: framework/options/fields/importer/field_importer.php:40
+msgid "Import dummy content"
+msgstr ""
+
+#: framework/options/fields/multi_text/field_multi_text.php:54
+msgid "Add More"
+msgstr ""
+
+#: framework/options/fields/multi_typography/field_multi_typography.php:78
+msgid "Add New Field"
+msgstr ""
+
+#: framework/options/fields/multi_typography/field_multi_typography.php:111
+msgid "Logo Typography"
+msgstr ""
+
+#: framework/options/fields/multi_typography/field_multi_typography.php:112
+msgid ""
+"Add a new selector group (comma delimited) to generate a font style option "
+"below. You must save the options first."
+msgstr ""
+
+#: framework/options/fields/multi_typography/field_multi_typography.php:113
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:388
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:442
+msgid "Google Webfonts"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:624
+msgid "Choose what to parameter to customize"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:674
+#: framework/options/fields/typography/field_typography.php:676
+msgid "Custom Selectors"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:737
+msgid "Font Family"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:738
+msgid "Font family"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:769
+#: framework/options/fields/typography/field_typography.php:771
+msgid "Backup Font Family"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:791
+#: framework/options/fields/typography/field_typography.php:798
+msgid "Font style"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:792
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:798
+#: framework/slider/slider-admin.php:166 framework/slider/slider-admin.php:397
+#: includes/metaboxes/meta-post-category.php:52
+msgid "Style"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:828
+msgid "Font subsets"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:829
+msgid "Font Subsets"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:830
+msgid "Subsets"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:830
+msgid "Font script"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:853
+#: framework/options/fields/typography/field_typography.php:854
+#: framework/options/fields/typography/field_typography.php:855
+msgid "Text Align"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:876
+#: framework/options/fields/typography/field_typography.php:877
+#: framework/options/fields/typography/field_typography.php:878
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:899
+#: framework/options/fields/typography/field_typography.php:900
+#: framework/options/fields/typography/field_typography.php:901
+#: framework/options/fields/typography/field_typography.php:922
+msgid "Text Transform"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:923
+#: framework/options/fields/typography/field_typography.php:924
+msgid "Text Shadow"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:944
+msgid "No Shadow"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:944
+msgid "Style #"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:968
+msgid "Font Color"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:970
+msgid "Font color"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:983
+msgid "Font Size"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:992
+msgid "Line Height"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:1001
+msgid "Word Spacing"
+msgstr ""
+
+#: framework/options/fields/typography/field_typography.php:1010
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/options/fields/upload/field_upload.php:41
+msgid "Browse"
+msgstr ""
+
+#: framework/options/fields/upload/field_upload.php:42
+msgid "Remove Upload"
+msgstr ""
+
+#: framework/options/options-init.php:127
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: framework/options/options-init.php:128
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: framework/options/options-init.php:129
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: framework/options/options-init.php:130
+msgid "<strong>Framework Version:</strong> "
+msgstr ""
+
+#: framework/options/options-init.php:138
+msgid "Theme Information"
+msgstr ""
+
+#: framework/options/options-init.php:145
+msgid "Documentation"
+msgstr ""
+
+#: framework/options/options.php:107 framework/options/options.php:109
+msgid "Options"
+msgstr ""
+
+#: framework/options/options.php:372 framework/options/options.php:373
+#: framework/options/options.php:1102
+msgid "Import / Export / Reset"
+msgstr ""
+
+#: framework/options/options.php:398 framework/options/options.php:399
+#: framework/options/options.php:1118 framework/options/options.php:1213
+msgid "Dev Mode Info"
+msgstr ""
+
+#: framework/options/options.php:558
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: framework/options/options.php:559
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: framework/options/options.php:560
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: framework/options/options.php:561
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: framework/options/options.php:562
+msgid "Please Wait"
+msgstr ""
+
+#: framework/options/options.php:1068
+msgid "<strong>Settings Imported!</strong>"
+msgstr ""
+
+#: framework/options/options.php:1070
+msgid "<strong>Settings Saved!</strong>"
+msgstr ""
+
+#: framework/options/options.php:1074
+msgid "<strong>Settings have changed!, you should save them!</strong>"
+msgstr ""
+
+#: framework/options/options.php:1075
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr ""
+
+#: framework/options/options.php:1077
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr ""
+
+#: framework/options/options.php:1139
+msgid "Import / Export & Reset Options"
+msgstr ""
+
+#: framework/options/options.php:1141
+msgid ""
+"Copy & download your current options settings, import a new set, or do a "
+"full reset."
+msgstr ""
+
+#: framework/options/options.php:1146
+msgid "Import Theme Options"
+msgstr ""
+
+#: framework/options/options.php:1148
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup. Input the URL to another sites options set and hit Import to "
+"load the options from that site."
+msgstr ""
+
+#: framework/options/options.php:1151
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"extreme caution."
+msgstr ""
+
+#: framework/options/options.php:1163
+msgid "Import Options"
+msgstr ""
+
+#: framework/options/options.php:1167
+msgid "Export Theme Options"
+msgstr ""
+
+#: framework/options/options.php:1170
+msgid ""
+"Here you can copy/download your themes current option settings. Keep this "
+"safe as you can use it as a backup should anything go wrong. Or you can use "
+"it to restore your settings on this site (or any other site). You also have "
+"the handy option to copy the link to yours sites settings. Which you can "
+"then use to duplicate on another site"
+msgstr ""
+
+#: framework/options/options.php:1189
+msgid "Theme Options Reset"
+msgstr ""
+
+#: framework/options/options.php:1192
+msgid ""
+"Conduct a full reset of your current theme options  and return all settings "
+"to their default values.  "
+msgstr ""
+
+#: framework/options/options.php:1195
+msgid "WARNING! This will definitely reset all your theme options settings."
+msgstr ""
+
+#: framework/options/options.php:1197
+msgid "Reset All Current Options"
+msgstr ""
+
+#: framework/options/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: framework/options/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: framework/options/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: framework/options/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: framework/options/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: framework/options/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: framework/options/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: framework/radium.php:122 framework/radium.php:129
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: framework/sidebars/classes/class.widgetclass.php:53
+msgid "Widget Class: "
+msgstr ""
+
+#: framework/skins/customizer.php:250 framework/skins/customizer.php:284
+#: framework/skins/customizer.php:326 includes/functions/theme-options.php:582
+msgid "Default"
+msgstr ""
+
+#: framework/slider/slider-admin.php:68
+msgid "Manage Slides"
+msgstr ""
+
+#: framework/slider/slider-admin.php:155 framework/slider/slider-admin.php:386
+msgid "Click to toggle"
+msgstr ""
+
+#: framework/slider/slider-admin.php:157 framework/slider/slider-admin.php:388
+msgid "Slide"
+msgstr ""
+
+#: framework/slider/slider-admin.php:164 framework/slider/slider-admin.php:395
+msgid "Content"
+msgstr ""
+
+#: framework/slider/slider-admin.php:165 framework/slider/slider-admin.php:396
+msgid "Navigation"
+msgstr ""
+
+#: framework/slider/slider-admin.php:174 framework/slider/slider-admin.php:405
+msgid "Slide Title"
+msgstr ""
+
+#: framework/slider/slider-admin.php:179 framework/slider/slider-admin.php:410
+msgid "Enter a Short slide title here"
+msgstr ""
+
+#: framework/slider/slider-admin.php:190 framework/slider/slider-admin.php:421
+#: framework/slider/slider-init.php:392
+msgid "Image URL"
+msgstr ""
+
+#: framework/slider/slider-admin.php:199 framework/slider/slider-admin.php:430
+msgid "Link"
+msgstr ""
+
+#: framework/slider/slider-admin.php:204 framework/slider/slider-admin.php:435
+msgid "(optional) Any valid URL is allowed"
+msgstr ""
+
+#: framework/slider/slider-admin.php:221 framework/slider/slider-admin.php:452
+msgid "Slide Content"
+msgstr ""
+
+#: framework/slider/slider-admin.php:226 framework/slider/slider-admin.php:457
+msgid "(optional) HTML tags and WordPress shortcodes are allowed."
+msgstr ""
+
+#: framework/slider/slider-admin.php:237 framework/slider/slider-admin.php:468
+msgid "Slide Video Embed"
+msgstr ""
+
+#: framework/slider/slider-admin.php:242 framework/slider/slider-admin.php:473
+msgid "Paste video embed code here. (Recommended size 940px by 356px)"
+msgstr ""
+
+#: framework/slider/slider-admin.php:261 framework/slider/slider-admin.php:299
+#: framework/slider/slider-admin.php:492 framework/slider/slider-admin.php:530
+msgid "Background Image URL"
+msgstr ""
+
+#: framework/slider/slider-admin.php:264 framework/slider/slider-admin.php:495
+msgid "Upload Nav Icon"
+msgstr ""
+
+#: framework/slider/slider-admin.php:275 framework/slider/slider-admin.php:506
+msgid "Slide Navigation Tab Text"
+msgstr ""
+
+#: framework/slider/slider-admin.php:280 framework/slider/slider-admin.php:511
+msgid "Enter a Short slide description here"
+msgstr ""
+
+#: framework/slider/slider-admin.php:302 framework/slider/slider-admin.php:533
+msgid "Upload BG Image"
+msgstr ""
+
+#: framework/slider/slider-admin.php:309 framework/slider/slider-admin.php:540
+#: includes/builder/builder-config.php:126
+msgid "Background Image Settings"
+msgstr ""
+
+#: framework/slider/slider-admin.php:313 framework/slider/slider-admin.php:544
+msgid "Repeat"
+msgstr ""
+
+#: framework/slider/slider-admin.php:314 framework/slider/slider-admin.php:545
+#: includes/builder/elements/content-slider.php:120
+#: includes/functions/theme-options.php:327
+#: includes/metaboxes/meta-post-category.php:44
+#: includes/metaboxes/meta-post-category.php:130
+msgid "Left"
+msgstr ""
+
+#: framework/slider/slider-admin.php:315 framework/slider/slider-admin.php:546
+#: includes/builder/elements/content-slider.php:121
+#: includes/metaboxes/meta-post-category.php:45
+#: includes/metaboxes/meta-post-category.php:131
+msgid "Right"
+msgstr ""
+
+#: framework/slider/slider-admin.php:316 framework/slider/slider-admin.php:547
+msgid "Center"
+msgstr ""
+
+#: framework/slider/slider-admin.php:317 framework/slider/slider-admin.php:548
+#: includes/builder/builder-config.php:106 includes/metaboxes/meta-post.php:57
+msgid "Fullwidth"
+msgstr ""
+
+#: framework/slider/slider-admin.php:324 framework/slider/slider-admin.php:555
+#: includes/builder/builder-config.php:136
+#: includes/functions/customizer-options.php:29
+#: includes/functions/customizer-options.php:160
+msgid "Background Color"
+msgstr ""
+
+#: framework/slider/slider-admin.php:345 framework/slider/slider-admin.php:576
+msgid "Remove Slide"
+msgstr ""
+
+#: framework/slider/slider-admin.php:588
+msgid "+ Add New Slide"
+msgstr ""
+
+#: framework/slider/slider-init.php:14
+#: framework/slider/slider-integrate.php:38
+msgid "Slider"
+msgstr ""
+
+#: framework/slider/slider-init.php:15
+msgid "Add New"
+msgstr ""
+
+#: framework/slider/slider-init.php:16
+msgid "Add New Slider"
+msgstr ""
+
+#: framework/slider/slider-init.php:17
+msgid "Edit Slider"
+msgstr ""
+
+#: framework/slider/slider-init.php:18
+msgid "New Slider"
+msgstr ""
+
+#: framework/slider/slider-init.php:19
+msgid "View Slider"
+msgstr ""
+
+#: framework/slider/slider-init.php:20
+msgid "Search Sliders"
+msgstr ""
+
+#: framework/slider/slider-init.php:21
+msgid "No sliders found"
+msgstr ""
+
+#: framework/slider/slider-init.php:22
+msgid "No sliders found in Trash"
+msgstr ""
+
+#: framework/slider/slider-init.php:23
+msgid "Parent Slider:"
+msgstr ""
+
+#: framework/slider/slider-init.php:58
+msgid "Slider Type"
+msgstr ""
+
+#: framework/slider/slider-init.php:59
+msgid "Slide Count"
+msgstr ""
+
+#: framework/slider/slider-init.php:60
+msgid "Shortcode"
+msgstr ""
+
+#: framework/slider/slider-init.php:124
+msgid "Enter slider name here"
+msgstr ""
+
+#: framework/slider/slider-init.php:230
+msgid "Add a slider"
+msgstr ""
+
+#: framework/slider/slider-init.php:282
+msgid "Choose Your Slider"
+msgstr ""
+
+#: framework/slider/slider-init.php:284
+msgid ""
+"Select a slider below from the list of available sliders and then click "
+"'Insert' to place the slider into the editor."
+msgstr ""
+
+#: framework/slider/slider-init.php:292
+msgid "Cancel Slider Insertion"
+msgstr ""
+
+#: framework/slider/slider-init.php:402
+msgid "Insert into Slider"
+msgstr ""
+
+#: framework/slider/slider-integrate.php:17
+#: includes/extensions/contact-7.php:19
+#: includes/extensions/revolution-slider.php:24
+msgid "You haven't created any slider yet."
+msgstr ""
+
+#: framework/slider/slider-integrate.php:23
+#: includes/extensions/revolution-slider.php:31
+msgid "Select Slider"
+msgstr ""
+
+#: framework/slider/slider-integrate.php:24
+msgid "Choose the slider you'd like to show."
+msgstr ""
+
+#: framework/slider/slider-integrate.php:68
+#: includes/extensions/contact-7.php:67
+msgid "Oops! You have not selected a slider in your layout."
+msgstr ""
+
+#: groups/create.php:25 groups/index.php:28
+#: includes/functions/theme-functions.php:899
+msgid "Create a Group"
+msgstr ""
+
+#: groups/create.php:25 groups/index.php:28
+msgid "Groups Directory"
+msgstr ""
+
+#: groups/create.php:46 groups/single/admin.php:16
+msgid "Group Name (required)"
+msgstr ""
+
+#: groups/create.php:49 groups/single/admin.php:19
+msgid "Group Description (required)"
+msgstr ""
+
+#: groups/create.php:65 groups/single/admin.php:56
+msgid "Privacy Options"
+msgstr ""
+
+#: groups/create.php:69 groups/single/admin.php:61
+msgid "This is a public group"
+msgstr ""
+
+#: groups/create.php:71 groups/single/admin.php:63
+msgid "Any site member can join this group."
+msgstr ""
+
+#: groups/create.php:72 groups/create.php:81 groups/single/admin.php:64
+#: groups/single/admin.php:74
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: groups/create.php:73 groups/single/admin.php:65
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: groups/create.php:78 groups/single/admin.php:71
+msgid "This is a private group"
+msgstr ""
+
+#: groups/create.php:80 groups/single/admin.php:73
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: groups/create.php:82 groups/create.php:91 groups/single/admin.php:75
+#: groups/single/admin.php:85
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: groups/create.php:87 groups/single/admin.php:81
+msgid "This is a hidden group"
+msgstr ""
+
+#: groups/create.php:89 groups/single/admin.php:83
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: groups/create.php:90 groups/single/admin.php:84
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: groups/create.php:96 groups/single/admin.php:92
+msgid "Group Invitations"
+msgstr ""
+
+#: groups/create.php:98 groups/single/admin.php:94
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: groups/create.php:103 groups/single/admin.php:99
+msgid "All group members"
+msgstr ""
+
+#: groups/create.php:108 groups/single/admin.php:104
+msgid "Group admins and mods only"
+msgstr ""
+
+#: groups/create.php:113 groups/single/admin.php:109
+msgid "Group admins only"
+msgstr ""
+
+#: groups/create.php:119
+msgid "Group Forums"
+msgstr ""
+
+#: groups/create.php:123
+msgid "Should this group have a forum?"
+msgstr ""
+
+#: groups/create.php:126 groups/single/admin.php:47
+msgid "Enable discussion forum"
+msgstr ""
+
+#: groups/create.php:130
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: groups/create.php:156 groups/single/admin.php:127
+msgid ""
+"Upload an image to use as an avatar for this group. The image will be shown "
+"on the main group page, and in search results."
+msgstr ""
+
+#: groups/create.php:164
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: groups/create.php:171
+msgid "Crop Group Avatar"
+msgstr ""
+
+#: groups/create.php:173 groups/single/admin.php:151
+#: members/single/profile/change-avatar.php:33
+msgid "Avatar to crop"
+msgstr ""
+
+#: groups/create.php:176 groups/single/admin.php:154
+#: members/single/profile/change-avatar.php:36
+msgid "Avatar preview"
+msgstr ""
+
+#: groups/create.php:179 groups/single/admin.php:157
+#: members/single/profile/change-avatar.php:39
+msgid "Crop Image"
+msgstr ""
+
+#: groups/create.php:218 groups/single/send-invites.php:22
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: groups/create.php:236 groups/single/send-invites.php:42
+msgid "Remove Invite"
+msgstr ""
+
+#: groups/create.php:253 groups/single/send-invites.php:73
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: groups/create.php:275
+msgid "Back to Previous Step"
+msgstr ""
+
+#: groups/create.php:282
+msgid "Next Step"
+msgstr ""
+
+#: groups/create.php:289
+msgid "Create Group and Continue"
+msgstr ""
+
+#: groups/create.php:296
+msgid "Finish"
+msgstr ""
+
+#: groups/groups-loop.php:47 groups/single/group-header.php:42
+msgid "active %s"
+msgstr ""
+
+#: groups/groups-loop.php:95
+msgid "There were no groups found."
+msgstr ""
+
+#: groups/index.php:42
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: groups/index.php:65 members/single/groups.php:23
+msgid "Most Members"
+msgstr ""
+
+#: groups/index.php:66 members/single/groups.php:24
+msgid "Newly Created"
+msgstr ""
+
+#: groups/single/admin.php:26
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: groups/single/admin.php:137
+msgid ""
+"If you'd like to remove the existing avatar but not upload a new one, please "
+"use the delete avatar button."
+msgstr ""
+
+#: groups/single/admin.php:139 members/single/profile/change-avatar.php:24
+msgid "Delete Avatar"
+msgstr ""
+
+#: groups/single/admin.php:149
+msgid "Crop Avatar"
+msgstr ""
+
+#: groups/single/admin.php:177
+msgid "Administrators"
+msgstr ""
+
+#: groups/single/admin.php:185 groups/single/admin.php:212
+msgid "Profile picture of %s"
+msgstr ""
+
+#: groups/single/admin.php:190 groups/single/admin.php:217
+msgid "Demote to Member"
+msgstr ""
+
+#: groups/single/admin.php:205
+msgid "Moderators"
+msgstr ""
+
+#: groups/single/admin.php:216 groups/single/admin.php:272
+msgid "Promote to Admin"
+msgstr ""
+
+#: groups/single/admin.php:231 includes/widgets/widget-social-fans.php:303
+msgid "Members"
+msgstr ""
+
+#: groups/single/admin.php:260
+msgid "(banned)"
+msgstr ""
+
+#: groups/single/admin.php:266
+msgid "Unban this member"
+msgstr ""
+
+#: groups/single/admin.php:266
+msgid "Remove Ban"
+msgstr ""
+
+#: groups/single/admin.php:270
+msgid "Kick and ban this member"
+msgstr ""
+
+#: groups/single/admin.php:270
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: groups/single/admin.php:271
+msgid "Promote to Mod"
+msgstr ""
+
+#: groups/single/admin.php:276
+msgid "Remove this member"
+msgstr ""
+
+#: groups/single/admin.php:276
+msgid "Remove from group"
+msgstr ""
+
+#: groups/single/admin.php:290 groups/single/members.php:87
+msgid "This group has no members."
+msgstr ""
+
+#: groups/single/admin.php:320 members/single/friends/requests.php:37
+#: members/single/groups/invites.php:23
+msgid "Accept"
+msgstr ""
+
+#: groups/single/admin.php:322 members/single/friends/requests.php:38
+#: members/single/groups/invites.php:24
+msgid "Reject"
+msgstr ""
+
+#: groups/single/admin.php:335
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: groups/single/admin.php:352
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: groups/single/admin.php:355
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: groups/single/admin.php:360
+msgid "Delete Group"
+msgstr ""
+
+#: groups/single/forum/edit.php:16 groups/single/forum/topic.php:17
+#: groups/single/forum.php:27
+msgid "Forum Directory"
+msgstr ""
+
+#: groups/single/forum/edit.php:25
+msgid "Edit:"
+msgstr ""
+
+#: groups/single/forum/edit.php:87
+msgid "This topic does not exist."
+msgstr ""
+
+#: groups/single/forum/topic.php:9
+msgid "New Reply"
+msgstr ""
+
+#: groups/single/forum/topic.php:32
+msgid "Topic tags:"
+msgstr ""
+
+#: groups/single/forum/topic.php:81
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: groups/single/forum/topic.php:119
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: groups/single/forum/topic.php:134
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: groups/single/forum/topic.php:139
+msgid "Add a reply:"
+msgstr ""
+
+#: groups/single/forum/topic.php:144
+msgid "Post Reply"
+msgstr ""
+
+#: groups/single/forum/topic.php:155
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#: groups/single/forum.php:69
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: groups/single/forum.php:73
+msgid "Post a New Topic:"
+msgstr ""
+
+#: groups/single/group-header.php:11
+msgid "Group Admins"
+msgstr ""
+
+#: groups/single/group-header.php:20
+msgid "Group Mods"
+msgstr ""
+
+#: groups/single/request-membership.php:4
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: groups/single/request-membership.php:7
+msgid "Comments (optional)"
+msgstr ""
+
+#: groups/single/request-membership.php:12
+msgid "Send Request"
+msgstr ""
+
+#: groups/single/send-invites.php:60
+msgid "Send Invites"
+msgstr ""
+
+#: includes/builder/builder-config.php:95
+msgid "The styling of first item will be used to configure the row."
+msgstr ""
+
+#: includes/builder/builder-config.php:101
+msgid "Choose row layout"
+msgstr ""
+
+#: includes/builder/builder-config.php:102
+msgid "This applies to fullwidth elements"
+msgstr ""
+
+#: includes/builder/builder-config.php:105
+msgid "Box Content In"
+msgstr ""
+
+#: includes/builder/builder-config.php:111
+msgid "Classs(es)"
+msgstr ""
+
+#: includes/builder/builder-config.php:112
+msgid "Space separated classes. These can be used for additional styling."
+msgstr ""
+
+#: includes/builder/builder-config.php:118
+msgid "Background Image:"
+msgstr ""
+
+#: includes/builder/builder-config.php:119
+msgid "Full image url"
+msgstr ""
+
+#: includes/builder/builder-config.php:130
+msgid "repeat"
+msgstr ""
+
+#: includes/builder/builder-config.php:131
+msgid "no repeat"
+msgstr ""
+
+#: includes/builder/builder-config.php:132
+msgid "fullwidth"
+msgstr ""
+
+#: includes/builder/builder-config.php:137
+msgid ""
+"Use color name, color hex value or rgba value eg #fefefe, blue or rgba(255, "
+"255, 255, 1)"
+msgstr ""
+
+#: includes/builder/builder-config.php:143
+msgid "Top Padding"
+msgstr ""
+
+#: includes/builder/builder-config.php:144
+#: includes/builder/builder-config.php:151
+#: includes/builder/builder-config.php:158
+#: includes/builder/builder-config.php:165
+msgid "In pixel eg 20px"
+msgstr ""
+
+#: includes/builder/builder-config.php:150
+msgid "Bottom Padding"
+msgstr ""
+
+#: includes/builder/builder-config.php:157
+msgid "Top Margin"
+msgstr ""
+
+#: includes/builder/builder-config.php:164
+msgid "Bottom Margin"
+msgstr ""
+
+#: includes/builder/builder-functions.php:189
+msgid "No Layout found for this page."
+msgstr ""
+
+#: includes/builder/elements/blog-category-carousel.php:14
+#: includes/builder/elements/blog-category-small.php:11
+#: includes/builder/elements/blog-latest.php:11
+#: includes/builder/elements/blog-review.php:11
+#: includes/builder/elements/blog.php:11
+#: includes/builder/elements/content-carousel-big.php:10
+#: includes/builder/elements/content-carousel.php:10
+#: includes/builder/elements/content-grid-slider.php:10
+#: includes/builder/elements/content-slider.php:10
+msgid "All Categories"
+msgstr ""
+
+#: includes/builder/elements/blog-category-carousel.php:28
+#: includes/builder/elements/blog-category-small.php:25
+#: includes/builder/elements/blog-latest.php:25
+#: includes/builder/elements/blog-review.php:25
+msgid "Category Title"
+msgstr ""
+
+#: includes/builder/elements/blog-category-carousel.php:31
+#: includes/builder/elements/blog-review.php:28
+msgid "review News"
+msgstr ""
+
+#: includes/builder/elements/blog-category-carousel.php:36
+#: includes/builder/elements/blog-category-small.php:47
+#: includes/builder/elements/blog-latest.php:59
+#: includes/builder/elements/blog-review.php:38
+#: includes/builder/elements/blog.php:44
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/builder/elements/blog-category-carousel.php:37
+#: includes/builder/elements/blog-category-small.php:48
+#: includes/builder/elements/blog-review.php:39
+msgid ""
+"Enter in the <strong>total number</strong> of posts you'd like to show. You "
+"can enter <em>-1</em> if you'd like to show all posts from the categories "
+"you've selected."
+msgstr ""
+
+#: includes/builder/elements/blog-category-carousel.php:46
+#: includes/builder/elements/blog-category-carousel.php:49
+msgid "Blog Category Carousel"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small-element.php:49
+#: includes/builder/elements/blog-element.php:29
+#: includes/builder/elements/blog-latest-element.php:19
+#: includes/builder/elements/blog.php:24
+#: includes/builder/elements/content-carousel-big.php:24
+#: includes/builder/elements/content-carousel.php:25
+#: includes/builder/elements/content-grid-slider-element.php:21
+#: includes/builder/elements/content-grid-slider.php:24
+#: includes/builder/elements/content-slider-element.php:17
+#: includes/builder/elements/content-slider.php:34
+#: woocommerce/woocommerce-integrate.php:25
+msgid "Title"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small-element.php:102
+#: includes/builder/elements/blog-latest-element.php:140
+#: includes/builder/elements/blog-latest-element.php:277
+#: includes/builder/elements/blog-latest-element.php:420
+#: includes/builder/elements/content-slider-element.php:200
+#: includes/extensions/recent-posts.php:108
+#: includes/functions/theme-ajax.php:472 includes/functions/theme-ajax.php:500
+#: includes/functions/theme-ajax.php:516
+#: includes/post-formats/content-list-big.php:28
+#: includes/post-formats/content-list.php:34
+#: includes/post-formats/content.php:63 index.php:264 index.php:292
+#: index.php:308 page-templates/page-archive.php:218
+#: page-templates/page-archive.php:246 page-templates/page-archive.php:262
+#: search.php:212 search.php:240 search.php:256
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small-element.php:120
+#: includes/builder/elements/blog-latest-element.php:158
+#: includes/builder/elements/blog-latest-element.php:295
+#: includes/builder/elements/blog-latest-element.php:438
+#: includes/content/content-archive.php:22
+#: includes/content/content-archive.php:45
+#: includes/content/content-archive.php:76
+#: includes/functions/theme-functions.php:1051
+#: includes/functions/theme-parts-general.php:569
+#: includes/post-formats/content-audio.php:21
+#: includes/post-formats/content-gallery.php:21
+#: includes/post-formats/content-list-big.php:58
+#: includes/post-formats/content-list-nothumb.php:17
+#: includes/post-formats/content-list.php:52
+#: includes/post-formats/content-video.php:15
+#: includes/post-formats/content.php:92
+#: includes/widgets/widget-categories.php:64
+msgid "Permalink to %s"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:38
+#: includes/builder/elements/blog-latest.php:50
+#: includes/builder/elements/blog.php:36
+#: includes/builder/elements/content-carousel-big.php:49
+#: includes/builder/elements/content-carousel.php:50
+#: includes/builder/elements/content-grid-slider.php:44
+#: includes/builder/elements/content-slider.php:57
+#: includes/widgets/widget-categories.php:90
+msgid "Categories"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:39
+#: includes/builder/elements/blog-latest.php:51
+#: includes/builder/elements/blog.php:37
+#: includes/builder/elements/content-carousel-big.php:50
+#: includes/builder/elements/content-carousel.php:51
+#: includes/builder/elements/content-grid-slider.php:45
+#: includes/builder/elements/content-slider.php:58
+msgid ""
+"Select the categories you'd like to pull posts from. Note that selecting "
+"\"All Categories\" will override any other selections."
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:55
+#: includes/builder/elements/blog-review.php:45
+#: includes/builder/elements/blog.php:51
+#: includes/builder/elements/content-carousel-big.php:65
+#: includes/builder/elements/content-carousel.php:66
+#: includes/builder/elements/content-grid-slider.php:65
+#: includes/builder/elements/content-slider.php:73
+msgid "Order By"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:56
+#: includes/builder/elements/blog-review.php:46
+#: includes/builder/elements/blog.php:52
+#: includes/builder/elements/content-carousel-big.php:66
+#: includes/builder/elements/content-carousel.php:67
+#: includes/builder/elements/content-grid-slider.php:66
+#: includes/builder/elements/content-slider.php:74
+msgid "Select what attribute you'd like the posts ordered by."
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:60
+#: includes/builder/elements/blog-review.php:50
+#: includes/builder/elements/blog.php:56
+#: includes/builder/elements/content-carousel-big.php:70
+#: includes/builder/elements/content-carousel.php:71
+#: includes/builder/elements/content-grid-slider.php:70
+#: includes/builder/elements/content-slider.php:78
+msgid "Publish Date"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:61
+#: includes/builder/elements/blog-review.php:51
+#: includes/builder/elements/blog.php:57
+#: includes/builder/elements/content-carousel-big.php:71
+#: includes/builder/elements/content-carousel.php:72
+#: includes/builder/elements/content-grid-slider.php:71
+#: includes/builder/elements/content-slider.php:79
+msgid "Post Title"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:62
+#: includes/builder/elements/blog-review.php:52
+#: includes/builder/elements/blog.php:58
+#: includes/builder/elements/content-carousel-big.php:72
+#: includes/builder/elements/content-carousel.php:73
+#: includes/builder/elements/content-grid-slider.php:72
+#: includes/builder/elements/content-slider.php:80
+msgid "Number of Comments"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:63
+#: includes/builder/elements/blog-review.php:53
+#: includes/builder/elements/blog.php:59
+#: includes/builder/elements/content-carousel-big.php:73
+#: includes/builder/elements/content-carousel.php:74
+#: includes/builder/elements/content-grid-slider.php:73
+#: includes/builder/elements/content-slider.php:81
+#: includes/functions/theme-options.php:260
+#: includes/functions/theme-parts-general.php:296
+msgid "Random"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:69
+#: includes/builder/elements/blog-review.php:59
+#: includes/builder/elements/blog.php:65
+#: includes/builder/elements/content-carousel-big.php:79
+#: includes/builder/elements/content-carousel.php:80
+#: includes/builder/elements/content-grid-slider.php:79
+#: includes/builder/elements/content-slider.php:87
+msgid ""
+"Select the order in which you'd like the posts displayed based on the "
+"previous orderby parameter.<br><br><em>Note that a traditional WordPress "
+"setup would have posts ordered by <strong>Publish Date</strong> and be "
+"ordered <strong>Descending</strong>.</em>"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:73
+#: includes/builder/elements/blog-review.php:63
+#: includes/builder/elements/blog.php:69
+#: includes/builder/elements/content-carousel-big.php:83
+#: includes/builder/elements/content-carousel.php:84
+#: includes/builder/elements/content-grid-slider.php:83
+#: includes/builder/elements/content-slider.php:91
+msgid "Descending (highest to lowest)"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:74
+#: includes/builder/elements/blog-review.php:64
+#: includes/builder/elements/blog.php:70
+#: includes/builder/elements/content-carousel-big.php:84
+#: includes/builder/elements/content-carousel.php:85
+#: includes/builder/elements/content-grid-slider.php:84
+#: includes/builder/elements/content-slider.php:92
+msgid "Ascending (lowest to highest)"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:79
+#: includes/builder/elements/blog-review.php:69
+#: includes/builder/elements/content-carousel-big.php:89
+#: includes/builder/elements/content-carousel.php:90
+#: includes/builder/elements/content-grid-slider.php:89
+#: includes/builder/elements/content-slider.php:97
+msgid "Offset"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:80
+#: includes/builder/elements/blog-review.php:70
+#: includes/builder/elements/content-carousel-big.php:90
+#: includes/builder/elements/content-carousel.php:91
+#: includes/builder/elements/content-grid-slider.php:90
+#: includes/builder/elements/content-slider.php:98
+msgid ""
+"Enter the number of posts you'd like to offset the query by. In most cases, "
+"you will just leave this at <em>0</em>. Utilizing this option could be "
+"useful, for example, if you wanted to have the first post in an element "
+"above this one, and then you could offset this set by <em>1</em> so the "
+"posts start after that post in the previous element. If that makes no sense, "
+"just ignore this option and leave it at <em>0</em>!"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:86
+#: includes/builder/elements/blog-review.php:76
+#: includes/builder/elements/blog.php:75
+#: includes/builder/elements/content-carousel-big.php:96
+#: includes/builder/elements/content-carousel.php:97
+#: includes/builder/elements/content-grid-slider.php:96
+#: includes/builder/elements/content-slider.php:104
+msgid "Exclude"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:87
+#: includes/builder/elements/blog-review.php:77
+#: includes/builder/elements/blog.php:76
+#: includes/builder/elements/content-carousel-big.php:97
+#: includes/builder/elements/content-carousel.php:98
+#: includes/builder/elements/content-grid-slider.php:97
+#: includes/builder/elements/content-slider.php:105
+msgid ""
+"Enter the ids of posts you would like to exclude from this query. Comma "
+"Separated eg: 1, 2, 3, 4"
+msgstr ""
+
+#: includes/builder/elements/blog-category-small.php:100
+#: includes/builder/elements/blog-category-small.php:103
+msgid "Blog Category Small"
+msgstr ""
+
+#: includes/builder/elements/blog-latest-element.php:60
+#: includes/builder/elements/blog-latest.php:37
+msgid "Latest"
+msgstr "ΤΕΛΕΥΤΑΙΑ"
+
+#: includes/builder/elements/blog-latest-element.php:61
+#: includes/builder/elements/blog-latest.php:38
+#: includes/widgets/widget-buzz.php:157
+#: includes/widgets/widget-post-tabs.php:79
+msgid "Popular"
+msgstr "ΔΗΜΟΦΙΛΗ"
+
+#: includes/builder/elements/blog-latest-element.php:62
+#: includes/builder/elements/blog-latest.php:39
+#: includes/functions/theme-options.php:459
+#: includes/functions/theme-parts-general.php:706
+#: includes/widgets/widget-buzz.php:156
+msgid "Featured"
+msgstr "ΕΠΙΛΕΓΜΕΝΑ"
+
+#: includes/builder/elements/blog-latest.php:28
+msgid "Latest News"
+msgstr "ΤΕΛΕΥΤΑΙΑ ΝΕΑ"
+
+#: includes/builder/elements/blog-latest.php:33
+msgid "Tabs to show"
+msgstr ""
+
+#: includes/builder/elements/blog-latest.php:60
+#: includes/builder/elements/blog.php:45
+msgid ""
+"Enter in the <strong>total number</strong> of posts you'd like to show. You "
+"can enter <em>-1</em> if you'd like to show all posts."
+msgstr ""
+
+#: includes/builder/elements/blog-latest.php:67
+msgid "Load more items"
+msgstr ""
+
+#: includes/builder/elements/blog-latest.php:74
+#: includes/builder/elements/blog.php:117
+msgid "Load more button text"
+msgstr ""
+
+#: includes/builder/elements/blog-latest.php:77
+msgid "Show More News"
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ ΝΕΑ"
+
+#: includes/builder/elements/blog-latest.php:87
+msgid "Blog Category"
+msgstr ""
+
+#: includes/builder/elements/blog-review.php:91
+msgid "Blog Review"
+msgstr ""
+
+#: includes/builder/elements/blog.php:86
+msgid "Number of columns "
+msgstr ""
+
+#: includes/builder/elements/blog.php:101
+msgid "Enable Excerpt"
+msgstr ""
+
+#: includes/builder/elements/blog.php:109
+msgid "Enable \"load more\" button"
+msgstr ""
+
+#: includes/builder/elements/blog.php:120
+#: includes/functions/theme-ajax.php:586
+msgid "Load More Posts"
+msgstr ""
+
+#: includes/builder/elements/blog.php:131
+msgid "Blog content"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:32
+#: includes/builder/elements/content-carousel.php:33
+#: includes/builder/elements/content-slider.php:41
+msgid "Posts Source"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:33
+#: includes/builder/elements/content-carousel.php:34
+#: includes/builder/elements/content-grid-slider.php:33
+#: includes/builder/elements/content-slider.php:42
+msgid "Select where this element should get content from."
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:36
+#: includes/builder/elements/content-carousel.php:37
+#: includes/builder/elements/content-grid-slider.php:36
+#: includes/builder/elements/content-slider.php:45
+#: includes/functions/theme-options.php:458
+msgid "Category"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:37
+#: includes/builder/elements/content-carousel.php:38
+#: includes/builder/elements/content-grid-slider.php:37
+#: includes/builder/elements/content-slider.php:46
+msgid "Featured Posts"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:38
+#: includes/builder/elements/content-carousel.php:39
+#: includes/builder/elements/content-grid-slider.php:38
+#: includes/builder/elements/content-slider.php:47
+msgid "Posts assigned to Carousel"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:58
+#: includes/builder/elements/content-carousel.php:59
+#: includes/builder/elements/content-grid-slider.php:57
+#: includes/builder/elements/content-slider.php:65
+msgid "How many items to show"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:59
+#: includes/builder/elements/content-carousel.php:60
+msgid "Minimum of 5 for best results"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:107
+msgid "Enable Author"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-big.php:120
+#: includes/builder/elements/content-carousel.php:114
+msgid "Sliding content carousel"
+msgstr ""
+
+#: includes/builder/elements/content-carousel-element.php:178
+#: includes/extensions/views.php:89
+msgid "Views"
+msgstr ""
+
+#: includes/builder/elements/content-grid-slider.php:32
+msgid "Posts Sources"
+msgstr ""
+
+#: includes/builder/elements/content-grid-slider.php:58
+msgid "Minimum of 17 if carousel is enabled"
+msgstr ""
+
+#: includes/builder/elements/content-grid-slider.php:107
+msgid "Enable Carousel"
+msgstr ""
+
+#: includes/builder/elements/content-grid-slider.php:120
+msgid "Grid Sliding content"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: includes/builder/elements/content-slider-element.php:225
+#: includes/content/content-archive.php:53
+#: includes/content/content-archive.php:83
+#: includes/content/content-archive.php:102
+msgid ", "
+msgstr ""
+
+#: includes/builder/elements/content-slider-element.php:228
+#: includes/content/content-archive.php:58
+#: includes/content/content-archive.php:87
+msgid "<span> on </span>%1$s"
+msgstr ""
+
+#: includes/builder/elements/content-slider.php:24
+msgid "Select Post Type"
+msgstr ""
+
+#: includes/builder/elements/content-slider.php:115
+msgid "Slider Nav"
+msgstr ""
+
+#: includes/builder/elements/content-slider.php:116
+msgid "How to display the slider navigation"
+msgstr ""
+
+#: includes/builder/elements/content-slider.php:119
+#: includes/metaboxes/meta-post-category.php:46
+msgid "None"
+msgstr ""
+
+#: includes/builder/elements/content-slider.php:122
+#: includes/metaboxes/meta-post.php:292
+msgid "Bottom"
+msgstr ""
+
+#: includes/builder/elements/content-slider.php:134
+msgid "Sliding content"
+msgstr ""
+
+#: includes/builder/elements/content.php:24
+msgid "Content Source"
+msgstr ""
+
+#: includes/builder/elements/content.php:25
+msgid ""
+"Choose where you'd like to have content pulled from. The content can either "
+"be from the current page you're applying this layout to, an external page or "
+"custom content."
+msgstr ""
+
+#: includes/builder/elements/content.php:28
+msgid "Content from current page"
+msgstr ""
+
+#: includes/builder/elements/content.php:29
+msgid "Content from another page"
+msgstr ""
+
+#: includes/builder/elements/content.php:30
+msgid "Custom content"
+msgstr ""
+
+#: includes/builder/elements/content.php:37
+msgid "Choose the external page you'd like to pull content from."
+msgstr ""
+
+#: includes/builder/elements/content.php:45
+msgid ""
+"Enter in the content you'd like to show. You may use basic HTML, and most "
+"shortcode."
+msgstr ""
+
+#: includes/builder/elements/content.php:62
+msgid "Content from external page or current page"
+msgstr ""
+
+#: includes/builder/elements/divider.php:12
+msgid "Divider Type"
+msgstr ""
+
+#: includes/builder/elements/divider.php:13
+msgid "Select which style of divider you'd like to use here."
+msgstr ""
+
+#: includes/builder/elements/divider.php:16
+msgid "Default Line"
+msgstr ""
+
+#: includes/builder/elements/divider.php:17
+msgid "Dashed Line"
+msgstr ""
+
+#: includes/builder/elements/divider.php:18
+msgid "Solid Line"
+msgstr ""
+
+#: includes/builder/elements/divider.php:19
+msgid "Hidden Divider"
+msgstr ""
+
+#: includes/builder/elements/divider.php:32
+msgid "Simple divider line to break up content"
+msgstr ""
+
+#: includes/builder/elements/video-central-element.php:22
+msgid "Recent Videos"
+msgstr "ΠΡΟΣΦΑΤΑ ΒΙΝΤΕΟ"
+
+#: includes/builder/elements/video-central-element.php:23
+msgid "Popular Videos"
+msgstr "ΔΗΜΟΦΙΛΗ ΒΙΝΤΕΟ"
+
+#: includes/builder/elements/video-central.php:20
+msgid "radium video with optional button"
+msgstr ""
+
+#: includes/builder/elements/widget-areas.php:18
+msgid "Widget Areas"
+msgstr ""
+
+#: includes/builder/elements/widget-areas.php:19
+msgid ""
+"You can use a predefided widget area (sidebar)  of create a new one just for "
+"this element in <strong>Appearance > Widget Areas </strong>"
+msgstr ""
+
+#: includes/builder/elements/widget-areas.php:35
+msgid "Set of tabbed content"
+msgstr ""
+
+#: includes/builder/elements/widget-element.php:19
+msgid "Oops! You have not selected a widget area in your layout."
+msgstr ""
+
+#: includes/content/content-about-author.php:5
+#: includes/functions/theme-options.php:309
+msgid "About the Author"
+msgstr ""
+
+#: includes/content/content-about-author.php:31
+msgid "This author has not added a biography. Meanwhile "
+msgstr ""
+
+#: includes/content/content-about-author.php:33
+msgid " has contributed "
+msgstr ""
+
+#: includes/content/content-about-author.php:35
+msgid " posts."
+msgstr ""
+
+#: includes/content/content-about-author.php:40
+msgid " Click here"
+msgstr "Κάντε κλικ εδώ"
+
+#: includes/content/content-about-author.php:43
+msgid " to view them."
+msgstr ""
+
+#: includes/content/content-archive.php:106
+msgid "Tags: %1$s"
+msgstr ""
+
+#: includes/content/content-header-index.php:7
+#: includes/functions/theme-options.php:475
+msgid "All Posts"
+msgstr ""
+
+#: includes/content/content-not-found-ajax.php:1
+msgid "No more results to display."
+msgstr "Δεν υπάρχουν άλλα αποτελέσματα προς εμφάνιση."
+
+#: includes/content/content-not-found.php:1
+msgid "No results found."
+msgstr "Δεν βρέθηκαν αποτελέσματα."
+
+#: includes/extensions/breadcrumb-trail.php:182
+msgid "You are Here:"
+msgstr "ΒΡΙΣΚΕΣΤΕ ΕΔΩ:"
+
+#. Template Name of the plugin/theme
+msgid "Home"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:184
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:185
+msgid "Archives"
+msgstr ""
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: includes/extensions/breadcrumb-trail.php:187
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Αποτελέσματα αναζήτησης για &#8220;%s&#8221;"
+
+#. Translators: %s is the page number.
+#: includes/extensions/breadcrumb-trail.php:189
+msgid "Page %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: includes/extensions/breadcrumb-trail.php:191
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: includes/extensions/breadcrumb-trail.php:193
+msgid "Week %s"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:1168
+msgid "Split"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:35
+msgid "My Favorites"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:36
+msgid "Accepted"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:37
+msgid "Rejected"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:38
+msgid "Show all comments for this thread"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:39
+msgid "Show all %d comments"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:40
+msgid "Show all"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:41
+#: includes/widgets/widget-recent-posts.php:60
+msgid "comments"
+msgstr "σχόλια"
+
+#: includes/extensions/buddypress-functions.php:42
+#: members/single/profile/edit.php:130 registration/register.php:182
+msgid "Close"
+msgstr ""
+
+#: includes/extensions/buddypress-functions.php:46
+msgid ""
+"Your profile has unsaved changes. If you leave the page, the changes will be "
+"lost."
+msgstr ""
+
+#: includes/extensions/contact-7.php:25
+msgid "Select Form"
+msgstr ""
+
+#: includes/extensions/contact-7.php:26
+msgid "Choose a contact form to display"
+msgstr ""
+
+#: includes/extensions/contact-7.php:39
+msgid "Contact 7 Forms"
+msgstr ""
+
+#: includes/extensions/related-posts.php:9
+#: includes/functions/theme-options.php:410
+msgid "Some Related Posts"
+msgstr "Μερικά Σχετικά Άρθρα"
+
+#: includes/extensions/review.php:186 includes/extensions/review.php:247
+msgid "Summary"
+msgstr ""
+
+#: includes/extensions/review.php:207 includes/extensions/review.php:268
+#: woocommerce/single-product-reviews.php:73
+msgid "Your Rating"
+msgstr "Η βαθμολογία σας"
+
+#: includes/extensions/review.php:207 includes/extensions/review.php:268
+msgid "User Rating"
+msgstr "Αξιολόγηση χρήστη"
+
+#: includes/extensions/review.php:209 includes/extensions/review.php:270
+msgid "votes"
+msgstr ""
+
+#: includes/extensions/review.php:367
+msgid "Total Score"
+msgstr ""
+
+#: includes/extensions/review.php:402
+msgid "Review Score"
+msgstr ""
+
+#: includes/extensions/revolution-slider.php:32
+msgid "Choose the slider you'd like to display."
+msgstr ""
+
+#: includes/extensions/revolution-slider.php:46
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/extensions/revolution-slider.php:78
+msgid "Oops! You have not selected a slider to display yet."
+msgstr ""
+
+#: includes/extensions/social-sharing.php:58
+msgid "Share"
+msgstr ""
+
+#: includes/extensions/social-sharing.php:62
+#: includes/functions/theme-options.php:826
+#: includes/widgets/widget-social-fans.php:253
+msgid "Twitter"
+msgstr ""
+
+#: includes/extensions/social-sharing.php:66
+#: includes/functions/theme-options.php:834
+#: includes/widgets/widget-social-fans.php:258
+msgid "Facebook"
+msgstr ""
+
+#: includes/extensions/social-sharing.php:71
+msgid "Google +"
+msgstr ""
+
+#: includes/extensions/social-sharing.php:76
+msgid "Linkedin"
+msgstr ""
+
+#: includes/extensions/social-sharing.php:84
+msgid "Shares"
+msgstr ""
+
+#: includes/extensions/social-sharing.php:86
+#: includes/functions/theme-functions.php:204
+msgid "Comment"
+msgstr ""
+
+#: includes/extensions/top-news.php:20
+#: includes/functions/theme-options.php:201
+msgid "Breaking"
+msgstr ""
+
+#: includes/extensions/top-news.php:70
+msgid "New Articles"
+msgstr ""
+
+#: includes/functions/comments.php:57
+msgid "<cite itemprop=\"name\">%s</cite>"
+msgstr ""
+
+#: includes/functions/comments.php:65
+msgid "%1$s"
+msgstr ""
+
+#: includes/functions/comments.php:71
+msgid "Your comment is awaiting moderation"
+msgstr "Το σχόλιό σας αναμένει συντονισμό"
+
+#: includes/functions/comments.php:100
+msgid "By %1$s on %2$s at %3$s"
+msgstr ""
+
+#: includes/functions/comments.php:104
+msgid "[ edit ]"
+msgstr ""
+
+#: includes/functions/comments.php:107
+msgid ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting "
+"moderation</span>\\n"
+msgstr ""
+
+#: includes/functions/comments.php:154
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: includes/functions/comments.php:160
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: includes/functions/comments.php:161
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: includes/functions/comments.php:167
+#: woocommerce/single-product-reviews.php:58
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: includes/functions/comments.php:169
+msgid "Submit Comment"
+msgstr "Υποβολή σχολίου"
+
+#: includes/functions/customizer-options.php:40
+#: includes/functions/customizer-options.php:569
+msgid "Border Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:50
+#: includes/functions/customizer-options.php:170
+msgid "Text Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:60
+#: includes/functions/customizer-options.php:180
+msgid "Links Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:70
+msgid "Hover Accent Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:82
+msgid "DropDown Background Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:93
+msgid "DropDown Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:106
+msgid "DropDown Title Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:117
+msgid "DropDown Links Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:127
+msgid "DropDown Accent Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:138
+msgid "DropDown Border Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:154
+msgid "Header Tools"
+msgstr ""
+
+#: includes/functions/customizer-options.php:190
+msgid "Top Level Menu Background Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:200
+msgid "Top Level Menu Links Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:210
+msgid "Top Level Menu Border Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:220
+msgid "DropDown Menu Background Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:235
+msgid "DropDown Menu Links Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:247
+msgid "DropDown Menu Border Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:267
+msgid "DropDown Menu Hover Accent Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:299
+msgid "Header Extras BG Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:309
+msgid "Header Extras Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:324
+msgid "Header Ticker Title BG"
+msgstr ""
+
+#: includes/functions/customizer-options.php:335
+msgid "Header Ticker Title Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:345
+msgid "Header Ticker BG"
+msgstr ""
+
+#: includes/functions/customizer-options.php:355
+msgid "Header Ticker Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:365
+msgid "Header"
+msgstr ""
+
+#: includes/functions/customizer-options.php:371
+msgid "Body Background Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:381
+msgid "Main Content Text Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:391
+msgid "Main Content Darker Text Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:433
+msgid "Main Content Secondary Text Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:454
+msgid "Main Title Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:481
+msgid "Main Blockquote Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:493
+msgid "Accent Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:548
+msgid "Secondary Accent Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:655
+msgid "Secondary Border Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:677
+msgid "Form input Box BG Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:699
+msgid "Post Side Share BG Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:709
+msgid "Post Side Share Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:719
+#: includes/functions/customizer-options.php:729
+msgid "Post Side Share Bubble BG Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:740
+msgid "Sidebar Widget Secondary Title"
+msgstr ""
+
+#: includes/functions/customizer-options.php:751
+msgid "Main Style"
+msgstr ""
+
+#: includes/functions/customizer-options.php:757
+msgid "Post Category Tag BG Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:767
+msgid "Post Category Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:777
+msgid "Post Featured BG tag"
+msgstr ""
+
+#: includes/functions/customizer-options.php:787
+msgid "Post Featured tag"
+msgstr ""
+
+#: includes/functions/customizer-options.php:797
+msgid "Post Taxonomies Title BG color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:807
+msgid "Post Taxonomies Title Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:817
+msgid "Post Taxonomies BG color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:827
+msgid "Post Taxonomies Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:838
+msgid "Post Style"
+msgstr ""
+
+#: includes/functions/customizer-options.php:844
+msgid "Rating Final Score BG Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:856
+msgid "Rating Final Score Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:866
+msgid "Rating Bars Background Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:876
+msgid "Rating Bars Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:887
+msgid "Rating System Style"
+msgstr ""
+
+#: includes/functions/customizer-options.php:893
+msgid "Footer Background Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:907
+msgid "Footer Text Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:920
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:931
+msgid "Footer Links Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:945
+msgid "Footer Border Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:959
+msgid "Footer Credits Background Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:969
+msgid "Footer Credits Text Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:979
+msgid "Footer Credits Links Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:989
+msgid "Footer Credits Border Color"
+msgstr ""
+
+#: includes/functions/customizer-options.php:999
+msgid "Footer Style"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:80
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:104
+msgid "Column"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:105
+msgid "(Mega Menu)"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:106
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:108
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:118
+msgid "URL"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:125
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:126
+msgid ""
+"Mega Menu Column Title <span class=\"radium_supersmall\">(if you don't want "
+"to display a title just enter a single dash: \"-\" )</span>"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:134
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:140
+msgid "link Target"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:142
+msgid "Same window or tab"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:143
+msgid "New window or tab"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:149
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:156
+msgid "Menu Icon (optional)"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:170
+msgid "link Relationship (XFN)"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:176
+msgid "Description"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:184
+msgid "Disable the category megamenu"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:198
+msgid "Make drop down a megamenu"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:211
+msgid "This column should start a new row"
+msgstr ""
+
+#: includes/functions/navigation/main-menu/admin-menu-walker.php:246
+msgid "Original: %s"
+msgstr ""
+
+#: includes/functions/navigation/pagination.php:71
+msgid "Next page"
+msgstr ""
+
+#: includes/functions/navigation/pagination.php:72
+msgid "Previous page"
+msgstr ""
+
+#: includes/functions/theme-ajax.php:532 index.php:321
+#: page-templates/page-archive.php:275 search.php:269
+msgid "Continue Reading &rarr;"
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ &rarr;"
+
+#: includes/functions/theme-ajax.php:535 index.php:325
+#: page-templates/page-archive.php:277 search.php:273
+msgid "<span>Continue Reading &rarr;</span>"
+msgstr ""
+
+#: includes/functions/theme-functions.php:232
+#: woocommerce/woocommerce-init.php:41
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/functions/theme-functions.php:246
+msgid "1 item in the shopping bag"
+msgid_plural "%d items in the shopping bag"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions/theme-functions.php:268
+msgid "Unit Price:"
+msgstr ""
+
+#: includes/functions/theme-functions.php:270
+msgid "Quantity:"
+msgstr ""
+
+#: includes/functions/theme-functions.php:274 woocommerce/cart/cart.php:51
+msgid "Remove this item"
+msgstr ""
+
+#: includes/functions/theme-functions.php:282
+#: woocommerce/cart/mini-cart.php:59
+msgid "Subtotal"
+msgstr ""
+
+#: includes/functions/theme-functions.php:292
+msgid "View shopping bag"
+msgstr ""
+
+#: includes/functions/theme-functions.php:294
+msgid "Proceed to checkout"
+msgstr ""
+
+#: includes/functions/theme-functions.php:300
+msgid "0 items in the shopping bag"
+msgstr ""
+
+#: includes/functions/theme-functions.php:302
+msgid "Unfortunately, your shopping bag is empty."
+msgstr ""
+
+#: includes/functions/theme-functions.php:308
+msgid "Go to the shop"
+msgstr ""
+
+#: includes/functions/theme-functions.php:366
+msgid "View your wishlist"
+msgstr ""
+
+#: includes/functions/theme-functions.php:469
+msgid "Your wish-list is currently empty."
+msgstr ""
+
+#: includes/functions/theme-functions.php:477
+msgid "Go to your wish-list"
+msgstr ""
+
+#: includes/functions/theme-functions.php:506
+msgid "Sign Out"
+msgstr ""
+
+#: includes/functions/theme-functions.php:506
+msgid "Sign In"
+msgstr ""
+
+#: includes/functions/theme-functions.php:526
+msgid "Welcome"
+msgstr ""
+
+#: includes/functions/theme-functions.php:634
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/functions/theme-functions.php:636
+msgid "Logout"
+msgstr ""
+
+#: includes/functions/theme-functions.php:659
+msgid "Languages"
+msgstr ""
+
+#: includes/functions/theme-functions.php:718
+msgid "Tag: %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:736
+msgid "Daily: %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:740
+msgid "Monthly: %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:744
+msgid "Yearly: %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:748
+msgid "Author: "
+msgstr ""
+
+#: includes/functions/theme-functions.php:752
+msgid "Video Category: %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:756
+msgid "Video Tag: %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:760
+msgid "Topic Tag: %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:764
+#: page-templates/page-forum-statistics.php:44
+msgid "Forums"
+msgstr ""
+
+#: includes/functions/theme-functions.php:768
+msgid "Archive"
+msgstr ""
+
+#: includes/functions/theme-functions.php:776
+msgid "Search Results for: &ldquo;%s&rdquo;"
+msgstr "Αποτελέσματα αναζήτησης για: &ldquo;%s&rdquo;"
+
+#: includes/functions/theme-functions.php:782
+msgid "Found&nbsp;"
+msgstr ""
+
+#: includes/functions/theme-functions.php:786
+msgid " results"
+msgstr ""
+
+#. translators: "group name | group nav section name"
+#: includes/functions/theme-functions.php:869
+msgid "Group %2$s %1$s"
+msgstr ""
+
+#. translators: "component item name | component nav section name | root
+#. component name"
+#: includes/functions/theme-functions.php:875
+msgid "%1$s - %2$s - %3$s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:895 registration/activate.php:22
+msgid "Activate your Account"
+msgstr ""
+
+#: includes/functions/theme-functions.php:1033
+msgid ""
+"<div class=\"date\"><i class=\"icon-calendar\"></i> <time class=\"entry-date"
+"\" datetime=\"%3$s\">%4$s</time></div>"
+msgstr ""
+
+#: includes/functions/theme-functions.php:1039
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:1051
+#: includes/functions/theme-parts-general.php:569
+msgid "Permalink"
+msgstr ""
+
+#: includes/functions/theme-options.php:27
+msgid "General Options"
+msgstr ""
+
+#: includes/functions/theme-options.php:28
+#: includes/functions/theme-options.php:152
+#: includes/functions/theme-options.php:553
+msgid " "
+msgstr ""
+
+#: includes/functions/theme-options.php:34
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/functions/theme-options.php:35
+msgid ""
+"Upload you custom logo here. If empty, the site title will be displayed."
+msgstr ""
+
+#: includes/functions/theme-options.php:43
+msgid "Logo Dimensions (Width/Height)"
+msgstr ""
+
+#: includes/functions/theme-options.php:44
+msgid "Choose the logo dimensions here"
+msgstr ""
+
+#: includes/functions/theme-options.php:45
+#: includes/functions/theme-options.php:97
+msgid ""
+"You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: includes/functions/theme-options.php:55
+msgid "Logo Position"
+msgstr ""
+
+#: includes/functions/theme-options.php:68
+msgid "Enable Site description"
+msgstr ""
+
+#: includes/functions/theme-options.php:69
+msgid "It will be hidden if you upload a logo."
+msgstr ""
+
+#: includes/functions/theme-options.php:77
+msgid "Enable Header Banner"
+msgstr ""
+
+#: includes/functions/theme-options.php:86
+msgid "Upload Banner"
+msgstr ""
+
+#: includes/functions/theme-options.php:87
+msgid "Upload a banner for the header."
+msgstr ""
+
+#: includes/functions/theme-options.php:95
+msgid "Banner Dimensions (Width/Height)"
+msgstr ""
+
+#: includes/functions/theme-options.php:96
+msgid "Choose the banner dimensions here"
+msgstr ""
+
+#: includes/functions/theme-options.php:107
+msgid "Banner Link"
+msgstr ""
+
+#: includes/functions/theme-options.php:108
+msgid "Banner link. You can use this as an ad."
+msgstr ""
+
+#: includes/functions/theme-options.php:114
+msgid "Banner Ad Code"
+msgstr ""
+
+#: includes/functions/theme-options.php:115
+msgid ""
+"You can place a banner ad code. This will override the the two wettings above"
+msgstr ""
+
+#: includes/functions/theme-options.php:121
+msgid "Upload Login Logo"
+msgstr ""
+
+#: includes/functions/theme-options.php:122
+msgid "Upload a custom logo for the login page."
+msgstr ""
+
+#: includes/functions/theme-options.php:128
+msgid "Upload Favicon"
+msgstr ""
+
+#: includes/functions/theme-options.php:129
+msgid ""
+"Upload a favicon here. This will override the default. It should be 16px by "
+"16px."
+msgstr ""
+
+#: includes/functions/theme-options.php:135
+msgid "Upload Apple Touch Icon"
+msgstr ""
+
+#: includes/functions/theme-options.php:136
+msgid "Upload you custom icon here. It should be 114px by 114px."
+msgstr ""
+
+#: includes/functions/theme-options.php:142
+msgid "Footer Text"
+msgstr ""
+
+#: includes/functions/theme-options.php:143
+msgid "eg copyright information (html is allowed)"
+msgstr ""
+
+#: includes/functions/theme-options.php:151
+msgid "Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:159
+msgid "Select Theme Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:160
+msgid "Default (1240px wide) or narrow (1024px wide)"
+msgstr ""
+
+#: includes/functions/theme-options.php:163
+msgid "Default Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:164
+msgid "Narrow Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:172
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/functions/theme-options.php:173
+msgid "Enable sticky header."
+msgstr ""
+
+#: includes/functions/theme-options.php:181
+msgid "Space Menu Item"
+msgstr ""
+
+#: includes/functions/theme-options.php:182
+msgid ""
+"This will space menu items evenly in the header, make sure you don't have "
+"too many items in there.."
+msgstr ""
+
+#: includes/functions/theme-options.php:190
+msgid "Display Trending/Breaking"
+msgstr ""
+
+#: includes/functions/theme-options.php:191
+msgid "This will enable trending articles in the header."
+msgstr ""
+
+#: includes/functions/theme-options.php:199
+msgid "Header Items Ticker Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:207
+msgid "Display Latest News"
+msgstr ""
+
+#: includes/functions/theme-options.php:208
+msgid "This will enable latest posts in the header."
+msgstr ""
+
+#: includes/functions/theme-options.php:216
+msgid "Header News Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:218
+msgid "New Article"
+msgstr ""
+
+#: includes/functions/theme-options.php:224
+msgid "Display a Search Button"
+msgstr ""
+
+#: includes/functions/theme-options.php:225
+msgid "This will enable a search button in the header."
+msgstr ""
+
+#: includes/functions/theme-options.php:233
+msgid "Header Search Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:235
+#: includes/functions/theme-parts-general.php:248
+#: includes/functions/theme-parts-general.php:276 searchform.php:7
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: includes/functions/theme-options.php:241
+msgid "Header Search Placeholder text"
+msgstr ""
+
+#: includes/functions/theme-options.php:243
+#: includes/functions/theme-parts-general.php:268
+msgid "START TYPING.."
+msgstr "Πληκτρολογείστε εδώ"
+
+#: includes/functions/theme-options.php:249
+msgid "Display Random Posts Button"
+msgstr ""
+
+#: includes/functions/theme-options.php:250
+msgid "This will enable a random posts button in the header."
+msgstr ""
+
+#: includes/functions/theme-options.php:258
+msgid "Header Random Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:266
+msgid "Show Header Tools"
+msgstr ""
+
+#: includes/functions/theme-options.php:267
+msgid "Select which items to show in the header tools section."
+msgstr ""
+
+#: includes/functions/theme-options.php:269
+msgid "Woocommerce Shopping Cart"
+msgstr ""
+
+#: includes/functions/theme-options.php:270
+msgid "Woocommerce Wishlist"
+msgstr ""
+
+#: includes/functions/theme-options.php:271
+msgid "WPML Language Menu"
+msgstr ""
+
+#: includes/functions/theme-options.php:272
+msgid "Login Form and User Info"
+msgstr ""
+
+#: includes/functions/theme-options.php:285
+msgid "Story Navigation"
+msgstr ""
+
+#: includes/functions/theme-options.php:286
+msgid "Links for next and previous post"
+msgstr ""
+
+#: includes/functions/theme-options.php:288
+#: includes/metaboxes/meta-post.php:242 includes/metaboxes/meta-post.php:324
+msgid "Disable"
+msgstr ""
+
+#: includes/functions/theme-options.php:289
+msgid "Show in the sidebar"
+msgstr ""
+
+#: includes/functions/theme-options.php:290
+msgid "Show below the post"
+msgstr ""
+
+#: includes/functions/theme-options.php:298
+msgid "Display Author Details"
+msgstr ""
+
+#: includes/functions/theme-options.php:299
+msgid ""
+"This will show the author's description set in the profile settings after "
+"the post."
+msgstr ""
+
+#: includes/functions/theme-options.php:307
+msgid "Author Box Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:315
+#: includes/functions/theme-options.php:324
+msgid "Display social share buttons"
+msgstr ""
+
+#: includes/functions/theme-options.php:316
+msgid ""
+"This displays social links in the single post layout and social sharing "
+"count in the grid layouts"
+msgstr ""
+
+#: includes/functions/theme-options.php:325
+msgid "Select the position of the share button."
+msgstr ""
+
+#: includes/functions/theme-options.php:329
+msgid "Show above post content"
+msgstr ""
+
+#: includes/functions/theme-options.php:330
+msgid "Show below the post content"
+msgstr ""
+
+#: includes/functions/theme-options.php:331
+msgid "Show above and below post content"
+msgstr ""
+
+#: includes/functions/theme-options.php:339
+msgid "Display social link buttons"
+msgstr ""
+
+#: includes/functions/theme-options.php:340
+msgid "This displays social links in the sidebar"
+msgstr ""
+
+#: includes/functions/theme-options.php:348
+msgid "Display tags"
+msgstr ""
+
+#: includes/functions/theme-options.php:349
+msgid "Show tags after the post"
+msgstr ""
+
+#: includes/functions/theme-options.php:357
+msgid "Display Categories"
+msgstr ""
+
+#: includes/functions/theme-options.php:358
+msgid "Show categories after the post"
+msgstr ""
+
+#: includes/functions/theme-options.php:366
+msgid "Display latest items above posts"
+msgstr ""
+
+#: includes/functions/theme-options.php:375
+msgid "Choose which categories to use"
+msgstr ""
+
+#: includes/functions/theme-options.php:383
+msgid "Select specific categories to use"
+msgstr ""
+
+#: includes/functions/theme-options.php:384
+msgid "If this is diabled, all latest posts will be displayed"
+msgstr ""
+
+#: includes/functions/theme-options.php:391
+msgid "Number of post to show above posts"
+msgstr ""
+
+#: includes/functions/theme-options.php:399
+msgid "Display Related Content"
+msgstr ""
+
+#: includes/functions/theme-options.php:400
+msgid "Show related content below the post"
+msgstr ""
+
+#: includes/functions/theme-options.php:408
+msgid "Related Posts Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:416
+msgid "Back to Top Button"
+msgstr ""
+
+#: includes/functions/theme-options.php:425
+msgid "Header Breadcrumb Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:427
+#: includes/functions/theme-parts-general.php:347
+msgid "You Are Here:"
+msgstr ""
+
+#: includes/functions/theme-options.php:433
+msgid "Header Breadcrumb Home Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:441
+msgid "Single Post Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:442
+msgid "Select a layout for single posts."
+msgstr ""
+
+#: includes/functions/theme-options.php:454
+msgid "Post Meta Elements"
+msgstr ""
+
+#: includes/functions/theme-options.php:455
+msgid "Select which items to show in the post thumbnails."
+msgstr ""
+
+#: includes/functions/theme-options.php:457
+msgid "Date"
+msgstr ""
+
+#: includes/functions/theme-options.php:460
+msgid "Rating"
+msgstr ""
+
+#: includes/functions/theme-options.php:473
+msgid "All Post Page Title"
+msgstr ""
+
+#: includes/functions/theme-options.php:474
+msgid ""
+"This will be displayed if the option at \"Settings->Reading\" is set to "
+"\"Your latest posts\""
+msgstr ""
+
+#: includes/functions/theme-options.php:480
+msgid "Post Archives Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:481
+#: includes/functions/theme-options.php:494
+#: includes/functions/theme-options.php:507
+msgid "Select a layout for Post Archives."
+msgstr ""
+
+#: includes/functions/theme-options.php:493
+msgid "BBPress Sidebar"
+msgstr ""
+
+#: includes/functions/theme-options.php:506
+msgid "Woocommerce Archive Sidebar"
+msgstr ""
+
+#: includes/functions/theme-options.php:519
+msgid "Woocommerce Footer Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:520
+msgid "Select a layout for the woocommerce footer."
+msgstr ""
+
+#: includes/functions/theme-options.php:535
+msgid "Footer Layout"
+msgstr ""
+
+#: includes/functions/theme-options.php:536
+msgid "Select a layout for the footer."
+msgstr ""
+
+#: includes/functions/theme-options.php:552
+msgid "Customize"
+msgstr ""
+
+#: includes/functions/theme-options.php:559
+msgid "Theme Style"
+msgstr ""
+
+#: includes/functions/theme-options.php:560
+msgid ""
+"Please select a main skin for your site. <br>(Colors can be customized "
+"further using the customizer.)"
+msgstr ""
+
+#: includes/functions/theme-options.php:563
+msgid "Default Skin"
+msgstr ""
+
+#: includes/functions/theme-options.php:567
+msgid "Light Skin"
+msgstr ""
+
+#: includes/functions/theme-options.php:578
+msgid "Background Styles"
+msgstr ""
+
+#: includes/functions/theme-options.php:579
+msgid "Select a background style for the <strong>boxed</strong> layout."
+msgstr ""
+
+#: includes/functions/theme-options.php:687
+msgid "Upload a background image"
+msgstr ""
+
+#: includes/functions/theme-options.php:688
+msgid ""
+"Upload an image to be used as the background here. This will override the "
+"ones above."
+msgstr ""
+
+#: includes/functions/theme-options.php:694
+msgid "Enable Custom Colors"
+msgstr ""
+
+#: includes/functions/theme-options.php:695
+msgid "Enable to load styles from the customizer."
+msgstr ""
+
+#: includes/functions/theme-options.php:706
+msgid "Add Custom CSS"
+msgstr ""
+
+#: includes/functions/theme-options.php:707
+msgid "Place more custom css here. Don&#39;t wrap it in &#60;style&#62; tags"
+msgstr ""
+
+#: includes/functions/theme-options.php:717
+msgid "Typography"
+msgstr ""
+
+#: includes/functions/theme-options.php:718
+msgid ""
+"<p class=\"description\">These are the options for fonts used within the "
+"theme.</p>"
+msgstr ""
+
+#: includes/functions/theme-options.php:724
+msgid "Disable Default Theme Typeface"
+msgstr ""
+
+#: includes/functions/theme-options.php:725
+msgid ""
+"Prevent the default typefaces that come with the theme from loading. (On "
+"means they are disabled)"
+msgstr ""
+
+#: includes/functions/theme-options.php:726
+msgid "Useful if you intend on using the typographer manager below"
+msgstr ""
+
+#: includes/functions/theme-options.php:762
+msgid "Primary Typeface"
+msgstr ""
+
+#: includes/functions/theme-options.php:764
+msgid "Select the font and style for the body text."
+msgstr ""
+
+#: includes/functions/theme-options.php:768
+#: includes/functions/theme-options.php:786
+msgid ""
+"The quick brown fox jumps over the lazy dog. The quick brown fox jumps over "
+"the lazy dog. 1234567890"
+msgstr ""
+
+#: includes/functions/theme-options.php:780
+msgid "Secondary Typeface"
+msgstr ""
+
+#: includes/functions/theme-options.php:782
+msgid "Select the font and style for the title."
+msgstr ""
+
+#: includes/functions/theme-options.php:807
+msgid ""
+"Add a new selector group (comma delimited) to generate a font style option "
+"below. You must save the options first to customize."
+msgstr ""
+
+#: includes/functions/theme-options.php:811
+msgid "Add New Selector Group"
+msgstr ""
+
+#: includes/functions/theme-options.php:820
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/functions/theme-options.php:827
+msgid "Your Twitter username (no @)."
+msgstr ""
+
+#: includes/functions/theme-options.php:835
+msgid "Your facebook page/profile id"
+msgstr ""
+
+#: includes/functions/theme-options.php:842
+#: includes/widgets/widget-social-fans.php:268
+msgid "Dribbble"
+msgstr ""
+
+#: includes/functions/theme-options.php:843
+msgid "Your Dribbble username"
+msgstr ""
+
+#: includes/functions/theme-options.php:851
+msgid "Tumblr"
+msgstr ""
+
+#: includes/functions/theme-options.php:852
+msgid "Your Tumblr username"
+msgstr ""
+
+#: includes/functions/theme-options.php:859
+msgid "Spotify"
+msgstr ""
+
+#: includes/functions/theme-options.php:860
+msgid "Your Spotify username"
+msgstr ""
+
+#: includes/functions/theme-options.php:867
+msgid "Skype"
+msgstr ""
+
+#: includes/functions/theme-options.php:868
+msgid "Your Skype username"
+msgstr ""
+
+#: includes/functions/theme-options.php:875
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/functions/theme-options.php:876
+msgid "Your LinkedIn page/profile url"
+msgstr ""
+
+#: includes/functions/theme-options.php:883
+msgid "Last.fm"
+msgstr ""
+
+#: includes/functions/theme-options.php:884
+msgid "Your Last.fm username"
+msgstr ""
+
+#: includes/functions/theme-options.php:891
+#: includes/widgets/widget-social-fans.php:263
+msgid "Google+"
+msgstr ""
+
+#: includes/functions/theme-options.php:892
+msgid "Your Google+ account or ID"
+msgstr ""
+
+#: includes/functions/theme-options.php:900
+msgid "Google+ API Key"
+msgstr ""
+
+#: includes/functions/theme-options.php:901
+msgid "Your Google+ api key"
+msgstr ""
+
+#: includes/functions/theme-options.php:909
+msgid "Flickr"
+msgstr ""
+
+#: includes/functions/theme-options.php:910
+msgid "Your Flickr page url"
+msgstr ""
+
+#: includes/functions/theme-options.php:917
+msgid "YouTube"
+msgstr ""
+
+#: includes/functions/theme-options.php:918
+msgid "Your YouTube username"
+msgstr ""
+
+#: includes/functions/theme-options.php:926
+msgid "Vimeo Channel ID"
+msgstr ""
+
+#: includes/functions/theme-options.php:927
+msgid "Your Vimeo channel ID"
+msgstr ""
+
+#: includes/functions/theme-options.php:934
+#: includes/widgets/widget-social-fans.php:298
+msgid "Behance"
+msgstr ""
+
+#: includes/functions/theme-options.php:935
+msgid "Your Behance username"
+msgstr ""
+
+#: includes/functions/theme-options.php:942
+msgid "Behance API key"
+msgstr ""
+
+#: includes/functions/theme-options.php:943
+msgid ""
+"Get a Behance api key here <a href='https://www.behance.net/dev'>https://www."
+"behance.net/dev</a>"
+msgstr ""
+
+#: includes/functions/theme-options.php:950
+msgid "Pinterest full URL (Beta)"
+msgstr ""
+
+#: includes/functions/theme-options.php:951
+msgid "Your Pinterest full URL (Beta) including http://"
+msgstr ""
+
+#: includes/functions/theme-options.php:959
+msgid "Yelp"
+msgstr ""
+
+#: includes/functions/theme-options.php:960
+msgid "Your Yelp URL"
+msgstr ""
+
+#: includes/functions/theme-options.php:967
+#: includes/widgets/widget-social-fans.php:288
+msgid "Instagram"
+msgstr ""
+
+#: includes/functions/theme-options.php:968
+msgid "Your Instagram username"
+msgstr ""
+
+#: includes/functions/theme-options.php:975
+msgid "Instagram Access Token"
+msgstr ""
+
+#: includes/functions/theme-options.php:976
+msgid ""
+"Your Instagram Access Token <a href=\"http://instagram.com/developer"
+"\">http://instagram.com/developer.</a>"
+msgstr ""
+
+#: includes/functions/theme-options.php:983
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/functions/theme-options.php:984
+msgid "Your SoundCloud username"
+msgstr ""
+
+#: includes/functions/theme-options.php:992
+msgid "SoundCloud Client ID"
+msgstr ""
+
+#: includes/functions/theme-options.php:993
+msgid ""
+"A SoundCloud client id is needed in order to get number of fans. Get the id "
+"by visiting <a href='http://soundcloud.com/you/apps/new'>http://soundcloud."
+"com/you/apps/new</a>"
+msgstr ""
+
+#: includes/functions/theme-options.php:1002
+msgid "Performance (Beta)"
+msgstr ""
+
+#: includes/functions/theme-options.php:1008
+msgid "Cache Queries Using Transients"
+msgstr ""
+
+#: includes/functions/theme-options.php:1009
+msgid ""
+"Enable caching of queries using the transient API. Learn More <a "
+"href='http://codex.wordpress.org/Transients_API'>http://codex.wordpress.org/"
+"Transients_API</a>. Disable this option if you are using a Caching plugin."
+msgstr ""
+
+#: includes/functions/theme-options.php:1017
+msgid "Cache Time"
+msgstr ""
+
+#: includes/functions/theme-options.php:1018
+msgid "How often to refresh the cache in seconds. eg 600"
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:380
+msgid "View all posts by"
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:425
+msgid "Posted In: "
+msgstr "ΑΝΑΡΤΗΣΗ ΣΕ:"
+
+#: includes/functions/theme-parts-general.php:444
+msgid "Tagged: "
+msgstr "ΕΤΙΚΕΤΕΣ:"
+
+#: includes/functions/theme-parts-general.php:463
+msgid "Source: "
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:496
+msgid "[Edit]"
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:534
+msgid "By %s"
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:810
+msgid "Previous story"
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:813
+msgid "Next story"
+msgstr ""
+
+#: includes/functions/theme-setup.php:79
+msgid "Sorry, unable to load more posts. Please try again."
+msgstr ""
+
+#: includes/functions/theme-setup.php:80
+msgid "Sorry, unable to load this post using ajax. Redirecting..."
+msgstr ""
+
+#: includes/functions/theme-setup.php:81
+msgid "has been added to the shopping cart."
+msgstr ""
+
+#: includes/functions/theme-setup.php:246
+msgid "Top Header Navigation"
+msgstr ""
+
+#: includes/functions/theme-setup.php:249
+msgid "Footer Navigation"
+msgstr ""
+
+#: includes/functions/theme-setup.php:252
+msgid "Main Navigation"
+msgstr ""
+
+#: includes/functions/theme-setup.php:255
+msgid "Account Details Navigation"
+msgstr ""
+
+#: includes/functions/theme-setup.php:639
+msgid "Install Included Radium Plugins"
+msgstr ""
+
+#: includes/functions/theme-setup.php:640
+msgid "Install Radium Plugins"
+msgstr ""
+
+#: includes/functions/theme-setup.php:642
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/functions/theme-setup.php:652
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions/theme-setup.php:653
+msgid "Return to Radium Plugins Installer"
+msgstr ""
+
+#: includes/functions/theme-setup.php:655
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:19
+msgid "Hide Page Title"
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:32 includes/metaboxes/meta-post.php:67
+msgid "Page Layout (Sidebars):"
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:36 includes/metaboxes/meta-post.php:71
+msgid "Fullwidth - No sidebar"
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:36 includes/metaboxes/meta-post.php:71
+msgid "Fullwidth - No sidebar\""
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:37 includes/metaboxes/meta-post.php:72
+msgid "Sidebar on the left"
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:38 includes/metaboxes/meta-post.php:73
+msgid "Sidebar on the right"
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:61
+msgid "Select Column Layout:"
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:74
+msgid "Items per Page "
+msgstr ""
+
+#: includes/metaboxes/meta-page.php:85
+msgid "Template Settings"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:56
+msgid "Red"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:57
+msgid "Blue"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:58
+msgid "Green"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:64
+msgid "Logo"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:90
+#: includes/metaboxes/meta-post-category.php:156
+msgid "Category Style"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:92
+#: includes/metaboxes/meta-post-category.php:161
+#: includes/metaboxes/meta-post-category.php:225
+msgid "none"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:113
+#: includes/metaboxes/meta-post-category.php:184
+msgid "Change style for this category"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:117
+msgid "Category layout"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:119
+#: includes/metaboxes/meta-post-category.php:199
+msgid "One Column"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:120
+#: includes/metaboxes/meta-post-category.php:200
+msgid "Two Columns"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:121
+#: includes/metaboxes/meta-post-category.php:201
+msgid "Small Thumbs"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:122
+#: includes/metaboxes/meta-post-category.php:202
+msgid "Modern Grid"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:124
+#: includes/metaboxes/meta-post-category.php:207
+msgid "Change layout for this category"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:128
+#: includes/metaboxes/meta-post-category.php:215
+msgid "Category sidebar"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:132
+msgid "FullWidth"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:134
+#: includes/metaboxes/meta-post-category.php:229
+msgid "Change sidebar for this category"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:192
+msgid "Category Layout"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:223
+msgid "left"
+msgstr ""
+
+#: includes/metaboxes/meta-post-category.php:224
+msgid "right"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:23
+msgid "Post Settings"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:29
+msgid "Feature Post:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:30
+msgid "Mark this post as featured"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:37
+msgid "Editor's Pick:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:38
+msgid "Mark this post as an editor's pick"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:45
+msgid "Carousel slider:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:46
+msgid "Add this post to carousel slider"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:53
+msgid "Featured Image Size:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:57
+msgid "Large Featured Image\""
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:58
+msgid "Medium Images"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:58
+msgid "Small Featured Image"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:59
+msgid "No Image"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:59
+msgid "No Featured Image"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:86
+msgid "Audio Settings"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:95
+msgid "Supported formats are mp3, m4a, oga, fla, wma"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:100 includes/metaboxes/meta-post.php:160
+msgid "Poster Image"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:101 includes/metaboxes/meta-post.php:161
+msgid "The Preview Image (800px by 500px recommended)"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:117 includes/metaboxes/meta-post.php:148
+msgid "Video Settings"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:125 includes/widgets/widget-init.php:19
+msgid "Video"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:127
+msgid "Select a video uploaded to video central"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:153
+msgid "Video File"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:154
+msgid "The URL to the .m4v video file"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:167
+msgid "Video URL"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:168
+msgid ""
+"If you are using something other than a self hosted video such as Youtube or "
+"Vimeo, paste the video page url here. The video will be embedded "
+"automatically. This field will override the ones above."
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:184
+msgid "Link Settings"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:189
+msgid "Link URL:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:190
+msgid "ex: www.radiumthemes.com"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:201
+msgid "Gallery Settings"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:213
+msgid "Gallery Type"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:214
+msgid "How to display Gallery"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:230
+msgid "Post Rating Settings"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:235
+msgid "Enable Post Rating:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:236
+msgid "Turn on the rating feature"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:241 includes/metaboxes/meta-post.php:323
+msgid "Enable"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:246
+msgid "Rating Type:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:252
+msgid "Stars"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:253
+msgid "Percentage"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:268
+msgid "Brief Summary"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:269
+msgid ""
+"The ratings summary in a word or two (eg Excellent, Good, Very Good, Bad, "
+"Poor)"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:275
+msgid "Longer Summary"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:276
+msgid "The ratings summary"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:285
+msgid "Rating Display:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:286
+msgid "Where in the post do you want it to display?"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:291
+msgid "Top"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:296
+msgid "Fields"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:317
+msgid "Enable User Rating:"
+msgstr ""
+
+#: includes/metaboxes/meta-post.php:318
+msgid "Allow users to add their rating"
+msgstr ""
+
+#: includes/structure/footer.php:162
+msgid "Back to top"
+msgstr ""
+
+#: includes/structure/footer.php:164
+msgid "All Rights Reverved. Theme designed by"
+msgstr ""
+
+#: includes/structure/header.php:216
+msgid "Please setup the logo dimensions correctly in the theme options"
+msgstr ""
+
+#: includes/structure/header.php:279
+msgid "Open Menu"
+msgstr ""
+
+#: includes/widgets/widget-ad.php:25
+msgid "A widget that displays an ad of any size."
+msgstr ""
+
+#: includes/widgets/widget-ad.php:46
+msgid "Advertisement"
+msgstr ""
+
+#: includes/widgets/widget-authors.php:12
+msgid "Radium Site Authors"
+msgstr ""
+
+#: includes/widgets/widget-authors.php:13
+msgid "Display the site authors"
+msgstr ""
+
+#: includes/widgets/widget-authors.php:104
+msgid "Maximum thumbs to show:"
+msgstr ""
+
+#: includes/widgets/widget-buzz.php:23
+msgid "Radium Buzz Widget"
+msgstr ""
+
+#: includes/widgets/widget-buzz.php:24
+msgid ""
+"A widget designed for the Homepage Middle Widget Area that displays a list "
+"of posts from a category of your choice."
+msgstr ""
+
+#: includes/widgets/widget-buzz.php:132
+msgid "The Latest"
+msgstr ""
+
+#: includes/widgets/widget-buzz.php:158
+msgid "Editor's Pick"
+msgstr ""
+
+#: includes/widgets/widget-categories.php:18
+msgid "Display categories"
+msgstr ""
+
+#: includes/widgets/widget-categories.php:112
+msgid "Show post counts"
+msgstr ""
+
+#: includes/widgets/widget-categories.php:116
+msgid "Select Categories (No select for all):"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:27
+msgid "Display banner"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:36
+msgid "<h6 class=\"banner-supertitle\">%s</h6>"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:42
+msgid "<h3 class=\"banner-title\">%s</h3>"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:47
+msgid "<div class=\"banner-subtitle\">%s</div>"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:52
+msgid "<a href=\"%s\" class=\"banner-button orange button transparent\">%s</a>"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:96
+msgid "Super-title:"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:108
+msgid "Subtitle:"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:114
+msgid "Image Url:"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:120
+msgid "Link Url:"
+msgstr ""
+
+#: includes/widgets/widget-custom-banner.php:126
+msgid "Button Text:"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:19
+msgid "Facebook Like Box."
+msgstr ""
+
+#: includes/widgets/widget-init.php:15
+msgid "Main Sidebar"
+msgstr ""
+
+#: includes/widgets/widget-init.php:16
+msgid "Home Sidebar 1"
+msgstr ""
+
+#: includes/widgets/widget-init.php:17
+msgid "Home Sidebar 2"
+msgstr ""
+
+#: includes/widgets/widget-init.php:18
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: includes/widgets/widget-init.php:50
+msgid "Shop Footer Widgets Left"
+msgstr ""
+
+#: includes/widgets/widget-init.php:62
+msgid "Shop Footer Widget Right %d"
+msgstr ""
+
+#: includes/widgets/widget-init.php:94
+msgid "Shop Footer Widgets %d"
+msgstr ""
+
+#: includes/widgets/widget-init.php:121
+msgid "Footer Widget Left %d"
+msgstr ""
+
+#: includes/widgets/widget-init.php:133
+msgid "Footer Widget Right %d"
+msgstr ""
+
+#: includes/widgets/widget-init.php:165
+msgid "Footer Widgets %d"
+msgstr ""
+
+#: includes/widgets/widget-latest-reviews.php:12
+msgid "Radium Latest Reviews"
+msgstr ""
+
+#: includes/widgets/widget-latest-reviews.php:13
+msgid "Display the latest posts with reviews"
+msgstr ""
+
+#: includes/widgets/widget-latest-reviews.php:99
+msgid "Latest Reviews"
+msgstr ""
+
+#: includes/widgets/widget-latest-reviews.php:110
+#: includes/widgets/widget-most-commented.php:112
+msgid "Maximum posts to show:"
+msgstr ""
+
+#: includes/widgets/widget-menu.php:22
+msgid ""
+"Use this widget on pages to display aside menu with children or siblings of "
+"the current page"
+msgstr ""
+
+#: includes/widgets/widget-menu.php:117
+msgid "Make Menu Sticky on Scroll "
+msgstr ""
+
+#: includes/widgets/widget-menu.php:119 registration/register.php:241
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets/widget-menu.php:120 registration/register.php:242
+msgid "No"
+msgstr ""
+
+#: includes/widgets/widget-menu.php:128
+msgid "Show page siblings"
+msgstr ""
+
+#: includes/widgets/widget-menu.php:131
+msgid "Show child pages"
+msgstr ""
+
+#: includes/widgets/widget-most-commented.php:11
+msgid "Radium Most Commented Posts"
+msgstr ""
+
+#: includes/widgets/widget-most-commented.php:12
+msgid "Show a list of the most commented posts with comments count"
+msgstr ""
+
+#: includes/widgets/widget-most-commented.php:101
+msgid "Most Commented"
+msgstr ""
+
+#: includes/widgets/widget-newsletter.php:31
+msgid "A custom widget that displays a newsletter subscribe field"
+msgstr ""
+
+#: includes/widgets/widget-newsletter.php:64
+msgid "Subscribe"
+msgstr ""
+
+#: includes/widgets/widget-newsletter.php:108
+msgid "Title / Intro:"
+msgstr ""
+
+#: includes/widgets/widget-newsletter.php:118
+msgid "Subscribe Code:"
+msgstr ""
+
+#: includes/widgets/widget-newsletter.php:129
+msgid "&nbsp;Shake Animate"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:33
+msgid "Radium Post Tabs"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:34
+msgid "Popular posts, Recent post and Comments"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:82
+msgid "Recent"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:204
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:209
+msgid "Thumbnail size"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:226
+msgid "Show popular posts"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:230
+msgid "Show recent posts"
+msgstr ""
+
+#: includes/widgets/widget-post-tabs.php:234
+msgid "Show comments"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:19
+msgid "Radium Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:20
+msgid "A widget that displays recent posts "
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:41
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:102
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:21
+msgid "Show Social fans count"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:204
+msgid "Followers / Fans / Circle / Members"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:226
+msgid ""
+"Before adding this widget you must make sure you fill all your social "
+"accounts data in theme options ->"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:226
+msgid "Social Accounts"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:230
+msgid "title:"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:236
+msgid "Total Social Count"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:242
+msgid "rss number or text"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:247
+msgid "RSS Link (leave empty to use default rss link)"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:273
+msgid "Youtube"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:278
+msgid "Vimeo"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:283
+msgid "Pinterest"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:293
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:306
+msgid "Delete cache"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:306
+msgid ""
+"The socials followers count is saved in the cache each hour. If you want "
+"delete the cache now click on this button."
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:333
+msgid "Error flushing social followers cache!"
+msgstr ""
+
+#: includes/widgets/widget-social-fans.php:353
+msgid "Success"
+msgstr ""
+
+#: members/index.php:28
+msgid "Members Directory"
+msgstr ""
+
+#: members/index.php:65 members/single/friends.php:23
+msgid "Newest Registered"
+msgstr ""
+
+#: members/members-loop.php:108
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: members/single/friends/requests.php:68
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: members/single/groups/invites.php:14
+msgid "1 member"
+msgid_plural "%d members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: members/single/groups/invites.php:37
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: members/single/messages/compose.php:5
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: members/single/messages/compose.php:14
+msgid "This is a notice to all users."
+msgstr ""
+
+#: members/single/messages/compose.php:17
+msgid "Subject"
+msgstr ""
+
+#: members/single/messages/compose.php:20
+msgid "Message"
+msgstr ""
+
+#: members/single/messages/compose.php:28
+msgid "Send Message"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:37
+msgid "To:"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:43
+msgid "View Message"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:51
+#: members/single/messages/notices-loop.php:43
+#: members/single/messages/single.php:24
+msgid "Delete Message"
+msgstr ""
+
+#: members/single/messages/messages-loop.php:69
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: members/single/messages/notices-loop.php:36
+msgid "Sent:"
+msgstr ""
+
+#: members/single/messages/notices-loop.php:54
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: members/single/messages/single.php:14
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: members/single/messages/single.php:18
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: members/single/messages/single.php:75
+msgid "Send a Reply"
+msgstr ""
+
+#: members/single/messages/single.php:91
+msgid "Send Reply"
+msgstr ""
+
+#: members/single/notifications/feedback-no-notifications.php:7
+msgid "You have no unread notifications."
+msgstr ""
+
+#: members/single/notifications/feedback-no-notifications.php:11
+msgid "This member has no unread notifications."
+msgstr ""
+
+#: members/single/notifications/feedback-no-notifications.php:19
+msgid "You have no notifications."
+msgstr ""
+
+#: members/single/notifications/feedback-no-notifications.php:23
+msgid "This member has no notifications."
+msgstr ""
+
+#: members/single/notifications/notifications-loop.php:5
+msgid "Notification"
+msgstr ""
+
+#: members/single/notifications/notifications-loop.php:6
+msgid "Date Received"
+msgstr ""
+
+#: members/single/notifications/notifications-loop.php:7
+msgid "Actions"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:1
+msgid "Change Avatar"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:7
+msgid ""
+"Your avatar will be used on your profile and throughout the site. If there "
+"is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
+"account email we will use that, or you can upload an image from your "
+"computer."
+msgstr ""
+
+#: members/single/profile/change-avatar.php:14
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: members/single/profile/change-avatar.php:23
+msgid ""
+"If you'd like to delete your current avatar but not upload a new one, please "
+"use the delete avatar button."
+msgstr ""
+
+#: members/single/profile/change-avatar.php:24
+msgid "Delete My Avatar"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:31
+msgid "Crop Your New Avatar"
+msgstr ""
+
+#: members/single/profile/change-avatar.php:55
+msgid ""
+"Your avatar will be used on your profile and throughout the site. To change "
+"your avatar, please create an account with <a href=\"http://gravatar.com"
+"\">Gravatar</a> using the same email address as you used to register with "
+"this site."
+msgstr ""
+
+#: members/single/profile/edit.php:10
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: members/single/profile/edit.php:26 members/single/profile/edit.php:33
+#: members/single/profile/edit.php:40 members/single/profile/edit.php:49
+#: members/single/profile/edit.php:67 members/single/profile/edit.php:83
+#: members/single/profile/edit.php:93 registration/register.php:46
+#: registration/register.php:50 registration/register.php:54
+#: registration/register.php:58 registration/register.php:87
+#: registration/register.php:95 registration/register.php:103
+#: registration/register.php:113 registration/register.php:124
+#: registration/register.php:139 registration/register.php:150
+#: registration/register.php:225 registration/register.php:234
+msgid "(required)"
+msgstr ""
+
+#: members/single/profile/edit.php:58 members/single/profile/edit.php:73
+#: registration/register.php:130
+msgid "Clear"
+msgstr ""
+
+#: members/single/profile/edit.php:120 members/single/profile/edit.php:134
+#: registration/register.php:172 registration/register.php:187
+msgid ""
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: members/single/profile/edit.php:120
+msgid "Change"
+msgstr ""
+
+#: members/single/profile/edit.php:125 registration/register.php:177
+msgid "Who can see this field?"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:8
+msgid "%s's Profile"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:24
+msgid "About Me"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:42
+msgid "Jabber"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:51
+msgid "AOL Messenger"
+msgstr ""
+
+#: members/single/profile/profile-wp.php:60
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: members/single/settings/capabilities.php:56
+msgid "Capabilities"
+msgstr ""
+
+#: members/single/settings/capabilities.php:64
+msgid "This user is a spammer."
+msgstr ""
+
+#: members/single/settings/capabilities.php:68
+#: woocommerce/myaccount/form-change-password.php:32
+msgid "Save"
+msgstr ""
+
+#: members/single/settings/delete-account.php:56
+#: members/single/settings/delete-account.php:82
+msgid "Delete Account"
+msgstr ""
+
+#: members/single/settings/delete-account.php:62
+msgid ""
+"Deleting your account will delete all of the content you have created. It "
+"will be completely irrecoverable."
+msgstr ""
+
+#: members/single/settings/delete-account.php:66
+msgid ""
+"Deleting this account will delete all of the content it has created. It will "
+"be completely irrecoverable."
+msgstr ""
+
+#: members/single/settings/delete-account.php:78
+msgid "I understand the consequences."
+msgstr ""
+
+#: members/single/settings/general.php:56
+msgid "General Settings"
+msgstr ""
+
+#: members/single/settings/general.php:64
+msgid ""
+"Current Password <span>(required to update email or change current password)"
+"</span>"
+msgstr ""
+
+#: members/single/settings/general.php:65
+msgid "Password Lost and Found"
+msgstr ""
+
+#: members/single/settings/general.php:65
+msgid "Lost your password?"
+msgstr ""
+
+#: members/single/settings/general.php:69
+msgid "Account Email"
+msgstr ""
+
+#: members/single/settings/general.php:72
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: members/single/settings/general.php:74
+msgid "Repeat New Password"
+msgstr ""
+
+#: members/single/settings/notifications.php:56
+msgid "Email Notification"
+msgstr ""
+
+#: members/single/settings/notifications.php:61
+msgid "Send an email notice when:"
+msgstr ""
+
+#: page-templates/page-forum-statistics.php:33
+msgid "<p>Here are the statistics and popular topics of our forums.</p>"
+msgstr ""
+
+#: page-templates/page-forum-statistics.php:39
+msgid "Registered Users"
+msgstr ""
+
+#: page-templates/page-forum-statistics.php:59
+msgid "Topic Tags"
+msgstr ""
+
+#: page-templates/page-forum-statistics.php:66
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: page-templates/page-forum-statistics.php:75
+msgid "Hidden Topics"
+msgstr ""
+
+#: page-templates/page-forum-statistics.php:86
+msgid "Hidden Replies"
+msgstr ""
+
+#: page-templates/page-forum-statistics.php:105
+msgid "Popular Topics"
+msgstr ""
+
+#: page-templates/page-topic-tags.php:29
+msgid ""
+"<p>This is a collection of tags that are currently popular on our forums.</p>"
+msgstr ""
+
+#: registration/activate.php:20
+msgid "Account Activated"
+msgstr ""
+
+#: registration/activate.php:32
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: registration/activate.php:34
+msgid ""
+"Your account was activated successfully! You can now <a href=\"%s\">log in</"
+"a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: registration/activate.php:39
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: registration/activate.php:43
+msgid "Activation Key:"
+msgstr ""
+
+#: registration/register.php:25
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: registration/register.php:36
+msgid ""
+"Registering for this site is easy, just fill in the fields below and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: registration/register.php:44
+msgid "Account Details"
+msgstr ""
+
+#: registration/register.php:50
+msgid "Email Address"
+msgstr ""
+
+#: registration/register.php:54
+msgid "Choose a Password"
+msgstr ""
+
+#: registration/register.php:58
+msgid "Confirm Password"
+msgstr ""
+
+#: registration/register.php:76
+msgid "Profile Details"
+msgstr ""
+
+#: registration/register.php:219
+msgid "Blog Details"
+msgstr ""
+
+#: registration/register.php:221
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: registration/register.php:225
+msgid "Blog URL"
+msgstr ""
+
+#: registration/register.php:234
+msgid "Site Title"
+msgstr ""
+
+#: registration/register.php:238
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: registration/register.php:257
+msgid "Complete Sign Up"
+msgstr ""
+
+#: registration/register.php:268
+msgid "Check Your Email To Activate Your Account!"
+msgstr ""
+
+#: registration/register.php:274
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: registration/register.php:276
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: single-reply.php:46
+msgid "Posted on %1$s at %2$s"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:18
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:22
+msgid "&larr; Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/checkout/review-order.php:18
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/checkout/review-order.php:19
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:78
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:138
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: woocommerce/cart/cart.php:146
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:147
+msgid "Enter Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:44
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:51
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:64
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:65
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:45
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:32
+msgid "Free"
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:68
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:76 woocommerce/cart/totals.php:147
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
+msgstr ""
+
+#: woocommerce/cart/shipping-methods.php:76 woocommerce/cart/totals.php:147
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+
+#: woocommerce/cart/totals.php:22
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/totals.php:28 woocommerce/checkout/review-order.php:25
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/totals.php:35
+msgid "Cart Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:35 woocommerce/cart/totals.php:83
+msgid "[Remove]"
+msgstr ""
+
+#: woocommerce/cart/totals.php:46
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/totals.php:83
+msgid "Order Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:92 woocommerce/checkout/review-order.php:79
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/totals.php:105
+msgid "(Includes %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:121
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:123
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/totals.php:135
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure there are no other available "
+"methods for your location."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:40
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:42
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:47
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:87
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:35
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+#: woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:31
+#: woocommerce/checkout/review-order.php:71
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:150
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:152
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:161
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:161
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:168
+msgid "Place order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:177
+msgid "I have read and accept the"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:177
+msgid "terms &amp; conditions"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:16
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:20
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:26
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34 woocommerce/checkout/thankyou.php:68
+msgid "Thank you. Your order has been received."
+msgstr "Σας ευχαριστούμε. Η παραγγελία σας έχει παραληφθεί."
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Payment method:"
+msgstr "Τρόπος πληρωμής:"
+
+#: woocommerce/content-product.php:76
+msgid "Quick View"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:18
+#: woocommerce/single-product/sale-flash.php:18
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:23
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:27
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:25
+msgid "I'm a Returning Customer"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:28
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Lost Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:40
+#: woocommerce/myaccount/form-login.php:111
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Re-enter password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:99
+msgid ""
+"Test Drive the Demo. Login with demo for both username and password and "
+"checkout: "
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:75
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:103 woocommerce/shop/breadcrumb.php:200
+msgid "Search results for &ldquo;"
+msgstr "Αποτελέσματα αναζήτησης για &ldquo;"
+
+#: woocommerce/shop/breadcrumb.php:158
+msgid "Error 404"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:204
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:209
+msgid "Author:"
+msgstr ""
+
+#: woocommerce/shop/breadcrumb.php:214
+msgid "Page"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:25
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:73
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:103
+msgid "This product is currently out of stock and unavailable."
+msgstr "Το προϊόν αυτό έχει εξαντληθεί και δεν είναι διαθέσιμο."
+
+#: woocommerce/single-product/related.php:40
+msgid "Related Products"
+msgstr "Σχετικά προϊόντα"
+
+#: woocommerce/single-product/review.php:26
+msgid "Rated %d out of 5"
+msgstr "Βαθμολογήθηκε με %d από 5"
+
+#: woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:34
+msgid "Your comment is awaiting approval"
+msgstr "Το σχόλιό σας αναμένει έγκριση"
+
+#: woocommerce/single-product/review.php:43
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr "Περιγραφή Προϊόντος"
+
+#: woocommerce/single-product/up-sells.php:43
+msgid "You may also like"
+msgstr "Μπορεί επίσης να σας αρέσει"
+
+#: woocommerce/single-product-reviews.php:21
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s κριτική για %s"
+msgstr[1] "%s κριτικές για %s"
+
+#: woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr "Κριτικές"
+
+#: woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr "Δεν υπάρχουν ακόμα κριτικές."
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr "Προσθέστε μια κριτική"
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr "Γίνε ο πρώτος που θα αξιολογήσει"
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Submit Review"
+msgstr "Υποβολή Αξιολόγησης"
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr "Τέλεια"
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Good"
+msgstr "Καλή"
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Average"
+msgstr "Μέτρια"
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Not that bad"
+msgstr "Όχι και τόσο άσχημα"
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Very Poor"
+msgstr "Πολύ κακή"
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Your Review"
+msgstr "Η αξιολόγησή σας"
+
+#: woocommerce/single-product-reviews.php:92
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Μόνο συνδεδεμένοι πελάτες που έχουν αγοράσει αυτό το προϊόν μπορούν να "
+"αφήσει μια κριτική."
+
+#: woocommerce/woocommerce-init.php:241
+msgid "Previous Post"
+msgstr "Προηγούμενο Άρθρο"
+
+#: woocommerce/woocommerce-init.php:241
+msgid "Next Post"
+msgstr "Επόμενο Άρθρο"
+
+#: woocommerce/woocommerce-init.php:257
+msgid "previous"
+msgstr "προηγούμενο"
+
+#: woocommerce/woocommerce-init.php:257
+msgid "next"
+msgstr "επόμενο"
+
+#: woocommerce/woocommerce-init.php:295
+msgid "Use commas instead of %s to separate excluded categories."
+msgstr ""
+
+#: woocommerce/woocommerce-integrate.php:13
+msgid "Select Woocommerce element type"
+msgstr ""
+
+#: woocommerce/woocommerce-integrate.php:14
+msgid "Choose the woocommerce content you'd like to show."
+msgstr ""
+
+#: woocommerce/woocommerce-integrate.php:32
+msgid "Items per Page"
+msgstr ""
+
+#: woocommerce/woocommerce-integrate.php:45
+msgid "Woocommerce Shop"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Newscore"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themeforest.net/user/FranklinM2/portfolio?ref=FranklinM2"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Newscore is a Responsive Wordpress Theme with a multitude of amazing CMS "
+"features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RadiumThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://radiumthemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "BuddyPress - Activity Directory"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Archive"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Create Topic"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Statistics"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Forums (Index)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topics (Newest)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topic Tags"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topics (No Replies)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Login"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Lost Password"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Register"
+msgstr ""
+
+#: activity/index.php:84
+msgctxt "Number of new activity mentions"
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/metaboxes/inc/fields/file-advanced.php:64
+msgctxt "file upload"
+msgid "Select or Upload Files"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file-advanced.php:100
+#: framework/metaboxes/inc/fields/file.php:137
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file-advanced.php:101
+#: framework/metaboxes/inc/fields/file.php:138
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file.php:83
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/file.php:84
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/image-advanced.php:70
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/image-advanced.php:106
+#: framework/metaboxes/inc/fields/image.php:136
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/image-advanced.php:107
+#: framework/metaboxes/inc/fields/image.php:137
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/image.php:70
+#: framework/metaboxes/inc/fields/thickbox-image.php:34
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/image.php:71
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/plupload-image.php:102
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/plupload-image.php:103
+msgctxt "image upload"
+msgid "or"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/plupload-image.php:104
+msgctxt "image upload"
+msgid "Select Files"
+msgstr ""
+
+#: framework/metaboxes/inc/fields/plupload-image.php:179
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:721
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:738
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:755
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:771
+#: includes/extensions/breadcrumb-trail.php:800
+#: includes/extensions/breadcrumb-trail.php:827
+#: includes/extensions/breadcrumb-trail.php:854
+#: includes/extensions/breadcrumb-trail.php:1041
+#: includes/functions/theme-functions.php:744
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:772
+#: includes/extensions/breadcrumb-trail.php:828
+#: includes/extensions/breadcrumb-trail.php:1045
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/functions/theme-functions.php:740
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:773
+#: includes/extensions/breadcrumb-trail.php:1049
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/extensions/breadcrumb-trail.php:801
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/functions/theme-functions.php:863
+msgctxt ""
+"Construct the page title. 1 = user name, 2 = component name, 3 = seperator"
+msgid "%1$s %3$s %2$s"
+msgstr ""
+
+#: includes/functions/theme-functions.php:884
+msgctxt "component directory title"
+msgid "Directory"
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:490
+msgctxt "comments number"
+msgid "1 Comment"
+msgstr ""
+
+#: includes/functions/theme-parts-general.php:490
+msgctxt "comments number"
+msgid "% Comments"
+msgstr ""
+
+#: registration/register.php:172
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/quantity.php:12
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
